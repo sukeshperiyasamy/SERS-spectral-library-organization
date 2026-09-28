@@ -1,0 +1,7 @@
+# Office lock/temp files
+~$*
+*.tmp
+Thumbs.db
+desktop.ini
+.ipynb_checkpoints/
+__pycache__/

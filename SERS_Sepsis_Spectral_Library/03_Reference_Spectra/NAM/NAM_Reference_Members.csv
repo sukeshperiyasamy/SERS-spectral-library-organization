@@ -1,0 +1,16 @@
+library_file,original_file,date,spot,power_pct,int_s,acc,SNR
+NAM_Bulk_20260530_P090pct_T30s_A05_S01.csv,29-05-26/90p-30s-5acc-samespot/samespot1.csv,2026-05-30 05:18:20,same spot,90,30.0,5,52.1
+NAM_Bulk_20260530_P090pct_T30s_A05_S02.csv,29-05-26/90p-30s-5acc-samespot/samespot2.csv,2026-05-30 05:24:38,same spot,90,30.0,5,53.1
+NAM_Bulk_20260530_P090pct_T30s_A05_S03.csv,29-05-26/90p-30s-5acc-samespot/samespot3.csv,2026-05-30 05:27:18,same spot,90,30.0,5,51.9
+NAM_Bulk_20260530_P090pct_T30s_A05_S04.csv,29-05-26/90p-30s-5acc-samespot/samespot4.csv,2026-05-30 05:29:56,same spot,90,30.0,5,52.2
+NAM_Bulk_20260530_P090pct_T30s_A05_S05.csv,29-05-26/90p-30s-5acc-samespot/samespot5.csv,2026-05-30 05:32:52,same spot,90,30.0,5,57.8
+NAM_Bulk_20260530_P090pct_T30s_A05_S06.csv,29-05-26/90p-30s-5acc-samespot/samespot6.csv,2026-05-30 05:40:37,same spot,90,30.0,5,48.5
+NAM_Bulk_20260530_P090pct_T30s_A05_S07.csv,29-05-26/90p-30s-5acc-samespot/samespot7.csv,2026-05-30 05:50:11,same spot,90,30.0,5,54.0
+NAM_Bulk_20260530_P090pct_T30s_A05_S08.csv,29-05-26/90p-30s-5acc-samespot/samespot8.csv,2026-05-30 05:53:04,same spot,90,30.0,5,54.3
+NAM_Bulk_20260530_P090pct_T30s_A05_S09.csv,29-05-26/90p-30s-5acc-samespot/samespot9.csv,2026-05-30 05:55:43,same spot,90,30.0,5,51.6
+NAM_Bulk_20260530_P090pct_T30s_A05_S10.csv,29-05-26/90p-30s-5acc-samespot/samespot10.csv,2026-05-30 05:59:19,same spot,90,30.0,5,53.5
+NAM_Bulk_20260530_P090pct_T30s_A05_S11.csv,29-05-26/90p-30s-5ac-diifrentpoint/spot1.csv,2026-05-30 06:11:45,different spot,90,30.0,5,56.6
+NAM_Bulk_20260530_P090pct_T30s_A05_S12.csv,29-05-26/90p-30s-5ac-diifrentpoint/spot2.csv,2026-05-30 06:14:53,different spot,90,30.0,5,47.2
+NAM_Bulk_20260530_P090pct_T30s_A05_S13.csv,29-05-26/90p-30s-5ac-diifrentpoint/spot3.csv,2026-05-30 06:19:24,different spot,90,30.0,5,48.5
+NAM_Bulk_20260530_P090pct_T30s_A05_S14.csv,29-05-26/90p-30s-5ac-diifrentpoint/spot4.csv,2026-05-30 06:24:42,different spot,90,30.0,5,45.7
+NAM_Bulk_20260530_P090pct_T30s_A05_S15.csv,29-05-26/90p-30s-5ac-diifrentpoint/spot5.csv,2026-05-30 06:36:34,different spot,90,30.0,5,39.2

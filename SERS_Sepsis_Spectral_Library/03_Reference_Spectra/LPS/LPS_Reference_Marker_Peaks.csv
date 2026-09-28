@@ -1,0 +1,16 @@
+class,band,detected,pos_mean,pos_sd,height_median,height_mean,height_cv,snr_median,snr_min,rel425_mean,rel425_cv,fwhm,glass_share_pct,snr_after_glass_removal,blank_features,literature,general,note
+C1 - primary marker,425.4,10/10,424.81,0.88,679.76,810.33,66.7,38.16,19.39,1.0,0.0,14.8,3.52,36.88,none,none within ±12,carbohydrate skeletal δ(C-C-O)/δ(C-O-C) region (GEN-1 region I); O-P-O bending region (general) — no LPS literature band,Strongest LPS band; also in April 2026 and 28 Sep screening data; absent from blanks and NAM; no literature assignment
+C4 - uncertain / weak,478.1,8/10,478.79,2.15,115.42,106.89,47.34,5.96,2.45,0.13,28.28,14.14,27.93,3.59,none,none within ±12,—,
+C4 - uncertain / weak,541.0,6/10,540.13,1.49,160.2,169.5,35.09,8.35,4.88,0.16,26.94,34.04,2.87,6.25,none,550 β(CH2) in ring [LPS-1 SERS]; 543 δ(C-O-C) glycosidic ring [LPS-1 SERS],—,
+C4 - uncertain / weak,631.2,4/10,631.23,0.0,173.3,169.17,26.45,7.03,6.08,0.12,14.17,43.97,8.46,4.3,none,none within ±12,—,
+C4 - uncertain / weak,655.7,5/10,656.74,2.34,59.37,71.96,43.68,3.77,3.39,0.13,29.44,13.33,13.48,3.94,none,none within ±12,—,
+C2 - supporting peak,765.9,8/10,765.51,1.2,305.47,299.55,52.2,16.7,7.02,0.34,12.4,22.27,7.24,11.26,none,none within ±12,—,
+C2 - supporting peak,861.1,8/10,861.1,0.89,235.32,236.84,39.77,12.73,7.65,0.31,27.36,96.69,3.54,10.54,none,"850 ν(C-O-C) 1,4-glycosidic [LPS-1 SERS]; 855 δ(C-O-C) [LPS-1 SERS]",anomeric/glycosidic region; β-anomer C1-H ~898 (GEN-2),
+C2 - supporting peak,996.6,9/10,995.84,0.85,167.34,146.52,59.5,8.67,3.23,0.17,12.44,19.83,1.54,6.58,none,988 β(CH) carbohydrates [LPS-1 SERS]; 1003 common LPS peak [LPS-2 SERS],—,
+C1 - primary marker,1080.6,10/10,1080.49,1.11,268.36,335.51,72.18,15.29,6.36,0.4,11.18,78.7,13.86,13.21,none,1075 O-antigen [LPS-3 normal Raman]; 1087 ν(C-O) lipid [LPS-1 SERS],"ν(C-O)/ν(C-C) sugar (GEN-1 region II); ν_s(PO2-) ~1080-1090 (GEN-5, GEN-6)",Broad band; glass Si-O feature at ~1091 contributes ~14 %; best literature match 1075 (LPS-3 normal Raman)
+C4 - uncertain / weak,1124.1,5/10,1123.74,1.31,433.93,409.59,26.5,18.76,15.1,0.28,18.6,13.68,10.23,9.51,none,1131 ν(C-C) fatty acid [LPS-1 SERS],acyl-chain ν(C-C) 1060-1130 (GEN-5),
+C4 - uncertain / weak,1247.9,4/10,1247.89,1.25,149.2,135.98,48.54,6.91,3.23,0.12,17.99,33.24,29.68,3.55,none,none within ±12,—,
+C3 - background / glass,1257.0,5/10,1256.72,0.68,54.23,86.69,57.62,3.49,2.79,0.12,19.16,3.5,51.01,2.64,none,none within ±12,—,
+C3 - glass zone (glass-dominated),1333.9,7/10,1333.09,2.71,488.0,473.82,38.58,25.28,13.42,0.73,57.89,111.5,77.04,5.1,none,1330 δ(CH) phospholipid [LPS-1 SERS]; 1333 common LPS peak (C-H def.) [LPS-2 SERS],—,
+C4 - uncertain / weak,1457.6,5/10,1456.41,1.89,337.65,346.18,21.89,14.91,14.6,0.35,36.81,15.49,12.02,11.55,none,1450 CH2/CH3 deformation [LPS-1 SERS],—,Exploratory: appears after subtracting the short-blank glass shape (8/10); consistent with CH2/CH3 deformation 1450 (LPS-1) - tentative
+C3 - background / glass,1656.9,5/10,1656.58,2.99,143.04,149.3,20.35,6.96,5.89,0.15,28.85,133.67,53.86,2.47,"1658 (FWHM 95), 1653 (FWHM 93)",none within ±12,—,

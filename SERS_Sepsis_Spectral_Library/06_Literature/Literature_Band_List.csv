@@ -1,0 +1,27 @@
+Biomarker / group,Ref ID,Technique,Reported band (cm-1),Reported assignment,Comparison with our data,Note
+LPS,L1,SERS,550,β(CH2) in ring,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L1,SERS,680,δ(C-O-C); fatty acid,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L1,SERS,850,"ν(C-O-C) 1,4-glycosidic link",No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L1,SERS,988,β(CH) carbohydrates,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L1,SERS,1131,ν(C-C) fatty acid,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L1,SERS,1330,δ(CH) phospholipid,No LPS experimental peak established | lies in glass zone,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L1,SERS,1450,CH3/CH2 deformation,No LPS experimental peak established | lies in glass zone,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L1,SERS (enteric LPS),543,saccharide and lipid,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L1,SERS (enteric LPS),981,saccharide and lipid,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L2,SERS 785 nm,735,common LPS peak (assignment in source SI),No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L2,SERS 785 nm,794,common LPS peak,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L2,SERS 785 nm,894,common LPS peak,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L2,SERS 785 nm,917,common LPS peak,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L2,SERS 785 nm,1003,common LPS peak,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L2,SERS 785 nm,1333,common LPS peak (C-H deformation),No LPS experimental peak established | lies in glass zone,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L2,SERS 785 nm,1592,common LPS peak,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L2,SERS 785 nm,1614,common LPS peak,No LPS experimental peak established,SERS bands can differ from bulk Raman (surface selection rules)
+LPS,L3,"Raman 532 nm, whole cells",1103,lipopolysaccharide (A. baumannii),No LPS experimental peak established,Whole-cell context
+LTA,L2,SERS 785 nm,894,C-O-H deformation (shared with chitin),closest exp. 861 (-33 cm-1) – no match,SERS bands can differ from bulk Raman (surface selection rules)
+LTA,L2,SERS 785 nm,1333,C-H deformation (shared with PGN),closest exp. 1459 (+126 cm-1) – no match,SERS bands can differ from bulk Raman (surface selection rules)
+Phosphodiester (LTA backbone),L5,Raman group frequency,1090,ν_s(PO2−) phosphodiester,closest exp. 1092 (+2 cm-1) – consistent,Group frequency
+Phosphodiester (LTA backbone),L5,Raman group frequency,813,ν(O-P-O) phosphodiester,closest exp. 802 (-11 cm-1) – consistent,Group frequency
+Lipid acyl chains,L7,Raman group frequency,1440–1460,δ(CH2) scissoring,region – see Sheet 4,Group frequency
+Carbohydrate (NAM sugar ring),L6,Raman group frequency,< 600,pyranose ring skeletal deformations,region – see Sheet 4,Group frequency
+Carbohydrate (NAM sugar ring),L6,Raman group frequency,800–950,"anomeric region: ν(C-O-C), δ(C-C-H)",region – see Sheet 4,Group frequency
+Carbohydrate (NAM sugar ring),L6,Raman group frequency,1000–1200,"ν(C-O), ν(C-C), δ(C-O-H)",region – see Sheet 4,Group frequency

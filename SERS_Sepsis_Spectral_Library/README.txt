@@ -63,3 +63,8 @@ Primary markers 425 and 1080 cm-1; supporting 766, 861, 997 cm-1. Raw folder ../
 (LPS_Bulk, Glass_Blank, new Instrument_Checks). Reference: 03_Reference_Spectra/LPS. Figures: 04_Figures/LPS_Reference_20260928 (R1-R5).
 Workbook sheets 38-42. Report: LPS_Bulk_Reference_Report_20260928.docx; main report v3.3 (Section 15C). Code: 08_Methodology/code/lr1-lr9.py.
 Instrument notes: ripple at >= 70 % power; close the shutter by hand before taking the dark (software dark leaks light).
+
+--- 27 Oct 2026: 7 Oct 2026 data screened and EXCLUDED ---
+E:/sukesh/10-oct-2026 (lta/lta2 SP_38-46; lps/lps1 SP_20-35; lps/lps2 SP_1-19; 44 spectra): operator confirmed these are on etched silicon (SERS work), not bulk powder on glass.
+Dominated by ~517-520 cm-1 band (consistent with silicon); r ~0 vs NAM/LPS/LTA references. Logged in 07_QC_and_Exclusions/Excluded_and_Flagged_Spectra.csv. Raw files untouched and not copied into the library.
+LTA reference remains PRELIMINARY (n = 4, 3 Apr 2026); bulk re-acquisition on glass (80 %/45 s/2 acc, 12-15 spots, 2-3 blanks, hand-closed dark) still to do.

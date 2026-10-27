@@ -52,10 +52,11 @@ table(['Item','Result'],[
  ['Primary bands','1092 cm-1 (SNR 29), 539 cm-1 (SNR 16), 861 cm-1 (SNR 16)'],
  ['Supporting bands','419, 629, 723, 798, 1459, 1583 and 1751 cm-1; 1246 cm-1 (phosphate region) is seen on 7 of 10 spots'],
  ['Identity',f"r to April LTA {cm['LTA']:.2f}; to LPS {cm['LPS']:.2f}; to NAM {cm['NAM']:.2f} (glass zone excluded)"],
- ['Not recorded','LTA supplier, lot and purity; objective']],[4,14])
+ ['Sample','Sigma-Aldrich L2515-10MG, lipoteichoic acid from Staphylococcus aureus, lot 0000419622, source number 0000404178'],
+ ['Not recorded','Purity; objective']],[4,14])
 
 d.add_heading('2. Sample and instrument',1)
-table(['Item','Detail'],[['Sample','Lipoteichoic acid (LTA) powder placed on a glass slide. Supplier, catalogue number, lot and purity are Not recorded in the files and should be added from the vial label.'],
+table(['Item','Detail'],[['Sample','Lipoteichoic acid from Staphylococcus aureus, Sigma-Aldrich L2515-10MG, lot 0000419622, source number 0000404178 (as given by the operator); powder placed directly on a glass slide. Purity is Not recorded. It is not known whether the same vial was used on 3 Apr 2026.'],
  ['Instrument','B&W Tek i-Raman Plus, BWS465-785H, 785 nm; usable range ends at 2842 cm-1 (no C-H stretching region)'],
  ['Laser power','80 % (instrument setting, not converted to mW)'],
  ['Time of measurement','28 Oct 2026, 02:11 to 04:30 (instrument clock): blanks 02:11 to 02:25, spots from 02:29'],
@@ -102,7 +103,7 @@ table(['Issue','Evidence','Change'],[
  ['Weak first spots','S09 and S10 had SNR 7 and 4','Focus on a thick part of the powder before starting; the first spot must still show ripple of 50 or less'],
  ['Number of spots','10 pass; the plan was 12 to 15','Measure 5 more spots in the 15,000 to 50,000 count range to reach 15'],
  ['Duplicate files','SP_1 to SP_8 of the spot folder are the blank files (identical)','Keep blanks and spots in separate folders and check the file count before copying'],
- ['Sample record','Supplier, lot and purity of the LTA are not recorded','Add them from the vial label to the recording template'],
+ ['Sample record','Supplier, catalogue, lot and source number are now recorded; purity is not','Add the purity or certificate; confirm whether the April data came from the same vial'],
  ['Dark','Dark 1504 to 1512 counts, consistent with a shutter-closed dark','No change; keep closing the shutter by hand at the start and end']],[3.5,6,8.5],fs=8)
 d.add_heading('7. Status and open points',1)
 bullets(['Status of the LTA reference: ESTABLISHED, pending your confirmation (n = 10, one session, one powder).',

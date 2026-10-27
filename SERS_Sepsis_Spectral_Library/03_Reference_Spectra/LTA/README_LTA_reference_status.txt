@@ -12,3 +12,5 @@ Agreement: mean vs median r 0.993; strict set vs extended set (18 spots) r 0.986
 Primary markers (C1): 1092 (SNR 29), 539 (SNR 16), 861 (SNR 16). Supporting (C2): 419, 629, 723, 798, 1459, 1583, 1751. 1246 (phosphate region) is seen in 7 of 10 spots (C4).
 Notes: the 8 glass blanks of 28 Oct show polystyrene-like bands (1000, 1030, 619, 1602) and do not match the 28 Sep glass blanks (r = 0.07); they are flagged and were not used for the glass estimate. SP_1-SP_8 in the spot folder are identical copies of the blanks and were not copied as spectra.
 Sample supplier, lot and purity of the LTA are Not recorded. Report: 09_Reports/LTA_Bulk_Reference_Report_20261028.docx.
+
+UPDATE 28 Oct 2026 (sample record): Sigma-Aldrich L2515-10MG, lipoteichoic acid from Staphylococcus aureus, lot 0000419622, source number 0000404178 (as given by the operator). Purity: Not recorded. Whether the 3 Apr 2026 data came from the same vial is not known.

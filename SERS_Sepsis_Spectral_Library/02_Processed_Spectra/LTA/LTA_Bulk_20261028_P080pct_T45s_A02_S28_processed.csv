@@ -1,7 +1,7 @@
 # Library name: LTA_Bulk_20261028_P080pct_T45s_A02_S28.csv
 # Original raw file (unchanged): bulk-lta/45sec-80p-2acc-diffrentspot/SP_28.csv
 # Role: LTA spot
-# Sample: LTA bulk powder on glass slide (supplier, lot and purity not recorded)
+# Sample: LTA from Staphylococcus aureus, Sigma-Aldrich L2515-10MG, lot 0000419622, source number 0000404178 (purity not recorded), bulk powder on glass slide
 # Acquired (instrument clock): 2026-10-28 04:00:30 | B&W Tek i-Raman Plus BWS465-785H | 785 nm | Objective: not recorded in file
 # Laser power level: 80 % (instrument setting) | Integration: 45 s | Accumulations: 2
 # QC: REVIEW (ripple 54.5 counts (limit 50): marginal; brightest spots, ripple tracks noise) | dark median 1512 | ripple 54.5 | noise 61.6 | 1092 band SNR 28.1 | saturated px 400-1800: 0

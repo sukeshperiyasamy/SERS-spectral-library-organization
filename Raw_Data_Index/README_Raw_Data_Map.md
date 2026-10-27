@@ -104,3 +104,7 @@ The 7 Oct 2026 spectra on etched silicon (`E:\sukesh\10-oct-2026`) are not in th
 - Each file in `SERS_Sepsis_Spectral_Library/02_Processed_Spectra` starts with `# Original raw file (unchanged): <path>`, and the same path is in the `*_Reference_Members.csv` files under `03_Reference_Spectra`.
 - `01_Raw_Data_Renamed` holds MD5-verified copies; the originals stay in the dated folders.
 - New measurements: keep each session in its own dated folder and add its subfolders to `Raw_Data_By_Analyte.csv`.
+
+## Added 28 Oct 2026
+
+- `bulk-lta` (LTA, 28 Oct 2026): 36 spot-folder files and 8 blank files at 80 %, 45 s, 2 acc. SP_1 to SP_8 of the spot folder are identical to the blank files; 28 spots and 8 blanks are processed in the library (LTA reference v2).

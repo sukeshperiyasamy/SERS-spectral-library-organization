@@ -101,3 +101,7 @@ The DFT input files under C:/Users/sukes/Downloads/mtp were moved into numbered 
 
 --- 27 Oct 2026: LPS findings and parameters report ---
 New: 09_Reports/LPS_Findings_and_Parameters_Report.docx (v1.0): sample, every acquisition, processing, QC and simulation parameter, bulk reference findings, DFT fragment comparison and the 7 Oct 2026 SERS result for LPS. Figure: 04_Figures/LPS_Summary_20261027; code 08_Methodology/code/build_lps_report.py.
+
+--- 28 Oct 2026: LTA bulk re-acquisition added (folder bulk-lta) ---
+28 LTA spots (SP_9-SP_36) and 8 blanks at 80 % / 45 s / 2 acc copied to 01_Raw_Data_Renamed (LTA_Bulk_20261028_*, Glass_Blank_20261028_*; MD5 verified, 36 of 36); SP_1-SP_8 of the spot folder are identical to the blanks and were not copied. Processed in 02_Processed_Spectra. QC: 10 PASS, 8 REVIEW, 3 EXCLUDE, 7 FAIL; QC log 07_QC_and_Exclusions/LTA_Reference_Session_20261028_QC_Log.csv; exclusion list updated.
+Reference v2 (n = 10): 03_Reference_Spectra/LTA/*_20261028*; r to April 0.947. Primary bands 1092, 539, 861 cm-1. Workbook sheets 43-47. Figures 04_Figures/LTA_Reference_20261028 (FigL1-L5). Code 08_Methodology/code/lt1-lt7. The 28 Oct blanks look polystyrene-like and are flagged. Supplier/lot of the LTA not recorded.

@@ -37,3 +37,5 @@ LTA,4-4-26,LTA,2026-04-03,10,"40-95 % power, 10-45 s, acc 2/10/15",10,0
 LTA (labelled; excluded),9-2-2026,20sec20power-variable location LTA,2026-02-09,12,"20 % power, 20 s, acc 2",0,0
 NAM (sample damaged; excluded),29-05-26,90p-60s-5a-samespot,2026-05-30,5,"90 % power, 60 s, acc 5",0,0
 NAM (sample damaged; excluded),29-05-26,90p-60s-5ac-diffrentspot,2026-05-30,5,"90 % power, 60 s, acc 5",0,0
+LTA,bulk-lta,45sec-80p-2acc-diffrentspot,2026-10-28,36,"80 % power, 45 s, acc 2",28,0
+LTA,bulk-lta,glass blank,2026-10-28,8,"80 % power, 45 s, acc 2",0,8

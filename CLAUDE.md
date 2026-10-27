@@ -7,7 +7,7 @@ Owner: Sukesh Periyasamy (JRF, IIT Jodhpur). Audience for outputs: the professor
 A traceable reference library of **bulk (neat) powder** Raman spectra for three sepsis-related analytes:
 - **NAM**: FINAL
 - **LPS** (E. coli O111:B4 lipopolysaccharide): ESTABLISHED
-- **LTA** (lipoteichoic acid): PRELIMINARY, still to re-acquire
+- **LTA** (lipoteichoic acid): ESTABLISHED on 28 Oct 2026 (pending operator confirmation); the April 2026 reference was preliminary
 
 These references support later SERS work.
 
@@ -56,7 +56,7 @@ These references support later SERS work.
 |---|---|---|
 | NAM | 90 % / 30 s / 5 acc | FINAL (keep; more spots may be added later) |
 | LPS | 60 % / 40 s / 5 acc | ESTABLISHED |
-| LTA | 80 % / 45 s / 2 acc | Re-acquire 12–15 spots, 2–3 glass blanks, hand-closed dark at start and end; check the first spot's ripple is ≤ 50 |
+| LTA | 80 % / 45 s / 2 acc | ESTABLISHED (28 Oct 2026, n = 10); next: about 5 more mid-signal spots (raw max 15,000–50,000) and 3 clean glass blanks; hand-closed dark; first spot ripple ≤ 50 |
 
 ## 5. Processing pipeline v3 (`08_Methodology/code/lib2.py`, `process_v3h`)
 1. Dark-subtracted signal: ds = raw − dark. Recompute it from raw − dark when the software applied smoothing ("Data Pretreat").
@@ -102,7 +102,9 @@ These references support later SERS work.
 - Identity check: r = 0.98 vs screening, 0.80 vs April data, 0.52 vs LTA, 0.17 vs NAM.
 - Limitation: earlier darks leaked light, so intensities may be 3–34 % low. This is documented in the report.
 
-**LTA — PRELIMINARY (3 Apr 2026, n = 4: 80, 80, 90 and 95 % at 45 s/2 acc)**
+**LTA — ESTABLISHED (28 Oct 2026, pending confirmation): n = 10 spots at 80 %/45 s/2 acc; mean agrees with the April data (r = 0.947); primary bands 1092 (SNR 29), 539 and 861 cm⁻¹; supporting 419, 629, 723, 798, 1459, 1583, 1751. QC of 28 spots: 10 PASS, 8 REVIEW (ripple 50–58), 3 EXCLUDE, 7 FAIL (5 saturated). The 28 Oct blanks look polystyrene-like and need re-measuring. Report: 09_Reports/LTA_Bulk_Reference_Report_20261028.docx. Supplier/lot not recorded.**
+
+**LTA — earlier PRELIMINARY reference (3 Apr 2026, n = 4: 80, 80, 90 and 95 % at 45 s/2 acc)**
 - Primary markers: 802, 861.5, 1092 cm⁻¹ (1092: 1110 ± 98 counts, SNR ≈ 28).
 - Supporting: 1459. Glass-associated: 1367.
 - Ripple at 80 %/45 s/2 was 37–38, which passes. The 50 %/30 s/15 spectrum was distorted (ripple 154) and rejected.
@@ -117,7 +119,7 @@ These references support later SERS work.
 - After every reporting change, update `README.txt` (append) and the workbook sheets.
 
 ## 8. Next steps
-1. **LTA re-acquisition** (the user measures; then process it like the LPS reference session). Steps:
+1. **LTA re-acquisition: done 28 Oct 2026** (see section 6). Remaining: confirm status, add supplier/lot, re-measure clean glass blanks, optionally 5 more spots, update the main report to v3.4. Original steps for reference:
    - Rename the copies and verify their MD5.
    - Run pipeline v3 and QC.
    - Build the reference (Mean ± SD) and marker peaks.

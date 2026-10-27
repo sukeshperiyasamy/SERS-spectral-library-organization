@@ -1,6 +1,6 @@
 # Library name: LTA_Bulk_20260403_P060pct_T45s_A02_S01.csv
 # Original raw file (unchanged): 4-4-26/LTA/45sec diffrent powrset2/SP_5.csv
-# Sample: LTA bulk powder on glass slide
+# Sample: LTA from Staphylococcus aureus, Sigma-Aldrich L2515-10MG, lot 0000419622 (same vial as 28 Oct 2026, per operator), bulk powder on glass slide
 # Acquired: 2026-04-03 07:17:37 | Instrument: B&W Tek i-Raman Plus BWS465-785H / BTC665N-785H-SYS | Laser 784.92 nm | Objective: not recorded in file (probe_name empty)
 # Laser power level: 60 % (instrument setting; not converted to mW) | Integration: 45 s | Accumulations: 2
 # QC: Valid | SNR 23.4 | spikes removed 0 (none) | saturated anywhere False | saturated in 400-1800 False

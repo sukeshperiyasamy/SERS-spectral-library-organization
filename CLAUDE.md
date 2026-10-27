@@ -102,7 +102,7 @@ These references support later SERS work.
 - Identity check: r = 0.98 vs screening, 0.80 vs April data, 0.52 vs LTA, 0.17 vs NAM.
 - Limitation: earlier darks leaked light, so intensities may be 3–34 % low. This is documented in the report.
 
-**LTA — ESTABLISHED (28 Oct 2026, pending confirmation): n = 10 spots at 80 %/45 s/2 acc; mean agrees with the April data (r = 0.947); primary bands 1092 (SNR 29), 539 and 861 cm⁻¹; supporting 419, 629, 723, 798, 1459, 1583, 1751. QC of 28 spots: 10 PASS, 8 REVIEW (ripple 50–58), 3 EXCLUDE, 7 FAIL (5 saturated). The 28 Oct blanks look polystyrene-like and need re-measuring. Report: 09_Reports/LTA_Bulk_Reference_Report_20261028.docx. Sample: Sigma L2515-10MG, S. aureus LTA, lot 0000419622.**
+**LTA — ESTABLISHED (28 Oct 2026, pending confirmation): n = 10 spots at 80 %/45 s/2 acc; mean agrees with the April data (r = 0.947); primary bands 1092 (SNR 29), 539 and 861 cm⁻¹; supporting 419, 629, 723, 798, 1459, 1583, 1751. QC of 28 spots: 10 PASS, 8 REVIEW (ripple 50–58), 3 EXCLUDE, 7 FAIL (5 saturated). The 28 Oct blanks look polystyrene-like and need re-measuring. Report: 09_Reports/LTA_Bulk_Reference_Report_20261028.docx. Sample: Sigma L2515-10MG, S. aureus LTA, lot 0000419622 (same vial as 3 Apr 2026; purity not stated, lot certificate not obtained).**
 
 **LTA — earlier PRELIMINARY reference (3 Apr 2026, n = 4: 80, 80, 90 and 95 % at 45 s/2 acc)**
 - Primary markers: 802, 861.5, 1092 cm⁻¹ (1092: 1110 ± 98 counts, SNR ≈ 28).

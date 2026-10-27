@@ -14,3 +14,5 @@ Notes: the 8 glass blanks of 28 Oct show polystyrene-like bands (1000, 1030, 619
 Sample supplier, lot and purity of the LTA are Not recorded. Report: 09_Reports/LTA_Bulk_Reference_Report_20261028.docx.
 
 UPDATE 28 Oct 2026 (sample record): Sigma-Aldrich L2515-10MG, lipoteichoic acid from Staphylococcus aureus, lot 0000419622, source number 0000404178 (as given by the operator). Purity: Not recorded. Whether the 3 Apr 2026 data came from the same vial is not known.
+
+UPDATE 28 Oct 2026 (same vial, purity): the 3 Apr 2026 data came from the same vial (operator). The label reads "bacterial cell wall polymer". Supplier pages found by web search (the product page itself could not be opened): lyophilised powder, CAS 56411-57-5, storage 2-8 C, described as a glycerol-phosphate polymer tethered to a lipid; no purity figure for L2515 is given. A published isolation method cited on the page reports > 99 % pure S. aureus LTA, but that is not a specification for this product. Purity: Not recorded; obtain the certificate of analysis for lot 0000419622.

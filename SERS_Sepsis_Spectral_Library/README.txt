@@ -108,3 +108,6 @@ Reference v2 (n = 10): 03_Reference_Spectra/LTA/*_20261028*; r to April 0.947. P
 
 --- 28 Oct 2026: LTA sample recorded ---
 LTA: Sigma-Aldrich L2515-10MG, lipoteichoic acid from Staphylococcus aureus, lot 0000419622, source number 0000404178. Added to the headers of the 28 Oct processed spectra, reference v2, workbook sheet 47, the LTA report and CLAUDE.md. Purity not recorded; April vial not known.
+
+--- 28 Oct 2026: LTA vial and purity ---
+The 3 Apr 2026 LTA data are from the same vial as 28 Oct (operator). Purity: no figure found on the supplier pages (web search; page not opened); lot certificate not obtained. April processed headers updated with the sample line.

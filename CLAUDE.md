@@ -33,10 +33,14 @@ These references support later SERS work.
   - `07_QC_and_Exclusions/`: QC logs per session and the exclusion list.
   - `08_Methodology/`: methodology .md files, Lab Data-Recording SOP (.docx), recording template (.xlsx) and `code/`.
   - `bulk-lps-24-09-26/`: original raw files from 24 Sep. They are **NAM**; the folder name is wrong (see README_SAMPLE_IDENTITY.txt).
-  - Reports (.docx):
+  - `09_Reports/` (.docx):
     - `Bulk_Spectral_Library_Report_NAM_LTA_LPS.docx` (main report, v3.3)
     - `NAM_Bulk_Validation_Report_20260924.docx`
     - `LPS_Bulk_Reference_Report_20260928.docx`
+    - `Bulk_Spectral_Marker_Explanation_NAM_LPS_LTA.docx` (target bands, per molecule)
+    - `DFT_vs_Experimental_Comparison_NAM_LPS_LTA.docx` (v1.1)
+    - `Simulation_Methods_and_Spectra_NAM_LPS_LTA.docx`
+  - `Raw_Data_Index/` (repo root): map of the dated raw folders grouped by NAM, LPS and LTA.
   - `README.txt`: version history and change log. Append to it; never rewrite it.
 
 **File naming:** `<Analyte>_Bulk_<YYYYMMDD>_P<power3>pct_T<s>s_A<acc2>_S<rep2>.csv`, e.g. `LTA_Bulk_20260403_P080pct_T45s_A02_S01.csv`. Blanks: `Glass_Blank_<...>.csv`.

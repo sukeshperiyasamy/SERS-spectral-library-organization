@@ -92,3 +92,6 @@ New folder Raw_Data_Index/ at the repo root (Raw_Data_Index.csv, Raw_Data_Subfol
 
 --- 27 Oct 2026: Raw data map regrouped by sample ---
 Raw_Data_Index/README_Raw_Data_Map.md and Raw_Data_By_Analyte.csv now list the raw data under NAM, LPS and LTA (mixed folders split by subfolder, following what the library processed). No raw folder was moved.
+
+--- 27 Oct 2026: Reports moved ---
+All report .docx files moved from the library root into 09_Reports/ (git mv; content unchanged). Earlier entries above that name these files refer to their new location 09_Reports/.

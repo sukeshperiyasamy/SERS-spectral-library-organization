@@ -86,3 +86,9 @@ Correction: DFT_vs_Experimental_Comparison_NAM_LPS_LTA.docx is now v1.1. LPS fra
 --- 27 Oct 2026: Simulation_Methods document now names Gaussian 16 only (earlier-version runs no longer listed).
 
 --- 27 Oct 2026: Simulation_Methods document: the earlier NAM laptop run is listed again as a "Gaussian" job (version not stated in the document); all Gaussian 16 jobs unchanged.
+
+--- 27 Oct 2026: Raw data map added ---
+New folder Raw_Data_Index/ at the repo root (Raw_Data_Index.csv, Raw_Data_Subfolders.csv, README_Raw_Data_Map.md): every dated raw folder grouped by type, with measurement dates, settings and where it is used. No raw folder was moved, renamed or edited.
+
+--- 27 Oct 2026: Raw data map regrouped by sample ---
+Raw_Data_Index/README_Raw_Data_Map.md and Raw_Data_By_Analyte.csv now list the raw data under NAM, LPS and LTA (mixed folders split by subfolder, following what the library processed). No raw folder was moved.

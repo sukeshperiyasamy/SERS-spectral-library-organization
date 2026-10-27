@@ -80,3 +80,5 @@ Result: DFT band positions agree for part of the bands (NAM 7/11, LPS 4/5, LTA 2
 --- 27 Oct 2026: Simulation methods document; comparison document v1.1 ---
 New: Simulation_Methods_and_Spectra_NAM_LPS_LTA.docx (v1.0): software, settings, spectra obtained and why fragments (not whole LPS/LTA) were simulated. Figures 04_Figures/Simulation_20261027 (S1-S4); code 08_Methodology/code/dft_simulation_figures.py.
 Correction: DFT_vs_Experimental_Comparison_NAM_LPS_LTA.docx is now v1.1. LPS fragments were B3LYP/6-31G(d) gas phase (LPS documentation); LTA glycerol-phosphate fragment is a two-unit dianion (charge -2) in SMD water (LTA.gjf/LTA.LOG). v1.0 wrongly said basis set / charge state were Not recorded.
+
+--- 27 Oct 2026: wording revised in the four new documents (marker explanation, DFT comparison, simulation methods, LTA checklist): formal "rules/how to read" boxes replaced by plain introductory text; no change to data or conclusions.

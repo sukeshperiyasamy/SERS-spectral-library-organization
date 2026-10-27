@@ -31,15 +31,15 @@ def decoy(bands,modes,tol,n=5000):
     return np.array(res)
 R={}
 # ---- NAM
-nm=pd.read_csv(M+r"\NAM_Raman_Archive\02_DFT_Calculation\NAM_calculated_modes_all_111.csv")
+nm=pd.read_csv(M+r"\05_Experimental_Data\NAM\NAM_Raman_Archive\02_DFT_Calculation\NAM_calculated_modes_all_111.csv")
 nm=nm[(nm.freq_scaled>=400)&(nm.freq_scaled<=1800)]
-sim=pd.read_csv(M+r"\NAM_Raman_Archive\03_Processed_Results\DFT_simulated_spectrum.csv")
+sim=pd.read_csv(M+r"\05_Experimental_Data\NAM\NAM_Raman_Archive\03_Processed_Results\DFT_simulated_spectrum.csv")
 data={'NAM':dict(modes=nm.freq_scaled.values,act=nm.intensity.values,label=nm.assignment.values),}
 # ---- LPS
-lp=pd.read_csv(M+r"\lps research\reanalysis_2026-08-30\dft_candidates_all.csv"); lp=lp[(lp.iloc[:,0]>=400)&(lp.iloc[:,0]<=1800)]
+lp=pd.read_csv(M+r"\05_Experimental_Data\LPS\lps research\reanalysis_2026-08-30\dft_candidates_all.csv"); lp=lp[(lp.iloc[:,0]>=400)&(lp.iloc[:,0]<=1800)]
 data['LPS']=dict(modes=lp.iloc[:,0].values,act=lp.activity.values/lp.activity.max(),label=lp.fragment.values)
 # ---- LTA (from broadened curves, x*0.96)
-ltd=pd.read_csv(r"C:\Users\sukes\Downloads\mtp\LTA-simulation-main\LTA-simulation-main\LTA_combined_data.csv")
+ltd=pd.read_csv(r"C:\Users\sukes\Downloads\mtp\06_Simulation_DFT\LTA-simulation-main\LTA-simulation-main\LTA_combined_data.csv")
 lm=[];la=[];ll=[]; curves={}
 for ds,g in ltd.groupby('Dataset'):
     x=g.RamanShift.values; y=g.Intensity_norm.values   # NOTE: csv RamanShift already x0.96? check below

@@ -95,3 +95,6 @@ Raw_Data_Index/README_Raw_Data_Map.md and Raw_Data_By_Analyte.csv now list the r
 
 --- 27 Oct 2026: Reports moved ---
 All report .docx files moved from the library root into 09_Reports/ (git mv; content unchanged). Earlier entries above that name these files refer to their new location 09_Reports/.
+
+--- 27 Oct 2026: mtp folder reorganised ---
+The DFT input files under C:/Users/sukes/Downloads/mtp were moved into numbered folders (05_Experimental_Data/NAM, 05_Experimental_Data/LPS, 06_Simulation_DFT, 10_Working_Archive). Paths in the simulation and DFT comparison documents and in 08_Methodology/code/dft_compare_1.py and dft_simulation_figures.py were updated; dft_compare_1.py was re-run and gives identical results. The NAM alpha log is now NAM_Raman_Archive/nam-alpha.LOG (the copy in 02_DFT_Calculation was a duplicate).

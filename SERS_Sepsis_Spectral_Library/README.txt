@@ -111,3 +111,6 @@ LTA: Sigma-Aldrich L2515-10MG, lipoteichoic acid from Staphylococcus aureus, lot
 
 --- 28 Oct 2026: LTA vial and purity ---
 The 3 Apr 2026 LTA data are from the same vial as 28 Oct (operator). Purity: no figure found on the supplier pages (web search; page not opened); lot certificate not obtained. April processed headers updated with the sample line.
+
+--- 28 Oct 2026: LTA product information sheet recorded ---
+03_Reference_Spectra/LTA/LTA_Sample_Product_Information_L2515.txt (supplier structure description, solubility 5 mg/ml in water, storage). No purity figure on the sheet; purity Not recorded. Report and CLAUDE.md wording updated.

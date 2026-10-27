@@ -68,3 +68,7 @@ Instrument notes: ripple at >= 70 % power; close the shutter by hand before taki
 E:/sukesh/10-oct-2026 (lta/lta2 SP_38-46; lps/lps1 SP_20-35; lps/lps2 SP_1-19; 44 spectra): operator confirmed these are on etched silicon (SERS work), not bulk powder on glass.
 Dominated by ~517-520 cm-1 band (consistent with silicon); r ~0 vs NAM/LPS/LTA references. Logged in 07_QC_and_Exclusions/Excluded_and_Flagged_Spectra.csv. Raw files untouched and not copied into the library.
 LTA reference remains PRELIMINARY (n = 4, 3 Apr 2026); bulk re-acquisition on glass (80 %/45 s/2 acc, 12-15 spots, 2-3 blanks, hand-closed dark) still to do.
+
+--- 27 Oct 2026: Marker explanation document ---
+New: Bulk_Spectral_Marker_Explanation_NAM_LPS_LTA.docx (v1.0): per-molecule explanation of target bands (why they appear, why chosen, tentative assignments, limits) for NAM, LPS and LTA.
+Figures: 04_Figures/Marker_Explanation_20261027 (annotated references, marker zooms, three-way comparison). All numbers read from 03_Reference_Spectra and 06_Literature tables; no new assignments introduced.

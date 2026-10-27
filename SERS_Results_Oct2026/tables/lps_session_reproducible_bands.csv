@@ -1,0 +1,11 @@
+﻿band,mean_position,sd_position,fraction_all_LPS,fraction_carrying,fraction_other_LPS,fraction_blank,fraction_bare_Si,fraction_NAM,fraction_LTA,median_snr_carrying,literature
+619,618.9524,1.8381,0.7143,1.0,0.2857,0.0,0.0,0.0267,0.0,8.7361,no match in the checked LPS list
+785,785.4444,2.166,0.2571,0.4286,0.0,0.0,0.0,0.0,0.0,4.2966,no match in the checked LPS list
+878,878.4286,1.2563,0.6286,1.0,0.0714,0.0,0.0,0.0133,0.0,9.0989,no match in the checked LPS list
+1009,1009.3,1.5524,0.2857,0.4762,0.0,0.0,0.0,0.0133,0.0,4.6479,988 (LPS-1) and 1003 (LPS-2); 6 to 21 cm-1 away
+1238,1237.6,1.3565,0.6286,0.9524,0.1429,0.0,0.0,0.0267,0.1111,6.4613,no match in the checked LPS list
+1330,1330.0769,2.5559,0.4286,0.619,0.1429,0.0,0.0,0.08,0.0,5.2744,"1330 and 1333 in the SERS LPS lists (LPS-1, LPS-2)"
+1368,1367.5,1.6202,0.5714,0.7619,0.2857,0.0,0.0,0.0667,0.0,5.3665,no match in the checked LPS list
+1455,1455.381,0.4856,0.7143,1.0,0.2857,0.0,0.0,0.0133,0.0,16.7044,"1450, CH2/CH3 deformation (LPS-1, SERS); 5 cm-1 above"
+1536,1536.25,1.25,0.4571,0.7619,0.0,0.0,0.0,0.0,0.0,5.0946,no match in the checked LPS list
+1592,1592.4,3.9038,0.3429,0.4762,0.1429,0.0,0.0,0.0,0.1111,4.0336,no match in the checked LPS list

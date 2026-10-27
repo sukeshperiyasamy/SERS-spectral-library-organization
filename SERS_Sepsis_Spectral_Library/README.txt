@@ -98,3 +98,6 @@ All report .docx files moved from the library root into 09_Reports/ (git mv; con
 
 --- 27 Oct 2026: mtp folder reorganised ---
 The DFT input files under C:/Users/sukes/Downloads/mtp were moved into numbered folders (05_Experimental_Data/NAM, 05_Experimental_Data/LPS, 06_Simulation_DFT, 10_Working_Archive). Paths in the simulation and DFT comparison documents and in 08_Methodology/code/dft_compare_1.py and dft_simulation_figures.py were updated; dft_compare_1.py was re-run and gives identical results. The NAM alpha log is now NAM_Raman_Archive/nam-alpha.LOG (the copy in 02_DFT_Calculation was a duplicate).
+
+--- 27 Oct 2026: LPS findings and parameters report ---
+New: 09_Reports/LPS_Findings_and_Parameters_Report.docx (v1.0): sample, every acquisition, processing, QC and simulation parameter, bulk reference findings, DFT fragment comparison and the 7 Oct 2026 SERS result for LPS. Figure: 04_Figures/LPS_Summary_20261027; code 08_Methodology/code/build_lps_report.py.

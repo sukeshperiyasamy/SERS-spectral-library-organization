@@ -37,6 +37,7 @@ These references support later SERS work.
     - `Bulk_Spectral_Library_Report_NAM_LTA_LPS.docx` (main report, v3.3)
     - `NAM_Bulk_Validation_Report_20260924.docx`
     - `LPS_Bulk_Reference_Report_20260928.docx`
+    - `LPS_Findings_and_Parameters_Report.docx` (all LPS findings and parameters: bulk, DFT, SERS)
     - `Bulk_Spectral_Marker_Explanation_NAM_LPS_LTA.docx` (target bands, per molecule)
     - `DFT_vs_Experimental_Comparison_NAM_LPS_LTA.docx` (v1.1)
     - `Simulation_Methods_and_Spectra_NAM_LPS_LTA.docx`

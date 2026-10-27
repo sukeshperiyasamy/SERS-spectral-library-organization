@@ -114,3 +114,6 @@ The 3 Apr 2026 LTA data are from the same vial as 28 Oct (operator). Purity: no 
 
 --- 28 Oct 2026: LTA product information sheet recorded ---
 03_Reference_Spectra/LTA/LTA_Sample_Product_Information_L2515.txt (supplier structure description, solubility 5 mg/ml in water, storage). No purity figure on the sheet; purity Not recorded. Report and CLAUDE.md wording updated.
+
+--- 28 Oct 2026: LTA report extended with the peak explanation ---
+09_Reports/LTA_Bulk_Reference_Report_20261028.docx: new Section 5 (what each peak says, how the peaks are related, structure map from the supplier description). Figures FigL6-L8 in 04_Figures/LTA_Reference_20261028; code 08_Methodology/code/lt8_peak_figures.py. Sections 6-9 renumbered.

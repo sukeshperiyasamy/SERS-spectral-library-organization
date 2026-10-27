@@ -63,7 +63,7 @@ table(['Item','Detail'],[['Sample','Lipoteichoic acid from Staphylococcus aureus
  ['Dark','Median dark 1504 to 1512 counts, in line with a shutter-closed dark (true dark about 1480 to 1525 counts)']],[4,14])
 
 d.add_heading('3. Parameters used',1)
-table(['Parameter','Setting'],[['Laser wavelength / power','785 nm / 80 %'],['Integration time / accumulations','45 s / 2'],['Spots','28 different spots on the powder (SP_9 to SP_36)'],['Blanks','8 spectra at the same settings (see Section 5)'],
+table(['Parameter','Setting'],[['Laser wavelength / power','785 nm / 80 %'],['Integration time / accumulations','45 s / 2'],['Spots','28 different spots on the powder (SP_9 to SP_36)'],['Blanks','8 spectra at the same settings (see Section 6)'],
  ['Processing','Pipeline v3: dark-subtracted signal; two defective detector pixels repaired; 400-1800 cm-1; despiking (MAD z > 6, width 2 pixels or less); Savitzky-Golay 11/3; ALS baseline (lambda 1e5, p 0.01, 10 iterations); noise = 1.4826 x MAD; min-max normalisation'],
  ['QC limits','No saturation in 400-1800 cm-1; ripple 50 counts or less; SNR 10 or more; glass-dominated spots excluded (area ratio above 8); atypical-shape spots excluded (r to the core mean below 0.80)'],
  ['Band classes','C1 primary (all spots, SNR 15 or more, glass share below 25 %, relative CV 30 % or less); C2 supporting (80 % of spots, SNR 5 or more); C3 glass; C4 uncertain'],
@@ -90,12 +90,42 @@ d.add_heading('4.4 Comparison with the preliminary April reference',2)
 cmpr=[['802.2 (SD 5)','799.6','Broad; moves by 3 cm-1, within the position tolerance'],['861.5','861.6','Same'],['1091.8','1092.0','Same'],['1458.8','1460.3','Same within 2 cm-1'],['541.2 (uncertain)','539.2','Now reproducible on 10 of 10 spots; promoted to primary'],['1367 (glass, 1 of 4 spots)','1328 (glass zone)','Glass feature in the glass zone; not used']]
 table(['April reference (cm-1)','28 Oct reference (cm-1)','Comment'],cmpr,[4,4,10],fs=8.5)
 fig('FigL4_LTA_vs_Other_References.png',f"Figure 3. New LTA reference against the April LTA, LPS and NAM references (normalised). r to April = {cm['LTA']:.2f}.")
-d.add_heading('4.5 Tentative interpretation',2)
-table(['Band (cm-1)','Consistent with','Basis'],[['1092','Symmetric stretch of the phosphodiester PO2- group of the glycerol-phosphate backbone','Group frequency 1090 to 1095 (Movasaghi 2007; Czamara 2015); FTIR of the related wall teichoic acid (Grunert 2018); supplier sheet: phosphodiester-linked glycerol phosphate backbone'],['1459','CH2 bending of the acyl chains of the lipid anchor','Lipid group frequencies 1440 to 1460 (Czamara 2015); non-specific'],['861','C-C / C-O-C modes of glycerol and sugar','Carbohydrate region 800 to 950 (Wiercigroch 2017)'],['798','O-P-O stretching region','April proposal 813 (Movasaghi 2007); now found 13 cm-1 lower, so only region-level'],['539, 419, 723','Skeletal ring and backbone deformations','Region only; no checked literature band'],['1246','Phosphate asymmetric stretch / amide III region','Project detection rule (1225 to 1250 cm-1); tentative'],['1751','Ester C=O region','Lipid ester group frequencies (Czamara 2015); supplier sheet: glycerol phosphate usually D-alanylated and/or glycosylated; tentative'],['629, 1583','Unassigned; both also appear as sharp bands in the polystyrene-like blanks, so a contribution from the same contaminant should be checked','No checked source']],[2.5,7,8.5],fs=8)
-d.add_heading('5. The blanks',1)
+ST=pickle.load(open(os.path.join(H,'lt8_stats.pkl'),'rb')); RAT={p:(m,c) for p,g,m,c in ST['ratios']}; COR={(a,b):c for a,b,c in ST['cor']}
+d.add_heading('5. What the peaks say and how they are related',1)
+para('This section reads each labelled peak against the structure the supplier gives for S. aureus LTA: a linear polymer of phosphodiester-linked glycerol phosphate, bound to a lipid, with the C2 position of the glycerol usually glycosylated and/or D-alanylated. All assignments are tentative: they say what a band is consistent with, not what it proves.')
+fig('FigL6_LTA_Peaks_Annotated.png','Figure 5. The reference spectrum with every labelled peak, coloured by the part of the molecule it is consistent with: red phosphodiester, blue glycerol skeleton, orange lipid chain, purple ester C=O, grey not assigned.')
+d.add_heading('5.1 Peak by peak',2)
+def rt(p): return f"{RAT[p][0]:.2f} (CV {RAT[p][1]:.0f} %)"
+table(['Band (cm-1)','Found; height relative to 1092','Part of LTA it is consistent with','What the peak says','Caution'],[
+ ['1092','10/10; 1.00','PO2- symmetric stretch of the phosphodiester, one in every repeat','The phosphate backbone is present. It is the strongest and most reliable band, and its height follows the amount of backbone in the focus','Phosphate groups also occur in phospholipids and nucleic acids, so the band alone is not specific (group frequency 1090-1095: Movasaghi 2007; Czamara 2015; Grunert 2018)'],
+ ['1246','7/10; '+rt(1246),'PO2- asymmetric stretch region (1225-1250)','The second band of the phosphate pair; with 1092 it completes the PO2- signature','Weaker and broader, so seen on 7 of 10 spots; a protein impurity would add a band in the same region (purity not recorded)'],
+ ['798','9/10; '+rt(798),'O-P-O / C-O-P stretching of the link between glycerol units','Phosphate bridges between the glycerol units','Region only; the April value of 813 cm-1 in the literature table is 13 cm-1 higher. Glass also scatters near 800 cm-1, but the glass estimate here is under 1 %'],
+ ['861','10/10; '+rt(861),'C-C and C-O-C stretching of the glycerol (and any sugar) skeleton','The glycerol skeleton of the repeat','Carbohydrate region 800-950 (Wiercigroch 2017); not specific'],
+ ['539','10/10; '+rt(539),'Skeletal deformation of the backbone (C-C-O, O-P-O)','Low-frequency fingerprint of the whole backbone; reproducible on every spot','No checked literature band; region only'],
+ ['419','10/10; '+rt(419),'Skeletal deformation','Low-frequency fingerprint','Region only; close to the 425 cm-1 band of LPS, so use it only with the rest of the pattern'],
+ ['723','10/10; '+rt(723),'CH2 rocking of long alkyl chains (general group frequency, not in the library tables)','The lipid anchor chains','Tentative; follows 1459'],
+ ['1459','9/10; '+rt(1459),'CH2 scissoring of the lipid chains and glycerol CH2','Hydrocarbon is present (lipid anchor, glycerol)','Non-specific (Czamara 2015); lies next to the glass zone but is not affected by it'],
+ ['1751','9/10; '+rt(1751),'Ester C=O stretching region','Ester links, such as D-alanyl esters on the glycerol and/or fatty-acid esters of the lipid','Weak; ester region taken from lipid group frequencies (Czamara 2015)'],
+ ['629, 1583','8/10 each','Not assigned','No interpretation','Sharp bands near 619 and 1583 cm-1 also appear in the polystyrene-like blanks; check with a clean blank'],
+ ['1328','10/10','Glass zone','Glass, not LTA','Never used as an LTA band']],[1.7,2.4,4.3,5,4.6],fs=7.5)
+d.add_heading('5.2 How the peaks are related',2)
+bullets(["By chemical group. The two phosphate bands (1092 and 1246) belong together as the symmetric and asymmetric stretch of the same PO2- group; 798 adds the O-P-O link. 861, 539 and 419 describe the glycerol skeleton. 1459 and 723 come from CH2 in the lipid chains, and 1751 from the ester links. Figure 7 maps these groups onto the molecule.",
+ f"Between spots. The heights of all bands rise and fall together (correlation with 1092: 798 r = {COR[(1092,798)]:.2f}, 861 r = {COR[(1092,861)]:.2f}, 1459 r = {COR[(1092,1459)]:.2f}, 1751 r = {COR[(1092,1751)]:.2f}, 1246 r = {COR[(1092,1246)]:.2f}, 539 r = {COR[(1092,539)]:.2f}), because every band depends on how much powder is in the focus. This alone does not show a common origin.",
+ "Ratios to 1092. What is more informative is that the ratios stay steady from spot to spot: 798 and 861 vary least (CV 4.5 % and 7.5 %), the lipid bands 1459 and 723 vary a little more (12 % and 14 %), and the weakest bands vary most (1246 about 22 %). A steady ratio is what one material gives, and the tight ratios of the backbone bands fit their sharing one unit.",
+ f"Backbone to lipid. 1459 follows 1092 closely (r = {COR[(1092,1459)]:.2f}) and 723 follows 1459 (r = {COR[(1459,723)]:.2f}); the lipid-to-backbone ratio (1459/1092 = {RAT[1459][0]:.2f}) is steady, as expected when the lipid is covalently bound to the polymer and not a separate component.",
+ "Ester to chain. 1751 follows both 1459 and 1092 (r = 0.94), in line with ester links on the polymer."])
+table(['Band (cm-1)','Median height / height at 1092','CV between spots'],[[p,f"{RAT[p][0]:.2f}",f"{RAT[p][1]:.1f} %"] for p in (798,861,539,1459,723,419,1246,1751)],[3,5,4],fs=8.5)
+fig('FigL7_LTA_Peak_Zooms.png','Figure 6. The main bands in the 10 reference spots (thin lines) and their mean (thick line).')
+fig('FigL8_LTA_Structure_Map.png','Figure 7. Schematic of S. aureus LTA as the supplier describes it, with the bands that are consistent with each part. The drawing is generic and does not show the chain length or which substituent sits on which glycerol.')
+d.add_heading('5.3 What the pattern says as a whole',2)
+bullets(['A phosphodiester-linked glycerol backbone (1092, 1246, 798, 861), a hydrocarbon lipid part (1459, 723) and ester groups (1751) are all present in one reproducible spectrum. This is what the supplier describes for S. aureus LTA.',
+ 'It does not show which substituent (D-alanine or a sugar) is present, how long the chain is, or how pure the sample is. Protein or nucleic-acid impurities, and other phosphate lipids, would add bands in the same regions.',
+ 'It differs from LPS: the strongest LTA band is 1092 cm-1, whereas the strongest LPS band is 425 cm-1, and the overall correlation is only 0.50. Both carry phosphate and sugar-like bands, which is why they are not unrelated. NAM has no phosphate and correlates at 0.17.',
+ 'Identity therefore rests on the supplier record (Sigma L2515, S. aureus, lot 0000419622) together with this pattern. The wording stays "consistent with LTA".'])
+d.add_heading('6. The blanks',1)
 para(f"The eight blanks show sharp bands at 619, 1000, 1030, 1154, 1583 and 1602 cm-1, the strongest at 1000 cm-1 (SNR above 200), together with the broad glass band at about 1330 cm-1. Their correlation with the glass blanks of 28 September is only {R['r_blank_old']:.2f}. The pattern is polystyrene-like; the project flagged a polystyrene-like set on 9 February 2026, but the two were not compared directly here. The blanks are therefore flagged as suspect and were not used for the glass estimate. They show that something other than clean glass was measured: possible sources are a plastic surface, a contaminated slide or residue on the slide. The LTA spots do not carry the strongest of these bands (the 1000 cm-1 band is 6 to 10 times the noise on the spots, not 200), so the reference is not dominated by it, but the point should be settled with a clean blank.")
-fig('FigL2_Reference_Spots_Processed.png','Figure 4. Baseline-corrected reference spots (green), their mean (black) and the mean of the 28 Oct blanks (dashed).')
-d.add_heading('6. What to change in the next session',1)
+fig('FigL2_Reference_Spots_Processed.png','Figure 8. Baseline-corrected reference spots (green), their mean (black) and the mean of the 28 Oct blanks (dashed).')
+d.add_heading('7. What to change in the next session',1)
 table(['Issue','Evidence','Change'],[
  ['Blanks are not glass-like','Sharp bands at 1000 and 1030 cm-1 (SNR above 200); r = 0.07 to the 28 Sep glass blanks','Measure 3 blanks on the same clean glass slide used for the powder, away from the powder; clean the slide with the same solvent as before; note what the surface is'],
  ['Saturation on bright spots','Spots S17-S20 and S27 reach 65,535 counts; S12, S14 and S33 reach 62,000 to 65,000','Before the full 45 s spot, take a short test (5 s, 1 acc) and move on if its highest count is above about 6,000 (this predicts roughly 54,000 at 45 s, assuming counts scale with time); passing spots had 15,000 to 50,000'],
@@ -105,11 +135,11 @@ table(['Issue','Evidence','Change'],[
  ['Duplicate files','SP_1 to SP_8 of the spot folder are the blank files (identical)','Keep blanks and spots in separate folders and check the file count before copying'],
  ['Sample record','Supplier, catalogue, lot and source number are now recorded; purity is not','Download the certificate of analysis for lot 0000419622 and record the purity; the April data came from the same vial'],
  ['Dark','Dark 1504 to 1512 counts, consistent with a shutter-closed dark','No change; keep closing the shutter by hand at the start and end']],[3.5,6,8.5],fs=8)
-d.add_heading('7. Status and open points',1)
+d.add_heading('8. Status and open points',1)
 bullets(['Status of the LTA reference: ESTABLISHED, pending your confirmation (n = 10, one session, one powder).',
  'The main library report should be updated to v3.4 with a new section for this LTA reference once you confirm.',
  'The glass estimate is exploratory; it should be repeated with a clean glass blank.',
  'A second session or lot would test whether 1092, 539 and 861 cm-1 are reproducible beyond one powder.'])
-d.add_heading('8. Files',1)
+d.add_heading('9. Files',1)
 table(['Content','Location (SERS_Sepsis_Spectral_Library)'],[['Copies of the raw files','01_Raw_Data_Renamed/LTA_Bulk (LTA_Bulk_20261028_*) and Glass_Blank (Glass_Blank_20261028_*)'],['Processed spectra','02_Processed_Spectra/LTA and Glass_Blank'],['Reference, members, marker peaks','03_Reference_Spectra/LTA/*_20261028_* ; status in README_LTA_reference_status.txt'],['QC log and exclusions','07_QC_and_Exclusions/LTA_Reference_Session_20261028_QC_Log.csv ; Excluded_and_Flagged_Spectra.csv'],['Figures','04_Figures/LTA_Reference_20261028 (FigL1 to FigL5)'],['Workbook sheets','05_Tables/Spectral_Library_Metadata_and_Peaks.xlsx, sheets 43 to 47'],['Code','08_Methodology/code/lt1 to lt7'],['Original files','bulk-lta (unchanged)']],[5,13])
 d.save(os.path.join(LIB,'09_Reports','LTA_Bulk_Reference_Report_20261028.docx')); print('saved')

@@ -2,7 +2,7 @@ import os,numpy as np
 from scipy.signal import savgol_filter,medfilt
 from scipy import sparse
 from scipy.sparse.linalg import spsolve
-ROOT=os.path.expanduser('~/mnt/sukesh')
+ROOT=os.environ.get('SUKESH_ROOT') or os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..'))  # sukesh folder (auto-detected; works on Windows and the VM)
 LIB=os.path.join(ROOT,'SERS_Sepsis_Spectral_Library')
 X=np.arange(400,1801,1.0)
 def read_any(p):

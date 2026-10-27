@@ -72,3 +72,7 @@ LTA reference remains PRELIMINARY (n = 4, 3 Apr 2026); bulk re-acquisition on gl
 --- 27 Oct 2026: Marker explanation document ---
 New: Bulk_Spectral_Marker_Explanation_NAM_LPS_LTA.docx (v1.0): per-molecule explanation of target bands (why they appear, why chosen, tentative assignments, limits) for NAM, LPS and LTA.
 Figures: 04_Figures/Marker_Explanation_20261027 (annotated references, marker zooms, three-way comparison). All numbers read from 03_Reference_Spectra and 06_Literature tables; no new assignments introduced.
+
+--- 27 Oct 2026: DFT vs experiment comparison ---
+New: DFT_vs_Experimental_Comparison_NAM_LPS_LTA.docx (v1.0); figures 04_Figures/DFT_Comparison_20261027; code 08_Methodology/code/dft_compare_1.py, dft_compare_2.py.
+Result: DFT band positions agree for part of the bands (NAM 7/11, LPS 4/5, LTA 2/4 within 10 cm-1) but not better than a random-shift baseline (p 0.68-0.75); whole-spectrum r about 0.1. Used as supporting evidence only (consistent with), not identity confirmation. DFT inputs are in C:/Users/sukes/Downloads/mtp (not copied).

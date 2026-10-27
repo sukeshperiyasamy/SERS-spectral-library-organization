@@ -1,0 +1,303 @@
+{
+ "NAM": {
+  "bands": [
+   {
+    "exp": 541.0,
+    "role": "Primary",
+    "calc": 555.6174,
+    "delta": -14.617399999999975,
+    "act": 0.5152,
+    "label": "Skeletal bending / ring torsion"
+   },
+   {
+    "exp": 829.0,
+    "role": "Primary",
+    "calc": 793.1881,
+    "delta": 35.81190000000004,
+    "act": 0.7407,
+    "label": "Skeletal deformation + \u03b4(C\u2013C\u2013O)"
+   },
+   {
+    "exp": 870.5,
+    "role": "Primary",
+    "calc": 872.968,
+    "delta": -2.467999999999961,
+    "act": 0.2828,
+    "label": "\u03b3(CH\u2082) hydroxymethyl wagging"
+   },
+   {
+    "exp": 929.0,
+    "role": "Primary",
+    "calc": 926.6717,
+    "delta": 2.328300000000013,
+    "act": 0.2896,
+    "label": "Ring breathing / \u03bd(C\u2013C\u2013O)"
+   },
+   {
+    "exp": 955.0,
+    "role": "Primary",
+    "calc": 979.4666,
+    "delta": -24.46659999999997,
+    "act": 0.1987,
+    "label": "Ring breathing / \u03bd(C\u2013C\u2013O)"
+   },
+   {
+    "exp": 1022.7,
+    "role": "Primary",
+    "calc": 1021.5243,
+    "delta": 1.1757000000000062,
+    "act": 0.1633,
+    "label": "\u03bd(C\u2013O) + \u03b4(C\u2013O\u2013H)"
+   },
+   {
+    "exp": 1127.0,
+    "role": "Primary",
+    "calc": 1124.6265,
+    "delta": 2.373499999999922,
+    "act": 0.17,
+    "label": "\u03bd(C\u2013O) + \u03b4(C\u2013O\u2013H)"
+   },
+   {
+    "exp": 457.0,
+    "role": "Supporting",
+    "calc": 460.4531,
+    "delta": -3.4531000000000063,
+    "act": 0.2172,
+    "label": "Skeletal bending / ring torsion"
+   },
+   {
+    "exp": 487.0,
+    "role": "Supporting",
+    "calc": 494.1746,
+    "delta": -7.174599999999998,
+    "act": 0.5438,
+    "label": "Skeletal bending / ring torsion"
+   },
+   {
+    "exp": 1248.7,
+    "role": "Supporting",
+    "calc": 1242.2736,
+    "delta": 6.426400000000058,
+    "act": 0.2071,
+    "label": "\u03b4(C\u2013H) + \u03bd(C\u2013O) coupled"
+   },
+   {
+    "exp": 1589.5,
+    "role": "Supporting",
+    "calc": 1535.2416,
+    "delta": 54.25839999999994,
+    "act": 0.0842,
+    "label": "Amide II: \u03b4(N\u2013H) + \u03bd(C\u2013N)"
+   }
+  ],
+  "n": 11,
+  "n_modes": 67,
+  "n_strong": 43,
+  "t5": {
+   "real": 5,
+   "decoy_mean": 4.4184,
+   "decoy_sd": 1.6270652844922973,
+   "p": 0.5468,
+   "real_strong": 5,
+   "decoy_strong_mean": 3.2336,
+   "p_strong": 0.1884
+  },
+  "t10": {
+   "real": 7,
+   "decoy_mean": 7.4692,
+   "decoy_sd": 1.5171853413475889,
+   "p": 0.7488,
+   "real_strong": 7,
+   "decoy_strong_mean": 6.1728,
+   "p_strong": 0.4712
+  },
+  "t18": {
+   "real": 8,
+   "decoy_mean": 9.3726,
+   "decoy_sd": 0.6694544345958133,
+   "p": 1.0,
+   "real_strong": 8,
+   "decoy_strong_mean": 8.4728,
+   "p_strong": 0.9806
+  },
+  "mae": 14.050354545454535,
+  "rmse": 21.662649527050416,
+  "r_equal": 0.1249315573641292,
+  "nnls": {
+   "r": 0.12493155736412918,
+   "R2": -0.3519730944890076,
+   "weights": {
+    "NAM": 1.0
+   }
+  },
+  "density_per_100": 4.785714285714286
+ },
+ "LPS": {
+  "bands": [
+   {
+    "exp": 424.8,
+    "role": "Primary",
+    "calc": 425.9,
+    "delta": -1.099999999999966,
+    "act": 0.061005957318452604,
+    "label": "Phosphoric_Acid"
+   },
+   {
+    "exp": 765.5,
+    "role": "Supporting",
+    "calc": 777.9,
+    "delta": -12.399999999999977,
+    "act": 0.24221401100972775,
+    "label": "Phosphoric_Acid"
+   },
+   {
+    "exp": 861.1,
+    "role": "Supporting",
+    "calc": 858.1,
+    "delta": 3.0,
+    "act": 0.022245682829349217,
+    "label": "Glucosamine"
+   },
+   {
+    "exp": 995.8,
+    "role": "Supporting",
+    "calc": 995.5,
+    "delta": 0.2999999999999545,
+    "act": 0.03891109267777694,
+    "label": "Phosphoric_Acid"
+   },
+   {
+    "exp": 1080.5,
+    "role": "Primary",
+    "calc": 1081.1,
+    "delta": -0.599999999999909,
+    "act": 0.04630118392278109,
+    "label": "Glucosamine"
+   }
+  ],
+  "n": 5,
+  "n_modes": 150,
+  "n_strong": 29,
+  "t5": {
+   "real": 4,
+   "decoy_mean": 3.118,
+   "decoy_sd": 1.139331382873306,
+   "p": 0.3202,
+   "real_strong": 1,
+   "decoy_strong_mean": 1.2834,
+   "p_strong": 0.8352
+  },
+  "t10": {
+   "real": 4,
+   "decoy_mean": 3.9978,
+   "decoy_sd": 0.9420165391329389,
+   "p": 0.682,
+   "real_strong": 3,
+   "decoy_strong_mean": 2.1606,
+   "p_strong": 0.3372
+  },
+  "t18": {
+   "real": 5,
+   "decoy_mean": 4.6066,
+   "decoy_sd": 0.6025250534210175,
+   "p": 0.6688,
+   "real_strong": 4,
+   "decoy_strong_mean": 2.9368,
+   "p_strong": 0.3772
+  },
+  "mae": 3.4799999999999613,
+  "rmse": 5.73445725417845,
+  "r_equal": 0.14470894009643576,
+  "nnls": {
+   "r": 0.40171280535690285,
+   "R2": -0.37719604163911047,
+   "weights": {
+    "Glucosamine": 0.448830035234262,
+    "Heptose": 0.06772407248093677,
+    "KDO": 0.07366267777756963,
+    "Myristic_Acid": 0.02122410422342631,
+    "Phosphoric_Acid": 0.3885591102838053
+   }
+  },
+  "density_per_100": 10.714285714285714
+ },
+ "LTA": {
+  "bands": [
+   {
+    "exp": 802.2,
+    "role": "Primary",
+    "calc": 768.0,
+    "delta": 34.200000000000045,
+    "act": 0.3492451498858941,
+    "label": "D-Alanine"
+   },
+   {
+    "exp": 861.5,
+    "role": "Primary",
+    "calc": 867.8399999999999,
+    "delta": -6.339999999999918,
+    "act": 0.1191366136101664,
+    "label": "Glycerol-Phosphate"
+   },
+   {
+    "exp": 1091.8,
+    "role": "Primary",
+    "calc": 1105.92,
+    "delta": -14.120000000000118,
+    "act": 0.1834012659560654,
+    "label": "GlcNAc"
+   },
+   {
+    "exp": 1458.8,
+    "role": "Supporting",
+    "calc": 1455.36,
+    "delta": 3.4400000000000546,
+    "act": 0.2295688486742833,
+    "label": "Glycerol-Phosphate"
+   }
+  ],
+  "n": 4,
+  "n_modes": 47,
+  "n_strong": 15,
+  "t5": {
+   "real": 1,
+   "decoy_mean": 1.1998,
+   "decoy_sd": 0.8680322344245057,
+   "p": 0.7888,
+   "real_strong": 1,
+   "decoy_strong_mean": 0.3846,
+   "p_strong": 0.2888
+  },
+  "t10": {
+   "real": 2,
+   "decoy_mean": 2.086,
+   "decoy_sd": 0.8443956418646416,
+   "p": 0.7052,
+   "real_strong": 1,
+   "decoy_strong_mean": 0.7224,
+   "p_strong": 0.5344
+  },
+  "t18": {
+   "real": 3,
+   "decoy_mean": 2.8396,
+   "decoy_sd": 0.6002264905850124,
+   "p": 0.7268,
+   "real_strong": 2,
+   "decoy_strong_mean": 1.2526,
+   "p_strong": 0.484
+  },
+  "mae": 14.525000000000034,
+  "rmse": 18.84836597692228,
+  "r_equal": 0.10535201433291293,
+  "nnls": {
+   "r": 0.11306996124961673,
+   "R2": -0.6905427280664986,
+   "weights": {
+    "D-Alanine": 0.25329294950334813,
+    "GlcNAc": 0.4956171823692101,
+    "Glycerol-Phosphate": 0.2510898681274419
+   }
+  },
+  "density_per_100": 3.357142857142857
+ }
+}

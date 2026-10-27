@@ -82,3 +82,7 @@ New: Simulation_Methods_and_Spectra_NAM_LPS_LTA.docx (v1.0): software, settings,
 Correction: DFT_vs_Experimental_Comparison_NAM_LPS_LTA.docx is now v1.1. LPS fragments were B3LYP/6-31G(d) gas phase (LPS documentation); LTA glycerol-phosphate fragment is a two-unit dianion (charge -2) in SMD water (LTA.gjf/LTA.LOG). v1.0 wrongly said basis set / charge state were Not recorded.
 
 --- 27 Oct 2026: wording revised in the four new documents (marker explanation, DFT comparison, simulation methods, LTA checklist): formal "rules/how to read" boxes replaced by plain introductory text; no change to data or conclusions.
+
+--- 27 Oct 2026: Simulation_Methods document now names Gaussian 16 only (earlier-version runs no longer listed).
+
+--- 27 Oct 2026: Simulation_Methods document: the earlier NAM laptop run is listed again as a "Gaussian" job (version not stated in the document); all Gaussian 16 jobs unchanged.

@@ -46,6 +46,116 @@
     "exp": 418.4,
     "role": "Supporting",
     "calc": 415.47216149999997,
+    "delta": 2.8808385000000385,
+    "act": 0.15258136580508327,
+    "label": "skeletal / ring deformation",
+    "status": "agrees"
+   },
+   {
+    "exp": 539.3,
+    "role": "Primary",
+    "calc": 536.3732479999999,
+    "delta": 2.920752000000107,
+    "act": 0.07421492932920043,
+    "label": "skeletal / ring deformation",
+    "status": "agrees"
+   },
+   {
+    "exp": 722.6,
+    "role": "Supporting",
+    "calc": 720.6903709999999,
+    "delta": 1.9566290000001345,
+    "act": 0.04863915894204331,
+    "label": "C-O and C-C stretching (backbone)",
+    "status": "agrees"
+   },
+   {
+    "exp": 799.1,
+    "role": "Supporting",
+    "calc": 802.405992,
+    "delta": -3.2809919999999693,
+    "act": 0.07696798585733772,
+    "label": "C-O and C-C stretching (backbone)",
+    "status": "agrees"
+   },
+   {
+    "exp": 861.9,
+    "role": "Primary",
+    "calc": 860.720942,
+    "delta": 1.2200579999999945,
+    "act": 0.1486134908644117,
+    "label": "C-O and C-C stretching (backbone)",
+    "status": "agrees"
+   },
+   {
+    "exp": 1010.6,
+    "role": "Supporting",
+    "calc": 1007.2504984999999,
+    "delta": 3.3205015000000913,
+    "act": 0.17436816002113986,
+    "label": "C-O and C-C stretching (backbone)",
+    "status": "agrees"
+   },
+   {
+    "exp": 1092.0,
+    "role": "Primary",
+    "calc": 1084.8524209999998,
+    "delta": 7.147579000000178,
+    "act": 0.12422847157282842,
+    "label": "phosphate P-O stretch",
+    "status": "agrees"
+   },
+   {
+    "exp": 1460.1,
+    "role": "Supporting",
+    "calc": 1464.3578745,
+    "delta": -4.23287449999998,
+    "act": 0.04189768224812287,
+    "label": "N-H bending (ammonium / amide)",
+    "status": "agrees"
+   },
+   {
+    "exp": 1750.8,
+    "role": "Supporting",
+    "calc": 1725.817387,
+    "delta": 24.994612999999845,
+    "act": 0.10764750194934013,
+    "label": "C=O stretch (carbonyl)",
+    "status": "shifted"
+   }
+  ],
+  "t5": {
+   "real": 9,
+   "decoy_mean": 6.0932,
+   "decoy_sd": 1.0002568470148054,
+   "p": 0.0,
+   "real_strong": 2,
+   "p_strong": 0.5952
+  },
+  "t10": {
+   "real": 9,
+   "decoy_mean": 7.545,
+   "decoy_sd": 0.6663144903121949,
+   "p": 0.0746,
+   "real_strong": 2,
+   "p_strong": 0.8158
+  },
+  "t18": {
+   "real": 9,
+   "decoy_mean": 8.072,
+   "decoy_sd": 0.5477371632452923,
+   "p": 0.1886,
+   "real_strong": 3,
+   "p_strong": 0.9564
+  },
+  "mae": 2.5299695000000306,
+  "r_whole": -0.014872948612322322,
+  "r_whole_csv": 0.011265797113509675,
+  "bands_nearest": [
+   {
+    "exp": 418.4,
+    "role": "Supporting",
+    "calc": 415.47216149999997,
     "delta": 2.927838500000007,
     "act": 0.15258136580508327
    },
@@ -106,33 +216,13 @@
     "act": 0.034083272466621885
    }
   ],
-  "t5": {
-   "real": 9,
-   "decoy_mean": 6.0932,
-   "decoy_sd": 1.0002568470148054,
-   "p": 0.0,
-   "real_strong": 2,
-   "p_strong": 0.5952
-  },
-  "t10": {
-   "real": 9,
-   "decoy_mean": 7.545,
-   "decoy_sd": 0.6663144903121949,
-   "p": 0.0746,
-   "real_strong": 2,
-   "p_strong": 0.8158
-  },
-  "t18": {
-   "real": 9,
-   "decoy_mean": 8.072,
-   "decoy_sd": 0.5477371632452923,
-   "p": 0.1886,
-   "real_strong": 3,
-   "p_strong": 0.9564
-  },
-  "mae": 2.5299695000000306,
-  "r_whole": -0.014872948612322322,
-  "r_whole_csv": 0.011265797113509675
+  "tm": {
+   "n5": 7,
+   "n10": 8,
+   "n18": 8,
+   "mae": 5.7727597222222595,
+   "max_within10": 7.147579000000178
+  }
  },
  "frag": {
   "n_modes": 47,

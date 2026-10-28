@@ -27,6 +27,12 @@ fd=data['LTA']; fm=fd['modes']; fa=fd['act']; res['frag']=block(fm,fa,fm[fa>=0.1
 from scipy.optimize import nnls
 comps=dict(ns['data']['LTA']['comps']); A=np.array([c[G] for c in comps.values()]).T; w,_=nnls(A,e[G]); res['frag']['nnls_r']=float(np.corrcoef(A@w,e[G])[0,1])
 comps['LTA model']=sp; A=np.array([c[G] for c in comps.values()]).T; w,_=nnls(A,e[G]); res['nnls_all']=dict(r=float(np.corrcoef(A@w,e[G])[0,1]),weights={k_:float(v/w.sum()) for k_,v in zip(comps,w)})
+# type-matched bands (nearest calculated vibration of the expected type, from the mode-character analysis); the position-only counts above ignore vibration type
+import sys; sys.path.insert(0,os.path.join(os.path.dirname(os.path.abspath(__file__)),'final_reports')); import fr_data as FD
+TM=FD.match('LTA'); res['model']['bands_nearest']=res['model']['bands']; nb_=[]
+for b in res['model']['bands']:
+    r=min(TM,key=lambda r:abs(r['exp']-b['exp'])); nb_.append(dict(exp=b['exp'],role=b['role'],calc=r['calc'],delta=r['delta'],act=r['I'],label=str(r['label']),status=r['status']))
+res['model']['bands']=nb_; dd=np.array([abs(b['delta']) for b in nb_]); res['model']['tm']=dict(n5=int((dd<=5).sum()),n10=int((dd<=10).sum()),n18=int((dd<=18).sum()),mae=float(dd.mean()),max_within10=float(dd[dd<=10].max()))
 # old (April) comparison reference for continuity
 res['top_modes']=[(float(m),float(x)) for m,x in sorted(zip(modes,act),key=lambda t:-t[1])[:12]]
 json.dump(res,open(os.path.join(L,'05_Tables','LTAmodel_vs_LTA_results.json'),'w'),indent=1)

@@ -1,0 +1,1 @@
+The first 8 blanks of 28 Oct 2026 (bulk-lta/glass blank SP_1-SP_8; 80 %, 45 s, 2 acc) are polystyrene-like (bands 619, 1000, 1030, 1602 cm-1; r = 0.07 to the 28 Sep glass blanks), not glass. Their library copies were moved here on operator request; delete when ready. The originals in bulk-lta are untouched. They are not used in any reference or glass estimate.

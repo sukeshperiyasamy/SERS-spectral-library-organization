@@ -1,0 +1,10 @@
+measured_peak_cm1,role,calculated_peak_cm1,difference_cm1,calculated_relative_intensity,vibration_type,result,expected_assignment
+418.4,supporting,415.5,2.9,0.153,skeletal / ring deformation,agrees (within 10 cm-1),low-frequency skeletal deformation (no firm assignment)
+539.3,main,536.4,2.9,0.074,skeletal / ring deformation,agrees (within 10 cm-1),skeletal / ring deformation
+722.6,supporting,720.7,2.0,0.049,C-O and C-C stretching (backbone),agrees (within 10 cm-1),C-O / C-C stretching (no firm assignment)
+799.1,supporting,802.4,-3.3,0.077,C-O and C-C stretching (backbone),agrees (within 10 cm-1),O-P-O stretching of the phosphodiester (P-O-C ester stretching)
+861.9,main,860.7,1.2,0.149,C-O and C-C stretching (backbone),agrees (within 10 cm-1),C-C and C-O-C stretching of glycerol and sugar
+1010.6,supporting,1007.3,3.3,0.174,C-O and C-C stretching (backbone),agrees (within 10 cm-1),C-O / C-C stretching
+1092.0,main,1084.9,7.1,0.124,phosphate P-O stretch,agrees (within 10 cm-1),symmetric PO2- stretch of the phosphodiester backbone
+1460.1,supporting,1464.4,-4.2,0.042,N-H bending (ammonium / amide),agrees (within 10 cm-1),CH2 / CH3 bending
+1750.8,supporting,1725.8,25.0,0.108,C=O stretch (carbonyl),"shifted, same vibration type",ester C=O stretch (supported by the calculation only)

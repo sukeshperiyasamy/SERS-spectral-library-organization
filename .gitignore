@@ -5,3 +5,9 @@ Thumbs.db
 desktop.ini
 .ipynb_checkpoints/
 __pycache__/
+
+# Large duplicates of data already in SERS_Sepsis_Spectral_Library and simulation/
+Final_Submission/04_Spectral_Library/Raw_Data_Renamed/
+Final_Submission/04_Spectral_Library/Processed_Spectra/
+Final_Submission/05_Simulation_Data/**/*.out
+Final_Submission/05_Simulation_Data/**/*.log

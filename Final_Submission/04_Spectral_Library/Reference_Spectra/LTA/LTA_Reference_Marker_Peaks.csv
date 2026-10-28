@@ -1,0 +1,7 @@
+role,nominal,pos_mean,pos_sd,height_mean,height_sd,cv,snr_mean,prom_mean,n_detected,n,glass_zone
+Primary marker,802,802.25,5.06,833.65,104.86,12.58,21.37,891.01,4,4,False
+Primary marker,861,861.5,1.0,687.1,74.35,10.82,17.64,408.02,4,4,False
+Primary marker,1092,1091.75,0.5,1110.06,97.82,8.81,28.52,1179.66,4,4,False
+Supporting peak,1459,1458.75,0.5,720.5,53.23,7.39,18.53,777.65,4,4,False
+Uncertain,541,541.25,5.19,440.38,120.97,27.47,11.26,465.2,4,4,False
+Glass/background,1367,1367.25,2.22,511.04,34.97,6.84,13.17,121.27,1,4,True

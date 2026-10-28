@@ -1,0 +1,6 @@
+measured_peak_cm1,role,calculated_peak_cm1,difference_cm1,calculated_relative_intensity,vibration_type,result,expected_assignment
+424.8,main,422.4,2.4,0.336,skeletal / ring deformation,agrees (within 10 cm-1),low-frequency skeletal / ring deformation (not assigned in the literature)
+765.5,supporting,767.3,-1.8,0.564,C-O and C-C stretching (backbone),agrees (within 10 cm-1),no assignment in the literature
+861.1,supporting,862.0,-0.9,0.371,C-O and C-C stretching (backbone),agrees (within 10 cm-1),glycosidic C-O-C and sugar ring modes
+995.8,supporting,993.1,2.8,0.311,C-O and C-C stretching (backbone),agrees (within 10 cm-1),C-H bending or sugar C-O-C
+1080.5,main,1079.5,1.0,0.125,C-O and C-C stretching (backbone),agrees (within 10 cm-1),C-O stretching of sugars and / or symmetric PO2- stretch

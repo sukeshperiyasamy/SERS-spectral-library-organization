@@ -1,0 +1,68 @@
+calculated_peak_cm1,relative_intensity,vibration_type
+403.4,1.0,skeletal / ring deformation
+415.4,0.332,skeletal / ring deformation
+440.5,0.143,skeletal / ring deformation
+460.5,0.217,skeletal / ring deformation
+494.2,0.544,skeletal / ring deformation
+513.4,0.414,skeletal / ring deformation
+555.6,0.515,skeletal / ring deformation
+570.0,0.359,skeletal / ring deformation
+573.3,0.286,C-H bending / CH2 rocking and twisting
+582.1,0.138,skeletal / ring deformation
+608.4,0.089,skeletal / ring deformation
+619.4,0.064,skeletal / ring deformation
+626.7,0.115,skeletal / ring deformation
+640.1,0.249,skeletal / ring deformation
+692.2,0.177,C-O and C-C stretching (backbone)
+731.3,0.591,C-O and C-C stretching (backbone)
+793.2,0.741,C-O and C-C stretching (backbone)
+873.0,0.283,C-O and C-C stretching (backbone)
+904.8,0.195,C-O and C-C stretching (backbone)
+926.7,0.29,C-O and C-C stretching (backbone)
+979.5,0.199,C-O and C-C stretching (backbone)
+999.9,0.173,C-O and C-C stretching (backbone)
+1006.2,0.143,C-O and C-C stretching (backbone)
+1021.5,0.163,C-O and C-C stretching (backbone)
+1028.2,0.062,C-O and C-C stretching (backbone)
+1034.9,0.013,C-O and C-C stretching (backbone)
+1042.2,0.527,C-O and C-C stretching (backbone)
+1054.8,0.121,C-O and C-C stretching (backbone)
+1067.8,0.039,C-O and C-C stretching (backbone)
+1072.7,0.825,C-O and C-C stretching (backbone)
+1079.8,0.04,C-O and C-C stretching (backbone)
+1090.8,0.311,C-O and C-C stretching (backbone)
+1107.4,0.416,C-O and C-C stretching (backbone)
+1116.6,0.192,C-O and C-C stretching (backbone)
+1124.6,0.17,C-O and C-C stretching (backbone)
+1135.4,0.116,C-O and C-C stretching (backbone)
+1156.2,0.195,C-O and C-C stretching (backbone)
+1172.4,0.258,C-O and C-C stretching (backbone)
+1192.1,0.17,C-H bending / CH2 rocking and twisting
+1208.2,0.119,C-H bending / CH2 rocking and twisting
+1229.4,0.052,C-H bending / CH2 rocking and twisting
+1242.3,0.207,C-H bending / CH2 rocking and twisting
+1257.1,0.318,mixed C-H bending and C-O stretching
+1284.4,0.076,C-H bending / CH2 rocking and twisting
+1287.6,0.232,C-H bending / CH2 rocking and twisting
+1306.2,0.066,"C-H / O-H bending (CH2, CH3)"
+1313.6,0.135,"C-H / O-H bending (CH2, CH3)"
+1324.8,0.035,"C-H / O-H bending (CH2, CH3)"
+1334.4,0.094,"C-H / O-H bending (CH2, CH3)"
+1345.7,0.256,"C-H / O-H bending (CH2, CH3)"
+1356.6,0.099,"C-H / O-H bending (CH2, CH3)"
+1359.3,0.517,"C-H / O-H bending (CH2, CH3)"
+1368.7,0.126,"C-H / O-H bending (CH2, CH3)"
+1372.6,0.103,"C-H / O-H bending (CH2, CH3)"
+1379.2,0.175,"C-H / O-H bending (CH2, CH3)"
+1387.6,0.355,"C-H / O-H bending (CH2, CH3)"
+1408.0,0.241,"C-H / O-H bending (CH2, CH3)"
+1409.9,0.172,"C-H / O-H bending (CH2, CH3)"
+1433.2,0.116,"C-H / O-H bending (CH2, CH3)"
+1443.9,0.226,"C-H / O-H bending (CH2, CH3)"
+1459.7,0.32,"C-H / O-H bending (CH2, CH3)"
+1459.9,0.231,"C-H / O-H bending (CH2, CH3)"
+1470.8,0.266,"C-H / O-H bending (CH2, CH3)"
+1471.8,0.178,"C-H / O-H bending (CH2, CH3)"
+1535.2,0.084,N-H bending (ammonium / amide)
+1722.8,0.417,C=O stretch (carbonyl)
+1759.2,0.32,C=O stretch (carbonyl)

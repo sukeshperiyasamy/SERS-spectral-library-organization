@@ -1,0 +1,755 @@
+{
+ "n": {
+  "blank": 5,
+  "NAM": 75,
+  "LPS": 35,
+  "LTA": 9
+ },
+ "n_bare": 12,
+ "chance": {
+  "NAM": {
+   "real": 0.06666666666666667,
+   "mean": 0.0390047619047619,
+   "sd": 0.04796160572356566,
+   "p": 0.135
+  },
+  "LPS": {
+   "real": 0.06938775510204082,
+   "mean": 0.04596938775510204,
+   "sd": 0.0313685070755942,
+   "p": 0.3
+  },
+  "LTA": {
+   "real": 0.015873015873015872,
+   "mean": 0.015674603174603174,
+   "sd": 0.01655171050632868,
+   "p": 0.6825
+  }
+ },
+ "repro": {
+  "carrying_median_r": 0.851325030645725,
+  "other_LPS_median_r": 0.43253702150906487,
+  "NAM_median_r": 0.2547945355638276,
+  "blank_median_r": 0.45296653258639297
+ },
+ "sim": {
+  "NAM": 0.15037795520252514,
+  "LPS": 0.201182445094811,
+  "LTA": 0.2899399179665829
+ },
+ "n_carry": 21,
+ "n_lps": 35,
+ "si_carry": 1018.9225362501661,
+ "si_nocarry": 2326.06648081205,
+ "art": {
+  "spk640": {
+   "blank": 16.75,
+   "NAM": 11.999999999999503,
+   "LPS": 9.25,
+   "LTA": 19.5
+  },
+  "spk700": {
+   "blank": -28.5,
+   "NAM": 1.0,
+   "LPS": 15.5,
+   "LTA": 28.0
+  },
+  "spk640_noise": 16.10037937062902
+ },
+ "t0": "2026-10-07 01:07:47",
+ "t1": "2026-10-07 09:17:16",
+ "group_span": {
+  "blank": [
+   "2026-10-07 01:07:47",
+   "2026-10-07 01:18:08"
+  ],
+  "nam-1": [
+   "2026-10-07 01:23:12",
+   "2026-10-07 02:17:30"
+  ],
+  "nam-2": [
+   "2026-10-07 02:19:13",
+   "2026-10-07 04:51:22"
+  ],
+  "lps2": [
+   "2026-10-07 06:35:56",
+   "2026-10-07 07:09:15"
+  ],
+  "lps1": [
+   "2026-10-07 07:11:47",
+   "2026-10-07 09:06:47"
+  ],
+  "lta2": [
+   "2026-10-07 09:09:53",
+   "2026-10-07 09:17:16"
+  ]
+ },
+ "si_pos": 518.0,
+ "carry_files": [
+  "lps2/SP_3.csv",
+  "lps2/SP_4.csv",
+  "lps2/SP_10.csv",
+  "lps2/SP_13.csv",
+  "lps2/SP_14.csv",
+  "lps2/SP_15.csv",
+  "lps2/SP_16.csv",
+  "lps2/SP_17.csv",
+  "lps1/SP_20.csv",
+  "lps1/SP_21.csv",
+  "lps1/SP_22.csv",
+  "lps1/SP_23.csv",
+  "lps1/SP_24.csv",
+  "lps1/SP_27.csv",
+  "lps1/SP_28.csv",
+  "lps1/SP_29.csv",
+  "lps1/SP_30.csv",
+  "lps1/SP_31.csv",
+  "lps1/SP_32.csv",
+  "lps1/SP_33.csv",
+  "lps1/SP_35.csv"
+ ],
+ "nam_scatter": [
+  {
+   "file": "SP_7.csv",
+   "group": "nam-1",
+   "peaks": []
+  },
+  {
+   "file": "SP_8.csv",
+   "group": "nam-1",
+   "peaks": []
+  },
+  {
+   "file": "SP_9.csv",
+   "group": "nam-1",
+   "peaks": []
+  },
+  {
+   "file": "SP_10.csv",
+   "group": "nam-1",
+   "peaks": [
+    420,
+    1346
+   ]
+  },
+  {
+   "file": "SP_11.csv",
+   "group": "nam-1",
+   "peaks": [
+    473,
+    733,
+    809,
+    860,
+    1603
+   ]
+  },
+  {
+   "file": "SP_12.csv",
+   "group": "nam-1",
+   "peaks": [
+    742,
+    806,
+    1328
+   ]
+  },
+  {
+   "file": "SP_13.csv",
+   "group": "nam-1",
+   "peaks": [
+    1346
+   ]
+  },
+  {
+   "file": "SP_14.csv",
+   "group": "nam-1",
+   "peaks": [
+    810,
+    1763
+   ]
+  },
+  {
+   "file": "SP_15.csv",
+   "group": "nam-1",
+   "peaks": []
+  },
+  {
+   "file": "SP_16.csv",
+   "group": "nam-1",
+   "peaks": [
+    979,
+    1284,
+    1345
+   ]
+  },
+  {
+   "file": "SP_17.csv",
+   "group": "nam-1",
+   "peaks": [
+    1346
+   ]
+  },
+  {
+   "file": "SP_18.csv",
+   "group": "nam-1",
+   "peaks": [
+    1343
+   ]
+  },
+  {
+   "file": "SP_19.csv",
+   "group": "nam-1",
+   "peaks": []
+  },
+  {
+   "file": "SP_20.csv",
+   "group": "nam-1",
+   "peaks": [
+    536,
+    890,
+    1337
+   ]
+  },
+  {
+   "file": "SP_21.csv",
+   "group": "nam-1",
+   "peaks": [
+    1572
+   ]
+  },
+  {
+   "file": "SP_22.csv",
+   "group": "nam-1",
+   "peaks": [
+    1469
+   ]
+  },
+  {
+   "file": "SP_23.csv",
+   "group": "nam-1",
+   "peaks": [
+    881,
+    1586
+   ]
+  },
+  {
+   "file": "SP_24.csv",
+   "group": "nam-1",
+   "peaks": [
+    682,
+    741,
+    818,
+    887,
+    953,
+    1014,
+    1085,
+    1146,
+    1337,
+    1446,
+    1509,
+    1563,
+    1624,
+    1677,
+    1730
+   ]
+  },
+  {
+   "file": "SP_25.csv",
+   "group": "nam-1",
+   "peaks": [
+    635,
+    1337
+   ]
+  },
+  {
+   "file": "SP_26.csv",
+   "group": "nam-1",
+   "peaks": [
+    837
+   ]
+  },
+  {
+   "file": "SP_27.csv",
+   "group": "nam-1",
+   "peaks": [
+    831,
+    1083,
+    1328,
+    1576,
+    1626
+   ]
+  },
+  {
+   "file": "SP_28.csv",
+   "group": "nam-1",
+   "peaks": []
+  },
+  {
+   "file": "SP_29.csv",
+   "group": "nam-1",
+   "peaks": [
+    820,
+    889,
+    1083,
+    1573
+   ]
+  },
+  {
+   "file": "SP_30.csv",
+   "group": "nam-1",
+   "peaks": [
+    429,
+    641,
+    715,
+    1240
+   ]
+  },
+  {
+   "file": "SP_31.csv",
+   "group": "nam-1",
+   "peaks": [
+    961,
+    1460,
+    1517,
+    1574,
+    1687
+   ]
+  },
+  {
+   "file": "SP_32.csv",
+   "group": "nam-1",
+   "peaks": [
+    832,
+    1446,
+    1569,
+    1668
+   ]
+  },
+  {
+   "file": "SP_33.csv",
+   "group": "nam-1",
+   "peaks": [
+    701
+   ]
+  },
+  {
+   "file": "SP_34.csv",
+   "group": "nam-1",
+   "peaks": [
+    953
+   ]
+  },
+  {
+   "file": "SP_35.csv",
+   "group": "nam-1",
+   "peaks": [
+    635,
+    953
+   ]
+  },
+  {
+   "file": "SP_36.csv",
+   "group": "nam-1",
+   "peaks": [
+    1572
+   ]
+  },
+  {
+   "file": "SP_37.csv",
+   "group": "nam-1",
+   "peaks": [
+    634,
+    961
+   ]
+  },
+  {
+   "file": "SP_38.csv",
+   "group": "nam-1",
+   "peaks": [
+    635
+   ]
+  },
+  {
+   "file": "SP_39.csv",
+   "group": "nam-1",
+   "peaks": [
+    1061,
+    1124
+   ]
+  },
+  {
+   "file": "SP_40.csv",
+   "group": "nam-1",
+   "peaks": [
+    1337
+   ]
+  },
+  {
+   "file": "SP_41.csv",
+   "group": "nam-1",
+   "peaks": [
+    835,
+    1061,
+    1235
+   ]
+  },
+  {
+   "file": "SP_42.csv",
+   "group": "nam-1",
+   "peaks": [
+    541,
+    822,
+    1334,
+    1572
+   ]
+  },
+  {
+   "file": "SP_43.csv",
+   "group": "nam-1",
+   "peaks": [
+    661,
+    714,
+    796,
+    1072,
+    1121,
+    1680
+   ]
+  },
+  {
+   "file": "SP_44.csv",
+   "group": "nam-1",
+   "peaks": [
+    630,
+    696,
+    830,
+    1037,
+    1350,
+    1412,
+    1574
+   ]
+  },
+  {
+   "file": "SP_45.csv",
+   "group": "nam-1",
+   "peaks": []
+  },
+  {
+   "file": "SP_46.csv",
+   "group": "nam-1",
+   "peaks": [
+    541,
+    1416,
+    1527
+   ]
+  },
+  {
+   "file": "SP_47.csv",
+   "group": "nam-1",
+   "peaks": [
+    1412,
+    1576
+   ]
+  },
+  {
+   "file": "SP_48.csv",
+   "group": "nam-1",
+   "peaks": [
+    959,
+    1214,
+    1411
+   ]
+  },
+  {
+   "file": "SP_49.csv",
+   "group": "nam-1",
+   "peaks": []
+  },
+  {
+   "file": "SP_50.csv",
+   "group": "nam-1",
+   "peaks": [
+    1525,
+    1629
+   ]
+  },
+  {
+   "file": "SP_51.csv",
+   "group": "nam-1",
+   "peaks": [
+    635,
+    1576,
+    1628
+   ]
+  },
+  {
+   "file": "SP_52.csv",
+   "group": "nam-2",
+   "peaks": [
+    425,
+    867,
+    1064,
+    1259
+   ]
+  },
+  {
+   "file": "SP_53.csv",
+   "group": "nam-2",
+   "peaks": [
+    614,
+    960
+   ]
+  },
+  {
+   "file": "SP_54.csv",
+   "group": "nam-2",
+   "peaks": [
+    1317,
+    1621
+   ]
+  },
+  {
+   "file": "SP_55.csv",
+   "group": "nam-2",
+   "peaks": [
+    422,
+    656,
+    725,
+    817,
+    1253
+   ]
+  },
+  {
+   "file": "SP_56.csv",
+   "group": "nam-2",
+   "peaks": [
+    1338
+   ]
+  },
+  {
+   "file": "SP_57.csv",
+   "group": "nam-2",
+   "peaks": [
+    951,
+    1261
+   ]
+  },
+  {
+   "file": "SP_58.csv",
+   "group": "nam-2",
+   "peaks": [
+    656,
+    956,
+    1091,
+    1151,
+    1350,
+    1480,
+    1654,
+    1707,
+    1765
+   ]
+  },
+  {
+   "file": "SP_59.csv",
+   "group": "nam-2",
+   "peaks": [
+    584,
+    656,
+    796,
+    864,
+    1075,
+    1132,
+    1371,
+    1496,
+    1609
+   ]
+  },
+  {
+   "file": "SP_60.csv",
+   "group": "nam-2",
+   "peaks": [
+    953
+   ]
+  },
+  {
+   "file": "SP_61.csv",
+   "group": "nam-2",
+   "peaks": [
+    794
+   ]
+  },
+  {
+   "file": "SP_62.csv",
+   "group": "nam-2",
+   "peaks": [
+    1698
+   ]
+  },
+  {
+   "file": "SP_63.csv",
+   "group": "nam-2",
+   "peaks": [
+    407,
+    658,
+    959,
+    1069,
+    1743
+   ]
+  },
+  {
+   "file": "SP_65.csv",
+   "group": "nam-2",
+   "peaks": [
+    543,
+    1089,
+    1329,
+    1774
+   ]
+  },
+  {
+   "file": "SP_66.csv",
+   "group": "nam-2",
+   "peaks": [
+    534,
+    740,
+    956,
+    1096,
+    1332
+   ]
+  },
+  {
+   "file": "SP_67.csv",
+   "group": "nam-2",
+   "peaks": [
+    638,
+    723,
+    1105,
+    1244,
+    1324,
+    1616,
+    1660
+   ]
+  },
+  {
+   "file": "SP_68.csv",
+   "group": "nam-2",
+   "peaks": [
+    534,
+    661,
+    723,
+    1078,
+    1257,
+    1331
+   ]
+  },
+  {
+   "file": "SP_69.csv",
+   "group": "nam-2",
+   "peaks": [
+    1054,
+    1372,
+    1661,
+    1728
+   ]
+  },
+  {
+   "file": "SP_70.csv",
+   "group": "nam-2",
+   "peaks": []
+  },
+  {
+   "file": "SP_71.csv",
+   "group": "nam-2",
+   "peaks": [
+    534,
+    1354
+   ]
+  },
+  {
+   "file": "SP_72.csv",
+   "group": "nam-2",
+   "peaks": [
+    1367
+   ]
+  },
+  {
+   "file": "SP_73.csv",
+   "group": "nam-2",
+   "peaks": [
+    535,
+    735,
+    1074,
+    1353
+   ]
+  },
+  {
+   "file": "SP_74.csv",
+   "group": "nam-2",
+   "peaks": [
+    642,
+    1166
+   ]
+  },
+  {
+   "file": "SP_75.csv",
+   "group": "nam-2",
+   "peaks": [
+    539
+   ]
+  },
+  {
+   "file": "SP_76.csv",
+   "group": "nam-2",
+   "peaks": [
+    1411
+   ]
+  },
+  {
+   "file": "SP_77.csv",
+   "group": "nam-2",
+   "peaks": [
+    534,
+    1379
+   ]
+  },
+  {
+   "file": "SP_78.csv",
+   "group": "nam-2",
+   "peaks": [
+    718
+   ]
+  },
+  {
+   "file": "SP_79.csv",
+   "group": "nam-2",
+   "peaks": [
+    1380
+   ]
+  },
+  {
+   "file": "SP_81.csv",
+   "group": "nam-2",
+   "peaks": [
+    534,
+    1363
+   ]
+  },
+  {
+   "file": "SP_82.csv",
+   "group": "nam-2",
+   "peaks": [
+    534,
+    668,
+    1204,
+    1396
+   ]
+  },
+  {
+   "file": "SP_83.csv",
+   "group": "nam-2",
+   "peaks": [
+    622,
+    1368,
+    1599
+   ]
+  }
+ ]
+}

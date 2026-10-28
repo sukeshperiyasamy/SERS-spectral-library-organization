@@ -1,0 +1,3 @@
+File name,Date,Biomarker,Power (%),Integration (s),Accumulations,Spot/replicate,Glass slide type/lot,Spot position,Sample preparation,Objective,Operator,Raw max 400-1800,Saturation (laser line / analytical),Notes
+NAM_Bulk_YYYYMMDD_P090pct_T30s_A05_S01.csv,YYYY-MM-DD,NAM,90,30,5,S01,,,,,,,,
+Glass_Blank_YYYYMMDD_P090pct_T30s_A05_S01.csv,YYYY-MM-DD,Glass blank,90,30,5,S01,,empty area,,,,,,matched to NAM set

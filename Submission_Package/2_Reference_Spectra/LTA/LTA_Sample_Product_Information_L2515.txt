@@ -1,0 +1,8 @@
+LTA sample: Sigma-Aldrich L2515-10MG, lipoteichoic acid from Staphylococcus aureus (lot 0000419622, source number 0000404178)
+Source of this record: the supplier's product information sheet for L2515 (sheet date 10/03), text supplied by the operator on 28 Oct 2026. Summarised, not reproduced.
+
+Identity: CAS 56411-57-5; synonym LTA. Storage 2-8 C. For laboratory use only.
+Structure (as described by the supplier): a linear polymer of phosphodiester-linked glycerol phosphate covalently bound to a lipid; the C2 position of the glycerol phosphate is usually glycosylated and/or D-alanylated; the negatively charged backbone and the hydrophobic lipid make the molecule amphipathic. Not covalently bound to peptidoglycan.
+Solubility and stability: soluble in water at 5 mg/ml, giving a hazy colourless to faint-yellow solution. Aqueous solutions are stable for 2 days at 4 C, or for 2 months as single-use aliquots frozen at -20 C.
+Purity: no purity figure is given on the sheet. Physical form of the supplied material is not stated on the sheet. The label reads "bacterial cell wall polymer" (operator). Certificate of analysis for the lot: not obtained.
+Use of the same vial: the 3 Apr 2026 and 28 Oct 2026 measurements (operator).

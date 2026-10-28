@@ -126,3 +126,6 @@ Library copies (raw and processed) of blanks S01-S08 (80 %, 45 s, 2 acc, polysty
 
 --- 28 Oct 2026: LTA report and Figure L13 rewritten without the first 8 blanks ---
 Report v2.0 and FigL13 now describe only the 11 glass blanks; the polystyrene-like blanks are no longer mentioned (they are in _to_delete).
+
+--- 28 Oct 2026: Submission_Package created ---
+Submission_Package/ (repo root) holds copies of the reports, reference spectra, figures, tables, QC logs, methodology and SERS results with README_Contents.md. It is a copy; the library folders remain the source.

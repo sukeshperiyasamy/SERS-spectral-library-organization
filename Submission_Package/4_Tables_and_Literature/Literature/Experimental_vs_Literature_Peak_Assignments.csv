@@ -1,0 +1,24 @@
+Biomarker,Peak category,Experimental wavenumber (cm-1),Mean ± SD (cm-1),"Mean intensity (counts, baseline-corr.)",Intensity SD,CV (%),SNR,Prominence (counts),Replicate frequency (detected / n),Literature wavenumber / region (cm-1),Difference (exp − lit),Proposed assignment,Literature citation,Confidence,Background status,Height after exploratory glass-template correction
+LTA,Primary marker,802.2,802.2 ± 5.1,834.0,105.0,12.6,21.4,891.0,4/4,~813 (ν O-P-O),≈ −11,Proposed: ν(O-P-O) phosphodiester stretch,L5,Low,Outside glass zone,783.0
+LTA,Primary marker,861.5,861.5 ± 1.0,687.0,74.0,10.8,17.6,408.0,4/4,800–950 (region),within region,Proposed: ν(C-C)/ν(C-O-C) of glycerol / sugar substituents,L6,Low,Outside glass zone,638.0
+LTA,Primary marker,1091.8,1091.8 ± 0.5,1110.0,98.0,8.8,28.5,1180.0,4/4,1090–1095 (ν_s PO2−),≈ 0 to +2,Proposed: ν_s(PO2−) of phosphodiester (poly-glycerophosphate backbone),"L5, L7, L8",Moderate,Outside glass zone,1051.0
+LTA,Supporting peak,1458.8,1458.8 ± 0.5,721.0,53.0,7.4,18.5,778.0,4/4,1440–1460 (δ CH2),≈ 0 to +9,Proposed: δ(CH2) scissoring (acyl chains of glycolipid anchor); non-specific,L7,Low,Adjacent to glass zone; ~18 % of height glass-related (exploratory),593.0
+LTA,Uncertain,541.2,541.2 ± 5.2,440.0,121.0,27.5,11.3,465.0,4/4,400–600 (region),within region,Unassigned (skeletal region; CV 27 %),—,Uncertain,Outside glass zone,392.0
+LTA,Glass/background,1367.2,1367.2 ± 2.2,511.0,35.0,6.8,13.2,121.0,1/4,—,—,Glass-associated feature (inside glass zone; removed by glass-template correction; 2/9 detected),—,Not applicable,Glass-associated feature,-68.0
+NAM,Primary marker,541.0,541.0 ± 0.0,715.0,33.0,4.6,39.9,736.0,15/15,400–600 (region),within region,Proposed: pyranose-ring skeletal deformation δ(C-C-O)/δ(C-C-C),L6,Low,Outside glass zone,671.0
+NAM,Primary marker,829.0,829.0 ± 0.0,625.0,30.0,4.8,34.8,571.0,15/15,800–950 (region),within region,Proposed: ν(C-O-C)/ring mode in the carbohydrate anomeric region,L6,Low,Outside glass zone,580.0
+NAM,Primary marker,870.5,870.5 ± 0.5,872.0,37.0,4.3,48.6,820.0,15/15,800–950 (region),within region,Proposed: ν(C-O-C)/ν(C-C) ring mode (anomeric region),L6,Low,Outside glass zone,826.0
+NAM,Primary marker,929.0,929.0 ± 0.0,917.0,37.0,4.0,51.1,945.0,15/15,800–950 (region),within region,Proposed: ν(C-O-C)/ν(C-C); possible lactyl C-COOH contribution,"L6, L5",Low,Outside glass zone,870.0
+NAM,Primary marker,955.0,955.0 ± 0.0,862.0,44.0,5.1,48.1,830.0,15/15,800–950 (upper edge),≈ +5 beyond region,Proposed: ν(C-C) / CH3 rocking (N-acetyl or lactyl methyl) – tentative,"L5, L6",Low,Outside glass zone,822.0
+NAM,Primary marker,1022.7,1022.7 ± 0.5,749.0,47.0,6.2,41.8,783.0,15/15,1000–1200 (region),within region,Proposed: ν(C-O)/ν(C-C) (C-OH stretching) of sugar ring,L6,Low,Outside glass zone,712.0
+NAM,Primary marker,1127.0,1127.0 ± 0.0,581.0,30.0,5.2,32.4,519.0,15/15,1000–1200 (region),within region,Proposed: ν(C-O-C) (3-O-lactyl ether / ring) or ν(C-C),L6,Low,Outside glass zone,545.0
+NAM,Supporting peak,457.0,457.0 ± 0.4,547.0,32.0,5.8,30.5,560.0,15/15,400–600 (region),within region,Proposed: pyranose-ring skeletal deformation,L6,Low,Outside glass zone,517.0
+NAM,Supporting peak,487.0,487.0 ± 0.0,398.0,33.0,8.3,22.2,395.0,15/15,400–600 (region),within region,Proposed: skeletal deformation,L6,Low,Outside glass zone,378.0
+NAM,Supporting peak,1248.7,1248.7 ± 0.5,290.0,11.0,3.7,16.2,318.0,15/15,—,—,No assignment proposed (possible amide III / CH deformation region; not verified),—,Uncertain,Outside glass zone,245.0
+NAM,Supporting peak,1589.5,1589.5 ± 0.5,263.0,23.0,8.9,14.7,268.0,15/15,—,—,No assignment proposed (unassigned; reproducible),—,Uncertain,Outside glass zone,198.0
+NAM,Uncertain,583.8,583.8 ± 0.6,268.0,44.0,16.3,15.1,241.0,14/15,—,—,Unassigned,—,Uncertain,Outside glass zone,230.0
+NAM,Uncertain,1058.9,1058.9 ± 0.3,285.0,18.0,6.4,15.8,150.0,15/15,—,—,Unassigned (detected in only 31 % of valid spectra),—,Uncertain,Outside glass zone,254.0
+NAM,Uncertain,1155.0,1155.0 ± 0.0,366.0,21.0,5.8,20.4,266.0,15/15,—,—,Unassigned,—,Uncertain,Outside glass zone,318.0
+NAM,Uncertain,1344.9,1344.9 ± 1.3,626.0,107.0,17.1,35.2,609.0,15/15,—,—,Sharp band inside glass zone; intensity confounded by glass (CV 17 %),—,Uncertain,Inside glass zone (1308–1455 cm-1),153.0
+NAM,Uncertain,1392.5,1392.5 ± 0.5,607.0,111.0,18.3,34.1,364.0,15/15,—,—,Sharp band inside glass zone; intensity confounded by glass (CV 18 %),—,Uncertain,Inside glass zone (1308–1455 cm-1),142.0
+NAM,Uncertain,1450.0,1450.0 ± 0.5,499.0,50.0,10.0,27.9,308.0,15/15,1440–1460 (CH2/CH3 def.),≈ 0,Proposed: δ(CH2/CH3); inside glass zone,L7,Uncertain,Inside glass zone (1308–1455 cm-1),343.0

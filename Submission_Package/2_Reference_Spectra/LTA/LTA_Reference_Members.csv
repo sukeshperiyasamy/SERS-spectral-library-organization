@@ -1,0 +1,5 @@
+library_file,original_file,date,spot,power_pct,int_s,acc,SNR
+LTA_Bulk_20260403_P080pct_T45s_A02_S01.csv,4-4-26/LTA/45sec diffrent powrset2/SP_1.csv,2026-04-03 07:05:44,different spot,80,45.0,2,29.4
+LTA_Bulk_20260403_P080pct_T45s_A02_S02.csv,4-4-26/LTA/45sec diffrent powrset2/SP_4.csv,2026-04-03 07:13:42,different spot,80,45.0,2,28.0
+LTA_Bulk_20260403_P090pct_T45s_A02_S01.csv,4-4-26/LTA/45sec diffrent powrset2/SP_2.csv,2026-04-03 07:07:39,different spot,90,45.0,2,27.4
+LTA_Bulk_20260403_P095pct_T45s_A02_S01.csv,4-4-26/LTA/45sec diffrent powrset2/SP_3.csv,2026-04-03 07:11:29,different spot,95,45.0,2,29.3

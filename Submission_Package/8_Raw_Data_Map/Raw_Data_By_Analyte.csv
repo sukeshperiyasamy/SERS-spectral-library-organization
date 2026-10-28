@@ -1,0 +1,41 @@
+﻿Analyte,Folder,Subfolder,Acquisition date (from file headers),Files,Acquisition settings (from file headers),Processed in library: sample spectra,Processed in library: glass blanks
+NAM,10sec-power5-80-2set,(files directly in folder),2026-01-28,17,"5-80 % power, 10 s, acc 2",17,0
+NAM,15sec-power5-80andset2,(files directly in folder),2026-01-28,16,"5-80 % power, 15 s, acc 2",16,0
+NAM,20sec-power5-80and set2,(files directly in folder),2026-01-28,16,"5-80 % power, 20 s, acc 2",16,0
+NAM,25sec-power5-80 and set2,(files directly in folder),2026-01-28,16,"5-80 % power, 25 s, acc 2",16,0
+NAM,5sec-power5-80 and 2set,(files directly in folder),2026-01-28,16,"5-80 % power, 5 s, acc 2",16,0
+NAM,NAM-15secs and power15-75-2sets,(files directly in folder),2026-01-28,17,"5-75 % power, 15 s, acc 2",17,0
+NAM,4-4-26,35sec80power,2026-04-03,6,"80 % power, 35 s, acc 2",6,0
+NAM,4-4-26,40-80 nam,2026-04-03,8,"80 % power, 40 s, acc 2",8,0
+NAM,4-4-26,NAM multispot,2026-04-03,17,"70-80 % power, 30 s, acc 2",17,0
+NAM,4-4-26,diffrent 3sec 80-100,2026-04-03,20,"80-100 % power, 30 s, acc 2",20,0
+NAM,4-4-26,samespot35sec diffrent power,2026-04-03,5,"50-100 % power, 35 s, acc 2",5,0
+NAM,29-05-26,NAM-70p-10s-3acc,2026-05-29,11,"70 % power, 10 s, acc 3",11,0
+NAM,29-05-26,NAM-70p-10s-5ac,2026-05-29,12,"70 % power, 10 s, acc 5",12,0
+NAM,29-05-26,NAM-90p-10s-3ac,2026-05-29,12,"90 % power, 10 s, acc 3",12,0
+NAM,29-05-26,NAM-90p-10s-5ac,2026-05-29,11,"90 % power, 10 s, acc 5",11,0
+NAM,29-05-26,glass slide empty,2026-05-29,44,"5-90 % power, 5-10 s, acc 1/3/5",39,5
+NAM,29-05-26,70p-5ac-10s-diifrentpoint,2026-05-30,10,"70 % power, 10 s, acc 5",10,0
+NAM,29-05-26,70p-5ac-30s-diifrentspot,2026-05-30,3,"70 % power, 30 s, acc 5",3,0
+NAM,29-05-26,70p-60s-5ac-diifrentpoint,2026-05-30,3,"70 % power, 60 s, acc 5",3,0
+NAM,29-05-26,90p-30s-5ac-diifrentpoint,2026-05-30,5,"90 % power, 30 s, acc 5",5,0
+NAM,29-05-26,90p-30s-5acc-samespot,2026-05-30,10,"90 % power, 30 s, acc 5",10,0
+NAM,SERS_Sepsis_Spectral_Library/bulk-lps-24-09-26,60 power,2026-09-24,15,"60 % power, 30 s, acc 5",11,4
+NAM,SERS_Sepsis_Spectral_Library/bulk-lps-24-09-26,lps-diffrent power-70,2026-09-24,11,"70 % power, 30 s, acc 5",8,3
+NAM,SERS_Sepsis_Spectral_Library/bulk-lps-24-09-26,lps-diffrent-80 power,2026-09-24,14,"80 % power, 30 s, acc 5",9,5
+NAM,SERS_Sepsis_Spectral_Library/bulk-lps-24-09-26,lps-diffrent-90-power,2026-09-24,17,"90 % power, 30 s, acc 5",13,4
+LPS,13-4-26,lps,2026-04-13,9,"10-20 % power, 10-60 s, acc 2/5/30/50",9,0
+LPS,14-426,lps,2026-04-13,5,"10-20 % power, 10-30 s, acc 2/50/60",5,0
+LPS,28-9-26-lps-bulk,raw glass slide and 30s-60p-5a,2026-09-27 to 2026-09-28,12,"60 % power, 30 s, acc 5",9,3
+LPS,28-9-26-lps-bulk,30s-70p-5ac,2026-09-28,8,"70 % power, 30 s, acc 5",5,3
+LPS,28-9-26-lps-bulk,30s-80p-5a,2026-09-28,9,"80 % power, 30 s, acc 5",5,4
+LPS,28-9-26-lps-bulk,40-60-5-diffrentposition-,2026-09-28,11,"60 % power, 40 s, acc 5",11,0
+LPS,28-9-26-lps-bulk,blank+short,2026-09-28,6,"60 % power, 5-40 s, acc 1/5",0,5
+LPS,28-9-26-lps-bulk,unwanted,2026-09-28,13,"60-70 % power, 30-40 s, acc 5",7,0
+LTA,4-4-26,"5sec,30,50 power 10 set",2026-04-03,2,"30-50 % power, 5 s, acc 10",2,0
+LTA,4-4-26,LTA,2026-04-03,10,"40-95 % power, 10-45 s, acc 2/10/15",10,0
+LTA (labelled; excluded),9-2-2026,20sec20power-variable location LTA,2026-02-09,12,"20 % power, 20 s, acc 2",0,0
+NAM (sample damaged; excluded),29-05-26,90p-60s-5a-samespot,2026-05-30,5,"90 % power, 60 s, acc 5",0,0
+NAM (sample damaged; excluded),29-05-26,90p-60s-5ac-diffrentspot,2026-05-30,5,"90 % power, 60 s, acc 5",0,0
+LTA,bulk-lta,45sec-80p-2acc-diffrentspot,2026-10-28,36,"80 % power, 45 s, acc 2",28,0
+LTA,bulk-lta,glass blank,2026-10-28,8,"80 % power, 45 s, acc 2",0,8

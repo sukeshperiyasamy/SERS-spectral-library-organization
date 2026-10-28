@@ -56,7 +56,7 @@ These references support later SERS work.
 |---|---|---|
 | NAM | 90 % / 30 s / 5 acc | FINAL (keep; more spots may be added later) |
 | LPS | 60 % / 40 s / 5 acc | ESTABLISHED |
-| LTA | 80 % / 45 s / 2 acc | ESTABLISHED (28 Oct 2026, n = 10); next: about 5 more mid-signal spots (raw max 15,000–50,000) and 3 clean glass blanks; hand-closed dark; first spot ripple ≤ 50 |
+| LTA | 80 % / 30 s / 3 acc (best); v2 from 80 % / 45 s / 2 acc | ESTABLISHED (pending confirmation); pooled reference v2.1 n = 17. New spots at 80/30/3 with a fresh hand-closed dark; check dark median in header (≈1333 @30 s×3, 1443 @40 s×2, 1510 @45 s×2, 1680 @60 s×2); clean glass blanks at 80/30/3 |
 
 ## 5. Processing pipeline v3 (`08_Methodology/code/lib2.py`, `process_v3h`)
 1. Dark-subtracted signal: ds = raw − dark. Recompute it from raw − dark when the software applied smoothing ("Data Pretreat").
@@ -104,6 +104,8 @@ These references support later SERS work.
 
 **LTA — ESTABLISHED (28 Oct 2026, pending confirmation): n = 10 spots at 80 %/45 s/2 acc; mean agrees with the April data (r = 0.947); primary bands 1092 (SNR 29), 539 and 861 cm⁻¹; supporting 419, 629, 723, 798, 1459, 1583, 1751. QC of 28 spots: 10 PASS, 8 REVIEW (ripple 50–58), 3 EXCLUDE, 7 FAIL (5 saturated). The 28 Oct blanks look polystyrene-like and need re-measuring. Report: 09_Reports/LTA_Bulk_Reference_Report_20261028.docx. Sample: Sigma L2515-10MG, S. aureus LTA, lot 0000419622 (same vial as 3 Apr 2026; purity not stated on the supplier product sheet, lot certificate not obtained).**
 
+**LTA full session (bulk-lta, 28 Oct 2026; report v2.0):** 99 LTA spectra at nine settings. 55 have a leaked dark (FLAG-DARK) and are not used in references. Clean-dark pass rate: 80/30/3 7 of 7; 80/45/2 10 of 28; 70/60/2 2 of 8. Pooled reference v2.1 = 10 (80/45/2) + 7 (80/30/3) spots, r 0.996 to v2; primary bands 1092, 539, 862. First 8 blanks are polystyrene-like; blanks at 80/30/3 are clean. Library layout: one subfolder per setting under LTA_Bulk and 02_Processed_Spectra/LTA; Glass_Blank/20261028_LTA_session; index LTA_20261028_File_Index.csv.
+
 **LTA — earlier PRELIMINARY reference (3 Apr 2026, n = 4: 80, 80, 90 and 95 % at 45 s/2 acc)**
 - Primary markers: 802, 861.5, 1092 cm⁻¹ (1092: 1110 ± 98 counts, SNR ≈ 28).
 - Supporting: 1459. Glass-associated: 1367.
@@ -119,7 +121,7 @@ These references support later SERS work.
 - After every reporting change, update `README.txt` (append) and the workbook sheets.
 
 ## 8. Next steps
-1. **LTA re-acquisition: done 28 Oct 2026** (see section 6). Remaining: confirm status, add supplier/lot, re-measure clean glass blanks, optionally 5 more spots, update the main report to v3.4. Original steps for reference:
+1. **LTA re-acquisition: done 28 Oct 2026** (see section 6). Remaining: confirm status, repeat the 30–70 % power series and a same-spot test with a fresh dark at 80/30/3, certificate of analysis for lot 0000419622, update the main report to v3.4. Original steps for reference:
    - Rename the copies and verify their MD5.
    - Run pipeline v3 and QC.
    - Build the reference (Mean ± SD) and marker peaks.

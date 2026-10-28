@@ -108,3 +108,5 @@ The 7 Oct 2026 spectra on etched silicon (`E:\sukesh\10-oct-2026`) are not in th
 ## Added 28 Oct 2026
 
 - `bulk-lta` (LTA, 28 Oct 2026): 36 spot-folder files and 8 blank files at 80 %, 45 s, 2 acc. SP_1 to SP_8 of the spot folder are identical to the blank files; 28 spots and 8 blanks are processed in the library (LTA reference v2).
+
+- `bulk-lta` update (28 Oct 2026): the folder now holds 126 files in 8 subfolders (45sec-80p-2acc-diffrentspot 36, glass blank 8, diifrent 60s-2ac-70p 9, blank glass 11, 30sec-80p-3ac 20, 70power-60power mulispot 20, 30s-80p-3acc 11, 30sec-70p-3 accc 11). 8 files duplicate blanks, so 118 unique files (99 LTA spectra, 19 blanks) are in the library under LTA_Bulk by setting; see SERS_Sepsis_Spectral_Library/01_Raw_Data_Renamed/LTA_Bulk/LTA_20261028_File_Index.csv for the file-by-file map.

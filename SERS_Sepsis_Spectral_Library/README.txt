@@ -117,3 +117,6 @@ The 3 Apr 2026 LTA data are from the same vial as 28 Oct (operator). Purity: no 
 
 --- 28 Oct 2026: LTA report extended with the peak explanation ---
 09_Reports/LTA_Bulk_Reference_Report_20261028.docx: new Section 5 (what each peak says, how the peaks are related, structure map from the supplier description). Figures FigL6-L8 in 04_Figures/LTA_Reference_20261028; code 08_Methodology/code/lt8_peak_figures.py. Sections 6-9 renumbered.
+
+--- 28 Oct 2026: LTA full session added (bulk-lta, 126 files) ---
+118 unique files (8 spot-folder files duplicate blanks) renamed, MD5-verified and filed by setting in 01_Raw_Data_Renamed/LTA_Bulk and Glass_Blank/20261028_LTA_session; processed copies in 02_Processed_Spectra/LTA; file index LTA_20261028_File_Index.csv. 55 of 99 LTA spectra flagged FLAG-DARK (leaked dark). Pooled reference v2.1 (n = 17) in 03_Reference_Spectra/LTA; v2 unchanged. Workbook sheets 43-48, QC log and exclusion log updated, figures FigL1-L13, code lt9-lt13. Report LTA_Bulk_Reference_Report_20261028.docx rebuilt as v2.0.

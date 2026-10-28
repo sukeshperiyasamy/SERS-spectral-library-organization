@@ -1,0 +1,119 @@
+original,category,subfolder,library_file,role,md5,copy_ok
+bulk-lta/glass blank/SP_1.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S01.csv,glass blank,3efce312bb838105b551ae66bd775afa,True
+bulk-lta/glass blank/SP_2.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S02.csv,glass blank,368929834cd87ef70a71c446a1319a4a,True
+bulk-lta/glass blank/SP_3.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S03.csv,glass blank,9266adc245f23977ac8201c0b89a0588,True
+bulk-lta/glass blank/SP_4.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S04.csv,glass blank,c05f91120411f08405757c14c5c3ed3f,True
+bulk-lta/glass blank/SP_5.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S05.csv,glass blank,bdbefa3c53294f425004cba534665ead,True
+bulk-lta/glass blank/SP_6.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S06.csv,glass blank,7f533d7c58f05a7554477ea5d95bd89b,True
+bulk-lta/glass blank/SP_7.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S07.csv,glass blank,d19b127b6096f1740844939d73b597e6,True
+bulk-lta/glass blank/SP_8.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S08.csv,glass blank,249a2f05543957271893e9dea539f31d,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_9.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S09.csv,LTA spot,bd3520621ecb48ad0e7d0bcadb3ec45f,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_10.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S10.csv,LTA spot,be82021cf1dbd656d24fcb49adb64f65,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_11.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S11.csv,LTA spot,82b49a419a590a74b3349e2425c656a0,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_12.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S12.csv,LTA spot,279ff0b6a49ade22a9dd7c44917e9fc6,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_13.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S13.csv,LTA spot,37d0980cb8af888d93f70b5e5ab3711c,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_14.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S14.csv,LTA spot,2166a4a9ba89d179544fe37addd4c8b1,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_15.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S15.csv,LTA spot,bba8e27c5cd522e386fa9acd91a896e5,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_16.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S16.csv,LTA spot,9bfd69bc7554a936411b97506452334f,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_17.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S17.csv,LTA spot,83775a7a0551b2de666d3f02f483ad58,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_18.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S18.csv,LTA spot,023bbd58cc32e26f2ad7de733ac693eb,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_19.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S19.csv,LTA spot,b57c795fd1b1aef9ea4d78fbcc881bbe,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_20.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S20.csv,LTA spot,9c97b9cc7a260ac94fa148ac387ae255,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_21.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S21.csv,LTA spot,11d16839bc2686f187759bcbb618166e,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_22.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S22.csv,LTA spot,5fd5cfa8c870320c80d3c2ebbed92f9e,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_23.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S23.csv,LTA spot,d50f5402ed3f8ae71c556b8e8164ce8c,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_24.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S24.csv,LTA spot,25de733e7f2994c677d94076da972ef6,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_25.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S25.csv,LTA spot,3695df920ef220d4c0c86fed44f10137,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_26.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S26.csv,LTA spot,070e346ec7b3ed96b75b0ec62b6ef18c,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_27.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S27.csv,LTA spot,2c5dc1c563fe1a8e4a25003a3f11814f,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_28.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S28.csv,LTA spot,95cf164d7baaf3f89a69b751ea01fc72,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_29.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S29.csv,LTA spot,4f6010f7b7e108fd7e242cee430be760,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_30.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S30.csv,LTA spot,b77b93eccd4e48376102b23c75fb88d6,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_31.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S31.csv,LTA spot,bfba6ddeb2473413c5d6d6c8229f0855,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_32.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S32.csv,LTA spot,20f819f7a0d21dd7e79e78adb4071631,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_33.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S33.csv,LTA spot,90ff08ed4b1808d959acdee7cbd4a6e4,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_34.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S34.csv,LTA spot,22514c90c27015f4768cd87a609ed6fd,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_35.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S35.csv,LTA spot,1ee6dd481e1c0a73a6e17734ab9f6395,True
+bulk-lta/45sec-80p-2acc-diffrentspot/SP_36.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S36.csv,LTA spot,19164ee2d6f46afcd07d9ca4caea534a,True
+bulk-lta/diifrent 60s-2ac-70p/SP_1.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P050pct_T40s_A02_S01.csv,LTA spot,2d3713d187d11ba5d0bfdbb71efc7ed9,True
+bulk-lta/diifrent 60s-2ac-70p/SP_2.csv,LTA_Bulk,2026-10-28_70pct_60s_2acc,LTA_Bulk_20261028_P070pct_T60s_A02_S01.csv,LTA spot,cb5a6f723c7c9d4448d4b40988e9c73a,True
+bulk-lta/diifrent 60s-2ac-70p/SP_3.csv,LTA_Bulk,2026-10-28_70pct_60s_2acc,LTA_Bulk_20261028_P070pct_T60s_A02_S02.csv,LTA spot,cdcb73666e6edb97fc95217477e30942,True
+bulk-lta/diifrent 60s-2ac-70p/SP_4.csv,LTA_Bulk,2026-10-28_70pct_60s_2acc,LTA_Bulk_20261028_P070pct_T60s_A02_S03.csv,LTA spot,262a70e898e431c0d93bc10b89049f0f,True
+bulk-lta/diifrent 60s-2ac-70p/SP_5.csv,LTA_Bulk,2026-10-28_70pct_60s_2acc,LTA_Bulk_20261028_P070pct_T60s_A02_S04.csv,LTA spot,5a097eacb58ebb2d62b0396f42879e81,True
+bulk-lta/diifrent 60s-2ac-70p/SP_6.csv,LTA_Bulk,2026-10-28_70pct_60s_2acc,LTA_Bulk_20261028_P070pct_T60s_A02_S05.csv,LTA spot,186e83b8619b92469bca346b884fe348,True
+bulk-lta/diifrent 60s-2ac-70p/SP_7.csv,LTA_Bulk,2026-10-28_70pct_60s_2acc,LTA_Bulk_20261028_P070pct_T60s_A02_S06.csv,LTA spot,ee77fa7e6a9f1d41eca253a478ba72ab,True
+bulk-lta/diifrent 60s-2ac-70p/SP_8.csv,LTA_Bulk,2026-10-28_70pct_60s_2acc,LTA_Bulk_20261028_P070pct_T60s_A02_S07.csv,LTA spot,5147329d9ee4c5dbc516015dcb3861e1,True
+bulk-lta/diifrent 60s-2ac-70p/SP_9.csv,LTA_Bulk,2026-10-28_70pct_60s_2acc,LTA_Bulk_20261028_P070pct_T60s_A02_S08.csv,LTA spot,c556baf6bac28137df071ba76e3213bc,True
+bulk-lta/blank glass/SP_10.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P070pct_T60s_A02_S01.csv,glass blank,093ba16afca97101c5eb334321c94fac,True
+bulk-lta/blank glass/SP_11.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P070pct_T60s_A02_S02.csv,glass blank,db3f53bdb9abb81826ecb636a0213e0b,True
+bulk-lta/blank glass/SP_12.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S09.csv,glass blank,ba1f7d4d6ed95a96358c9b248a56c416,True
+bulk-lta/blank glass/SP_13.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S10.csv,glass blank,26a3982ce1ceecc1215ab7414e33cc4d,True
+bulk-lta/blank glass/SP_14.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S11.csv,glass blank,6643e6b365a525539985befa8f63872d,True
+bulk-lta/blank glass/SP_15.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S12.csv,glass blank,abfe20a4e570df5b2e12aaf3bf773ef9,True
+bulk-lta/blank glass/SP_16.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T45s_A02_S13.csv,glass blank,133e2ae94c73a29d41d2df52a7a0bd31,True
+bulk-lta/blank glass/SP_17.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T30s_A03_S01.csv,glass blank,cac021c7bff9e3f38f218505411c7c20,True
+bulk-lta/blank glass/SP_18.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T30s_A03_S02.csv,glass blank,80c4bb02c614dcce2f1d5ee21a8538d5,True
+bulk-lta/blank glass/SP_19.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T30s_A03_S03.csv,glass blank,8d5a81088b53c2f335de3d6a211a82a3,True
+bulk-lta/blank glass/SP_20.csv,Glass_Blank,20261028_LTA_session,Glass_Blank_20261028_P080pct_T30s_A03_S04.csv,glass blank,f5d4f7f9f1169bbd05435581e787744c,True
+bulk-lta/30sec-80p-3ac/SP_21.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S01.csv,LTA spot,0619b17cdd1377135c80b3b4d01b0ad7,True
+bulk-lta/30sec-80p-3ac/SP_22.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S02.csv,LTA spot,ae3746c1046e9d70eb4d96cf6705acc8,True
+bulk-lta/30sec-80p-3ac/SP_23.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S03.csv,LTA spot,b27f65c0f31418daea2b17768b1b2196,True
+bulk-lta/30sec-80p-3ac/SP_24.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S04.csv,LTA spot,44b4a068c90f1583cc0e8917246fd750,True
+bulk-lta/30sec-80p-3ac/SP_25.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S05.csv,LTA spot,0adbb88c57979fbdef4ea102e52400a9,True
+bulk-lta/30sec-80p-3ac/SP_26.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S06.csv,LTA spot,c39de8a2b0d36959f43fd63b6a20f3f4,True
+bulk-lta/30sec-80p-3ac/SP_27.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S07.csv,LTA spot,66beefd12b869b99e0c735c1c13aa13f,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_28.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S13_samespot.csv,same-spot repeat scan (not independent),ddd882691f23fa463cca0a51046a8e48,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_29.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S14_samespot.csv,same-spot repeat scan (not independent),3741cb180653720a3696d3a5269fb255,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_30.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S15_samespot.csv,same-spot repeat scan (not independent),01afbe97c1ff0737034a801955a7a726,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_31.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S16_samespot.csv,same-spot repeat scan (not independent),ba458b74f935ab975e5449b15cf627c1,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_32.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S17_samespot.csv,same-spot repeat scan (not independent),a983bc69cb34ad138c3c3746caf750f4,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_33.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S18_samespot.csv,same-spot repeat scan (not independent),4380ad78bd9b9ed22fbe5255fb7657f6,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_34.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S19_samespot.csv,same-spot repeat scan (not independent),04af7b1cb7ca1f471da889ea218120db,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_35.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S37_samespot.csv,same-spot repeat scan (not independent),0d828fe86f8d817ee6d2b572b652c12f,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_36.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S38_samespot.csv,same-spot repeat scan (not independent),b10f1dfe3ba84564decfb83f071d8de3,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_37.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S39_samespot.csv,same-spot repeat scan (not independent),eac5df242d7b4ee5b6baf49b16723c7c,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_38.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S40_samespot.csv,same-spot repeat scan (not independent),5befaf4d8d53d7a77d28700b63af7f3c,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_39.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S41_samespot.csv,same-spot repeat scan (not independent),246b38da7524c7c70a92f546272b47df,True
+bulk-lta/30sec-80p-3ac/same-spot-test/SP_40.csv,LTA_Bulk,2026-10-28_80pct_45s_2acc,LTA_Bulk_20261028_P080pct_T45s_A02_S42_samespot.csv,same-spot repeat scan (not independent),d8d49494d77adf7e2053501fe6cee1c1,True
+bulk-lta/70power-60power mulispot/SP_41.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P070pct_T45s_A02_S01.csv,LTA spot,5f8ad88af28322b45e6e0c6bfa0f5a58,True
+bulk-lta/70power-60power mulispot/SP_42.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P070pct_T45s_A02_S02.csv,LTA spot,b0a9b6263a7b0840c19454bc009b2367,True
+bulk-lta/70power-60power mulispot/SP_43.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P070pct_T45s_A02_S03.csv,LTA spot,4787517e6e2f0826a62aea7f69807941,True
+bulk-lta/70power-60power mulispot/SP_44.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P070pct_T45s_A02_S04.csv,LTA spot,1236736669503a24953cc0245ad9dcc5,True
+bulk-lta/70power-60power mulispot/SP_45.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P060pct_T45s_A02_S01.csv,LTA spot,af3d6aa0740fddbe3a14afd342dbfd51,True
+bulk-lta/70power-60power mulispot/SP_46.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P060pct_T45s_A02_S02.csv,LTA spot,7218ec1875fabf17fa547e0824b403d0,True
+bulk-lta/70power-60power mulispot/SP_47.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P060pct_T45s_A02_S03.csv,LTA spot,db30afe26fcbfad90719c679aa037cc1,True
+bulk-lta/70power-60power mulispot/SP_48.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P060pct_T45s_A02_S04.csv,LTA spot,39be81d525ebef04169048f3ea5e70e5,True
+bulk-lta/70power-60power mulispot/SP_49.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P060pct_T45s_A02_S05.csv,LTA spot,0c5786d1e3015c52409c164e15d06666,True
+bulk-lta/70power-60power mulispot/SP_50.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P050pct_T45s_A02_S01.csv,LTA spot,53abcb2888e4c6ad9866df714b1a323d,True
+bulk-lta/70power-60power mulispot/SP_51.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P050pct_T45s_A02_S02.csv,LTA spot,7aee87d74b2d8105b29356d69e3c6d35,True
+bulk-lta/70power-60power mulispot/SP_52.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P050pct_T45s_A02_S03.csv,LTA spot,46c571f3141af56625b0443e69d216fa,True
+bulk-lta/70power-60power mulispot/SP_53.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P040pct_T45s_A02_S01.csv,LTA spot,6768c35c162917d5eacff4bc7d0cda0c,True
+bulk-lta/70power-60power mulispot/SP_54.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P040pct_T45s_A02_S02.csv,LTA spot,e9219b7875fab407bfd3354b7fbd28fe,True
+bulk-lta/70power-60power mulispot/SP_55.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P040pct_T45s_A02_S03.csv,LTA spot,afc0ab94a47fe1d89c7b5b4301a52fb5,True
+bulk-lta/70power-60power mulispot/SP_56.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P040pct_T45s_A02_S04.csv,LTA spot,fac36bed366750b5a77a893646f3ca65,True
+bulk-lta/70power-60power mulispot/SP_57.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P040pct_T45s_A02_S05.csv,LTA spot,10db36d3e5adf297021e950535028256,True
+bulk-lta/70power-60power mulispot/SP_58.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P030pct_T45s_A02_S01.csv,LTA spot,39ac3ae59e9c2e29c8f5c6fa8587ebb2,True
+bulk-lta/70power-60power mulispot/SP_59.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P030pct_T45s_A02_S02.csv,LTA spot,19b0b15adbfe1f2677cb9f04f0cd237f,True
+bulk-lta/70power-60power mulispot/SP_60.csv,LTA_Bulk,2026-10-28_power_series_45s_2acc,LTA_Bulk_20261028_P030pct_T45s_A02_S03.csv,LTA spot,49713a63e567a906cc19a6ba8d04977a,True
+bulk-lta/30s-80p-3acc/SP_61.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S08.csv,LTA spot,2c5aed77bc22881104a5916e14fe39a5,True
+bulk-lta/30s-80p-3acc/SP_62.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S09.csv,LTA spot,2ef9fca360141c4268ba2e9414660486,True
+bulk-lta/30s-80p-3acc/SP_63.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S10.csv,LTA spot,169ea7db6c07f27d62e2416b2d57147b,True
+bulk-lta/30s-80p-3acc/SP_64.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S11.csv,LTA spot,769eadb6dfa90204645409a3e4569caf,True
+bulk-lta/30s-80p-3acc/SP_65.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S12.csv,LTA spot,9dca3e59343bd91901708b53130cefa5,True
+bulk-lta/30s-80p-3acc/same spot 30s-80p-3acc/SP_66.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S20_samespot.csv,same-spot repeat scan (not independent),ef3ae148db14b9419c041760bff08001,True
+bulk-lta/30s-80p-3acc/same spot 30s-80p-3acc/SP_67.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S21_samespot.csv,same-spot repeat scan (not independent),01199603222a0b269a98a7030a748717,True
+bulk-lta/30s-80p-3acc/same spot 30s-80p-3acc/SP_68.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S22_samespot.csv,same-spot repeat scan (not independent),0319fd8bb8e7a20574e82e86ab1bad55,True
+bulk-lta/30s-80p-3acc/same spot 30s-80p-3acc/SP_69.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S23_samespot.csv,same-spot repeat scan (not independent),5890171ffe7f79f306ad0f24be7cf815,True
+bulk-lta/30s-80p-3acc/same spot 30s-80p-3acc/SP_70.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S24_samespot.csv,same-spot repeat scan (not independent),9fe875fc3c39a4d00f642be990249924,True
+bulk-lta/30s-80p-3acc/same spot 30s-80p-3acc/SP_71.csv,LTA_Bulk,2026-10-28_80pct_30s_3acc,LTA_Bulk_20261028_P080pct_T30s_A03_S25_samespot.csv,same-spot repeat scan (not independent),06a758559ff74c17972487e21f7312f0,True
+bulk-lta/30sec-70p-3 accc/SP_72.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S01.csv,LTA spot,9d73a260d306ba690c2b2d32ab3568f1,True
+bulk-lta/30sec-70p-3 accc/SP_73.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S02.csv,LTA spot,0b0dd7d0c578f01460c01514060e6e81,True
+bulk-lta/30sec-70p-3 accc/SP_74.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S03.csv,LTA spot,e7a704d299fdc8c7a86828483c939479,True
+bulk-lta/30sec-70p-3 accc/SP_75.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S04.csv,LTA spot,b3ee34dd08cb62319f6c402de2c45b2e,True
+bulk-lta/30sec-70p-3 accc/SP_76.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S05.csv,LTA spot,26b4229051c856dfa2d905b7def06b5c,True
+bulk-lta/30sec-70p-3 accc/samespot/SP_77.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S06_samespot.csv,same-spot repeat scan (not independent),a971c1d0cc2da21514f0aab89da4cd9d,True
+bulk-lta/30sec-70p-3 accc/samespot/SP_78.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S07_samespot.csv,same-spot repeat scan (not independent),58bc4cb31082472a6f9667ad1142d92f,True
+bulk-lta/30sec-70p-3 accc/samespot/SP_79.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S08_samespot.csv,same-spot repeat scan (not independent),84fc8d83abd348efbd911da4b96888aa,True
+bulk-lta/30sec-70p-3 accc/samespot/SP_80.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S09_samespot.csv,same-spot repeat scan (not independent),b429fc2ee403e9b5538998a1c76973c1,True
+bulk-lta/30sec-70p-3 accc/samespot/SP_81.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S10_samespot.csv,same-spot repeat scan (not independent),d2543c131f3ae0a7b999dd40bd2fc7bc,True
+bulk-lta/30sec-70p-3 accc/samespot/SP_82.csv,LTA_Bulk,2026-10-28_70pct_30s_3acc,LTA_Bulk_20261028_P070pct_T30s_A03_S11_samespot.csv,same-spot repeat scan (not independent),538190ffb72ed243d2b7f7795fd7471e,True

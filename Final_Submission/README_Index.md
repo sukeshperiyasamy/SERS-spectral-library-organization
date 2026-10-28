@@ -1,6 +1,6 @@
 # Final submission: Raman spectra and molecular simulation of NAM, LTA and LPS
 
-Bulk (neat powder) Raman spectra measured on glass slides with a 785 nm instrument, and calculated Raman spectra of molecular models, for N-acetylmuramic acid (NAM), lipoteichoic acid (LTA) and lipopolysaccharide (LPS). Laser power is given as a percentage of the instrument maximum.
+Bulk pure biomarker Raman spectra measured with a 785 nm instrument, and calculated Raman spectra of molecular models, for N-acetylmuramic acid (NAM), lipoteichoic acid (LTA) and lipopolysaccharide (LPS). Laser power is given as a percentage of the instrument maximum.
 
 ## Reports (nine Word documents)
 

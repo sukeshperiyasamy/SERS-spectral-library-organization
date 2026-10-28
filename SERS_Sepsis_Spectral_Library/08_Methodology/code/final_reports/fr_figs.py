@@ -56,11 +56,11 @@ def bulk_glass(m):
         fig,a2=plt.subplots(1,1,figsize=(9,3.6))
     else:
         fig,(a1,a2)=plt.subplots(2,1,figsize=(9,5.6),sharex=True)
-        a1.plot(D.X,cnt,color=c,lw=1.6,label=f'{short} on glass slide (mean)'); a1.plot(D.X,bc,color='#555',lw=1.4,label='clean glass slide, same settings')
-        a1.axvspan(*D.GLASS,color='#d0d0d0',alpha=.5,lw=0); a1.set_ylabel('Signal (counts)'); a1.legend(frameon=False,fontsize=8,loc='upper right'); a1.set_title('Sample on glass compared with the glass slide alone, same instrument settings',loc='left',fontweight='bold',fontsize=10)
-    a2.plot(D.X,mean,color=c,lw=1.6,label='sample (normalised)'); a2.plot(D.X,bn,color='#555',lw=1.2,label='glass slide alone (normalised to its own maximum)')
+        a1.plot(D.X,cnt,color=c,lw=1.6,label=f'bulk {short} (mean)'); a1.plot(D.X,bc,color='#555',lw=1.4,label='glass blank, same settings')
+        a1.axvspan(*D.GLASS,color='#d0d0d0',alpha=.5,lw=0); a1.set_ylabel('Signal (counts)'); a1.legend(frameon=False,fontsize=8,loc='upper right'); a1.set_title('Bulk sample compared with the glass blank, same instrument settings',loc='left',fontweight='bold',fontsize=10)
+    a2.plot(D.X,mean,color=c,lw=1.6,label='sample (normalised)'); a2.plot(D.X,bn,color='#555',lw=1.2,label='glass blank (normalised to its own maximum)')
     a2.axvspan(*D.GLASS,color='#d0d0d0',alpha=.5,lw=0); a2.set_xlim(400,1800); a2.set_ylim(0,1.1); a2.set_ylabel('Normalised intensity'); a2.set_xlabel('Raman shift (cm$^{-1}$)'); a2.legend(frameon=False,fontsize=8,loc='upper left')
-    if m=='NAM': a2.set_title('Sample on glass compared with the glass slide alone',loc='left',fontweight='bold',fontsize=10)
+    if m=='NAM': a2.set_title('Bulk sample compared with the glass blank',loc='left',fontweight='bold',fontsize=10)
     for p in pk: a2.axvline(p,color=c,ls=':',lw=.8,alpha=.7)
     return save(fig,f'{m}_bulk_glass.png')
 def bulk_select(m):
@@ -149,7 +149,7 @@ def cmp_zoom(m,res,wins):
     fig.suptitle('Close-ups: experiment (upper curve) and calculation (lower curve), each scaled to its tallest peak in the window',x=0.01,ha='left',fontweight='bold',fontsize=10); fig.tight_layout(); return save(fig,f'{m}_cmp_zoom.png')
 def cmp_glass(m,res):
     mean,sd,cnt=D.exp_ref(m); bn,bc,nb=D.blank_mean(m); y=D.calc_curve(m); c=D.COL[m]
-    fig,ax=plt.subplots(figsize=(9.2,4.6)); ax.plot(D.X,mean+2.3,color=c,lw=1.6,label='sample on glass (measured)'); ax.plot(D.X,bn+1.15,color='#555',lw=1.4,label='glass slide alone (measured)'); ax.plot(D.X,y,color=D.CALC,lw=1.5,label='calculated spectrum of the molecule')
+    fig,ax=plt.subplots(figsize=(9.2,4.6)); ax.plot(D.X,mean+2.3,color=c,lw=1.6,label='bulk sample (measured)'); ax.plot(D.X,bn+1.15,color='#555',lw=1.4,label='glass blank (measured)'); ax.plot(D.X,y,color=D.CALC,lw=1.5,label='calculated spectrum of the molecule')
     ax.axvspan(*D.GLASS,color='#d0d0d0',alpha=.5,lw=0)
     for r in res: ax.axvline(r['exp'],color=ST[r['status']],ls=':',lw=.9,alpha=.8)
     ax.set_xlim(400,1800); ax.set_ylim(0,3.6); ax.set_yticks([]); ax.set_xlabel('Raman shift (cm$^{-1}$)'); ax.set_ylabel('Normalised intensity (curves offset)')

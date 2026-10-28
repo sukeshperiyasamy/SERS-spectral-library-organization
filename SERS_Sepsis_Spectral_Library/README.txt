@@ -123,3 +123,6 @@ The 3 Apr 2026 LTA data are from the same vial as 28 Oct (operator). Purity: no 
 
 --- 28 Oct 2026: first 8 LTA-session blanks removed from the library ---
 Library copies (raw and processed) of blanks S01-S08 (80 %, 45 s, 2 acc, polystyrene-like) moved to _to_delete/LTA_first8_polystyrene_blanks_20261028 at the operator's request. Exclusion-log entries stay as the record. Originals in bulk-lta unchanged. Glass_Blank/20261028_LTA_session now holds 11 clean or saturated glass blanks.
+
+--- 28 Oct 2026: LTA report and Figure L13 rewritten without the first 8 blanks ---
+Report v2.0 and FigL13 now describe only the 11 glass blanks; the polystyrene-like blanks are no longer mentioned (they are in _to_delete).

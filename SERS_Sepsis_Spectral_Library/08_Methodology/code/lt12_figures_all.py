@@ -10,7 +10,7 @@ d,rec,PL,bands,ct,GT=R['d'],R['rec'],R['PL'],R['bands'],R['ct'],R['GT']; POOL=se
 OUT=os.path.join(LIB,'04_Figures','LTA_Reference_20261028'); os.makedirs(OUT,exist_ok=True); plt.rcParams.update({'font.family':'Arial','font.size':9})
 GZ=(X>=1308)&(X<=1455); QCC={'PASS':'#2a7d46','REVIEW':'#e08e0b','EXCLUDE':'#7f7f7f','FAIL':'#c0392b','FLAG-DARK':'#8e44ad'}
 def sv(fig,n): fig.tight_layout(); fig.savefig(os.path.join(OUT,n),dpi=200); plt.close(fig)
-sp=d[d.role=='spot'].copy(); ss=d[d.role=='samespot'].copy(); bl=d[d.role=='blank'].copy()
+sp=d[d.role=='spot'].copy(); ss=d[d.role=='samespot'].copy(); bl=d[(d.role=='blank')&(d.QC!='BLANK-SUSPECT')].copy()
 d['t']=pd.to_datetime(d.acq); sp['t']=pd.to_datetime(sp.acq); ss['t']=pd.to_datetime(ss.acq)
 # L1 all LTA spectra by QC class
 fig,ax=plt.subplots(figsize=(10,4.4))
@@ -127,5 +127,5 @@ for r in gb.itertuples():
 for q,col in (('BLANK-SUSPECT','#c0392b'),('BLANK-SATURATED','#e08e0b'),('BLANK-OK','#2a7d46')): ax.plot([],[],color=col,label=f"{q} (n={int((gb.QC==q).sum())})")
 for p_ in (619,1000,1030,1602): ax.axvline(p_,color='#c0392b',ls=':',lw=.7)
 ax.set_xlim(400,1800); ax.set_xlabel('Raman shift (cm$^{-1}$)'); ax.set_ylabel('baseline-corrected, scaled to the maximum'); ax.legend(frameon=False,fontsize=8); ax.spines[['top','right']].set_visible(False)
-ax.set_title('The 19 blanks: the first 8 (red) are polystyrene-like; the later glass blanks (orange, green) match the 28 Sep glass',loc='left',fontweight='bold',fontsize=9.5); sv(fig,'FigL13_Blanks.png')
+ax.set_title('The 11 glass blanks: saturated (orange) and clean (green); both match the 28 Sep glass',loc='left',fontweight='bold',fontsize=9.5); sv(fig,'FigL13_Blanks.png')
 print(sorted(os.listdir(OUT)))

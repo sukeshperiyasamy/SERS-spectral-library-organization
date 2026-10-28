@@ -129,3 +129,6 @@ Report v2.0 and FigL13 now describe only the 11 glass blanks; the polystyrene-li
 
 --- 28 Oct 2026: Submission_Package created ---
 Submission_Package/ (repo root) holds copies of the reports, reference spectra, figures, tables, QC logs, methodology and SERS results with README_Contents.md. It is a copy; the library folders remain the source.
+
+--- 28 Oct 2026: LPS whole-molecule lipid A model added to the comparison and reports ---
+lps output simulation (shortened Kdo2-lipid A, 201 atoms, Gaussian 16W, PM6 then B3LYP/3-21G) copied to 08_Methodology/simulation/LPS_LipidA_Model_20261028. Compared with the LPS reference (all 5 bands within 2.4 cm-1; not above chance, p = 0.47-0.66; shape r = -0.01; fragments 4 of 5 within 5 cm-1, r = 0.14). DFT comparison (v1.2), Simulation methods (v1.1) and LPS findings (v1.1) rewritten; originals in _backup_before_lipidA. Results 05_Tables/LipidA_vs_LPS_results.json; figures 04_Figures/LipidA_Model_20261028; code lipidA_compare.py, lipidA_figures.py, update_docs_lipidA.py. Copied to Submission_Package.

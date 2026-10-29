@@ -29,25 +29,31 @@ real=cnt(0); dec=np.array([cnt(rng.uniform(15,70)*rng.choice([-1,1])) for _ in r
 ST=G.ST
 OUTF=S+r"\lps_figs"; os.makedirs(OUTF,exist_ok=True)
 def save(fig,n): p_=os.path.join(OUTF,n); fig.savefig(p_,dpi=200,bbox_inches='tight'); plt.close(fig); return p_
-# --- fig 1 SERS spectrum
+# --- helper: put each mark on its own curve (snapped to the apex of that curve near the stated position)
+def apex(y,pos,w=6):
+    i0=int(round(pos-400)); lo=max(i0-w,0); hi=min(i0+w+1,len(y)); j=lo+int(np.argmax(y[lo:hi])); return X[j],y[j]
+def mark(ax,y,pos,col,dy=0.04,txt=None,snap=True):
+    x,yy=apex(y,pos) if snap else (pos,y[int(round(pos-400))])
+    ax.plot([x],[yy],'o',color=col,ms=3.5,zorder=5); ax.text(x,yy+dy,txt or f'{x:.0f}',ha='center',va='bottom',fontsize=8,color=col,rotation=90)
+# --- fig 1 SERS spectrum (LPS only)
 fig,ax=plt.subplots(figsize=(9,3.9)); c=D.COL['LPS']
-ax.fill_between(X,mean-sd,mean+sd,color=c,alpha=.22,lw=0); ax.plot(X,mean,color=c,lw=1.6,label=f'LPS spots carrying the band set (n={len(carry)}), mean ± 1 SD'); ax.plot(X,blank,color='#555',lw=1,label='substrate blank (n=5)')
-ax.set_xlim(400,1800); ax.set_ylim(-0.1,0.5); ax.axvspan(480,560,color='#d0d0d0',alpha=.5,lw=0); ax.text(520,0.47,'silicon peak\n(518, off scale)',ha='center',va='top',fontsize=7.5,color='#444')
-for r in res: ax.text(r['exp'],max(mean[int(r['exp']-400)]+sd[int(r['exp']-400)],0)+0.012,f"{r['exp']:.0f}",ha='center',fontsize=8,color=c)
+ax.fill_between(X,mean-sd,mean+sd,color=c,alpha=.22,lw=0); ax.plot(X,mean,color=c,lw=1.6,label=f'LPS spots carrying the band set (n={len(carry)}), mean ± 1 SD')
+ax.set_xlim(400,1800); ax.set_ylim(-0.1,0.6); ax.axvspan(480,560,color='#d0d0d0',alpha=.5,lw=0); ax.text(520,0.57,'silicon peak'+chr(10)+'(518, off scale)',ha='center',va='top',fontsize=7.5,color='#444')
+for r in res: mark(ax,mean+0*sd,r['exp'],c,dy=0.06)
 ax.set_xlabel('Raman shift (cm$^{-1}$)'); ax.set_ylabel('Signal / silicon peak height'); ax.legend(frameon=False,fontsize=8,loc='upper right')
 ax.set_title('SERS spectrum of LPS on etched silicon: the reproducible band set',loc='left',fontweight='bold',fontsize=10); f1=save(fig,'L1.png')
-# --- fig 2 three panels
-fig,(a0,a1,a2)=plt.subplots(3,1,figsize=(9.2,7.6),sharex=True,gridspec_kw=dict(hspace=.12))
-a0.plot(X,bulk,color='#7a7a7a',lw=1.4); a0.axvspan(*D.GLASS,color='#d0d0d0',alpha=.5,lw=0); a0.set_ylabel('Bulk LPS\n(normalised)'); a0.set_ylim(0,1.25)
-for p_,_ in D.peaks('LPS'): a0.axvline(p_,color='#7a7a7a',ls=':',lw=.9); a0.text(p_,1.02,f'{p_:.0f}',ha='center',fontsize=7.5,color='#555')
-a0.set_title('Bulk LPS (top), SERS of LPS (middle) and calculated lipid A model (bottom)',loc='left',fontweight='bold',fontsize=10)
-m=mean.copy(); a1.fill_between(X,np.clip(m-sd,-1,None)/0.35,(m+sd)/0.35,color=c,alpha=.22,lw=0); a1.plot(X,m/0.35,color=c,lw=1.5); a1.axvspan(480,560,color='#d0d0d0',alpha=.5,lw=0); a1.set_ylim(-0.25,1.25); a1.set_ylabel('SERS\n(scaled)')
-a2.plot(X,calc,color=D.CALC,lw=1.4); a2.set_ylim(0,1.25); a2.set_ylabel('Calculation\n(normalised)'); a2.set_xlim(400,1800); a2.set_xlabel('Raman shift (cm$^{-1}$)'); a2.axvspan(*D.GLASS,color='#d0d0d0',alpha=.5,lw=0)
+# --- fig 2 three panels: each panel marks only its own peaks
+fig,(a0,a1,a2)=plt.subplots(3,1,figsize=(9.2,8.2),sharex=True,gridspec_kw=dict(hspace=.16))
+a0.plot(X,bulk,color='#7a7a7a',lw=1.4); a0.axvspan(*D.GLASS,color='#d0d0d0',alpha=.5,lw=0); a0.set_ylabel('Bulk LPS'+chr(10)+'(normalised)'); a0.set_ylim(0,1.55)
+for p_,_ in D.peaks('LPS'): mark(a0,bulk,p_,'#555',dy=0.05)
+a0.set_title('Bulk LPS (top), SERS of LPS (middle) and calculated lipid A model (bottom): each curve marked with its own peaks',loc='left',fontweight='bold',fontsize=9.5)
+ys=mean/0.35; a1.fill_between(X,np.clip((mean-sd)/0.35,-1,None),(mean+sd)/0.35,color=c,alpha=.22,lw=0); a1.plot(X,ys,color=c,lw=1.5); a1.axvspan(480,560,color='#d0d0d0',alpha=.5,lw=0); a1.set_ylim(-0.25,1.7); a1.set_ylabel('SERS'+chr(10)+'(scaled)')
+for r in res: mark(a1,ys,r['exp'],c,dy=0.06)
+a2.plot(X,calc,color=D.CALC,lw=1.4); a2.set_ylim(0,1.55); a2.set_ylabel('Calculation'+chr(10)+'(normalised)'); a2.set_xlim(400,1800); a2.set_xlabel('Raman shift (cm$^{-1}$)'); a2.axvspan(*D.GLASS,color='#d0d0d0',alpha=.5,lw=0)
 for r in res:
-    col=ST[r['status']]; a1.axvline(r['exp'],color=col,ls='--',lw=1); a1.text(r['exp'],1.0,f"{r['exp']:.0f}",rotation=90,ha='right',va='bottom',fontsize=7.5,color=col,bbox=dict(fc='white',ec='none',pad=.4,alpha=.7))
-    if r['calc'] is not None: a2.axvline(r['calc'],color=col,ls='--',lw=1); a2.text(r['calc'],1.0,f"{r['calc']:.0f}",rotation=90,ha='right',va='bottom',fontsize=7.5,color=col,bbox=dict(fc='white',ec='none',pad=.4,alpha=.7))
-a1.legend(handles=[Line2D([0],[0],color=ST[s],ls='--',label={'agrees':'agrees (within 10 cm$^{-1}$)','shifted':'shifted (10 to 50 cm$^{-1}$)','none':'no counterpart'}[s]) for s in ST if any(r['status']==s for r in res)],frameon=False,fontsize=7.5,loc='upper right')
+    if r['calc'] is not None: mark(a2,calc,r['calc'],'#9a5b00',dy=0.05,snap=False)
 f2=save(fig,'L2.png')
+
 # --- fig 3 zooms
 wins=[(590,660),(840,920),(960,1060),(1200,1280),(1300,1400),(1420,1500),(1510,1620)]
 fig,axs=plt.subplots(3,3,figsize=(10.4,8.6)); axs=axs.ravel()

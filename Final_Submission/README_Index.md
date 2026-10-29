@@ -32,3 +32,9 @@ Bulk pure biomarker Raman spectra measured with a 785 nm instrument, and calcula
 | Folder | Document | Contents |
 |---|---|---|
 | 07_SERS_Report | SERS_Spectra_NAM_LPS_LTA_Report.docx | Surface-enhanced Raman spectra of NAM, LPS and LTA on etched silicon from the most recent session: what was measured, detection tests against the blank and chance, the reproducible LPS band set, and next steps |
+
+## LPS: SERS compared with the simulation
+
+| Folder | Document | Contents |
+|---|---|---|
+| 08_LPS_SERS_vs_Simulation | LPS_SERS_vs_Simulation_Comparison.docx | The ten reproducible SERS bands of LPS compared with the calculated lipid A spectrum and the bulk LPS spectrum, with matched and shifted bands marked, chance test and structure assignment |

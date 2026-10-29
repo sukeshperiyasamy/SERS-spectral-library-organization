@@ -11,19 +11,24 @@ blank=np.mean([s['corr']/s['si'] for s in spec if s['group']=='blank'],0)
 sim=D.sim('LPS'); calc=D.calc_curve('LPS'); bulk,_,_=D.exp_ref('LPS')
 # expected vibration families for SERS bands (published SERS assignments of LPS); None = not assigned
 EXP={619:None,785:None,878:None,1009:(('CC','HB'),'C-H bending / sugar C-O-C (published bands at 988 and 1003)'),1238:None,1330:(('HB',),'C-H deformation (published bands at 1330 and 1333)'),1368:None,1455:(('HB',),'CH2 / CH3 deformation (published band at 1450)'),1536:None,1592:None}
+from scipy.signal import find_peaks
+_pk,_pp=find_peaks(calc,prominence=0.05); CP=[]
+for p_,pm in zip(_pk,_pp['prominences']):
+    x_=float(X[p_]); idx_=[i for i in np.where(sim['k'])[0] if abs(sim['f'][i]-x_)<=8]; i_=max(idx_,key=lambda i:sim['I'][i]) if idx_ else None
+    CP.append(dict(x=x_,h=float(calc[p_]),idx=i_,label=str(sim['label'][i_]) if i_ is not None else 'mixed',fam=sim['fam'][i_] if i_ is not None else ()))
 res=[]
 for _,r in B.iterrows():
-    pos=float(r.mean_position); key=int(r.band); fam=EXP[key]; f=sim['f']; I=sim['I']; k=sim['k']
-    pool=[i for i in np.where(k&(I>=0.02))[0] if abs(f[i]-pos)<=50 and (fam is None or any(x in fam[0] for x in sim['fam'][i]))]
+    pos=float(r.mean_position); key=int(r.band); fam=EXP[key]
+    pool=[c for c in CP if abs(c['x']-pos)<=50 and (fam is None or any(x in fam[0] for x in c['fam']))]
+    base=dict(exp=pos,key=key,typed=fam is not None,desc=fam[1] if fam else 'not assigned',snr=float(r.median_snr_carrying),lit=r.literature,sd=float(r.sd_position))
     if pool:
-        i0=min(pool,key=lambda i:abs(f[i]-pos)); near=[i for i in pool if abs(f[i]-f[i0])<=4]; i=max(near,key=lambda i:I[i]); dl=pos-f[i]
-        st='agrees' if abs(dl)<=10 else 'shifted'; res.append(dict(exp=pos,key=key,calc=float(f[i]),delta=float(dl),I=float(I[i]),label=str(sim['label'][i]),idx=int(i),typed=fam is not None,status=st,desc=fam[1] if fam else 'not assigned',snr=float(r.median_snr_carrying),lit=r.literature,sd=float(r.sd_position)))
-    else: res.append(dict(exp=pos,key=key,calc=None,delta=None,I=None,label=None,idx=None,typed=fam is not None,status='none',desc=fam[1] if fam else 'not assigned',snr=float(r.median_snr_carrying),lit=r.literature,sd=float(r.sd_position)))
+        c=min(pool,key=lambda c:abs(c['x']-pos)); dl=pos-c['x']; res.append(dict(base,calc=c['x'],delta=float(dl),I=c['h'],label=c['label'],idx=c['idx'],status='agrees' if abs(dl)<=10 else 'shifted'))
+    else: res.append(dict(base,calc=None,delta=None,I=None,label=None,idx=None,status='none'))
 G_=(~((X>=480)&(X<=560)))
 def mm(y,m): y=y[m]; return y
 r_calc=float(np.corrcoef(mean[G_],calc[G_])[0,1]); r_bulk=float(np.corrcoef(mean[G_&~((X>=1308)&(X<=1455))],bulk[G_&~((X>=1308)&(X<=1455))])[0,1])
 # chance test (position only, nearest calculated mode within 10, all modes)
-rng=np.random.default_rng(5); modes=sim['f'][sim['k']]; bands=[r['exp'] for r in res]
+rng=np.random.default_rng(5); modes=np.array([c['x'] for c in CP]); bands=[r['exp'] for r in res]
 def cnt(sh): return sum(np.min(np.abs(modes+sh-b))<=10 for b in bands)
 real=cnt(0); dec=np.array([cnt(rng.uniform(15,70)*rng.choice([-1,1])) for _ in range(5000)]); p=float((dec>=real).mean())
 ST=G.ST
@@ -49,9 +54,8 @@ for p_,_ in D.peaks('LPS'): mark(a0,bulk,p_,'#555',dy=0.05)
 a0.set_title('Bulk LPS (top), SERS of LPS (middle) and calculated lipid A model (bottom): each curve marked with its own peaks',loc='left',fontweight='bold',fontsize=9.5)
 ys=mean/0.35; a1.fill_between(X,np.clip((mean-sd)/0.35,-1,None),(mean+sd)/0.35,color=c,alpha=.22,lw=0); a1.plot(X,ys,color=c,lw=1.5); a1.axvspan(480,560,color='#d0d0d0',alpha=.5,lw=0); a1.set_ylim(-0.25,1.7); a1.set_ylabel('SERS'+chr(10)+'(scaled)')
 for r in res: mark(a1,ys,r['exp'],c,dy=0.06)
-a2.plot(X,calc,color=D.CALC,lw=1.4); a2.set_ylim(0,1.55); a2.set_ylabel('Calculation'+chr(10)+'(normalised)'); a2.set_xlim(400,1800); a2.set_xlabel('Raman shift (cm$^{-1}$)'); a2.axvspan(*D.GLASS,color='#d0d0d0',alpha=.5,lw=0)
-for r in res:
-    if r['calc'] is not None: mark(a2,calc,r['calc'],'#9a5b00',dy=0.05,snap=False)
+a2.plot(X,calc,color=D.CALC,lw=1.4); a2.set_ylim(0,1.6); a2.set_ylabel('Calculation'+chr(10)+'(normalised)'); a2.set_xlim(400,1800); a2.set_xlabel('Raman shift (cm$^{-1}$)'); a2.axvspan(*D.GLASS,color='#d0d0d0',alpha=.5,lw=0)
+for c_ in CP: mark(a2,calc,c_['x'],'#9a5b00',dy=0.05)
 f2=save(fig,'L2.png')
 
 # --- fig 3 zooms
@@ -73,6 +77,6 @@ fig.suptitle('Close-ups: SERS (upper curve) and calculation (lower curve), each 
 # --- fig 4 structure
 items=[dict(idx=r['idx'],text=f"{r['exp']:.0f} SERS / {r['calc']:.0f} calculated\n{r['label'].split(' (')[0]}") for r in sorted([r for r in res if r['idx'] is not None],key=lambda r:r['exp'])[:10]]
 G.FIG=OUTF; f4=G.struct_assign('LPS',items,'sers_assign')
-import pickle; pickle.dump(dict(res=res,r_calc=r_calc,r_bulk=r_bulk,real=real,dec_mean=float(dec.mean()),dec_sd=float(dec.std()),p=p,figs=[f1,f2,f3,f4],n=len(carry),nmodes=len(modes)),open(S+r'\lps_res.pkl','wb'))
+import pickle; pickle.dump(dict(res=res,r_calc=r_calc,r_bulk=r_bulk,real=real,dec_mean=float(dec.mean()),dec_sd=float(dec.std()),p=p,figs=[f1,f2,f3,f4],n=len(carry),nmodes=len(sim['f'][sim['k']]),ncp=len(CP)),open(S+r'\lps_res.pkl','wb'))
 print(r_calc,r_bulk,real,dec.mean(),p);
 for r in res: print({k:(round(v,1) if isinstance(v,float) else v) for k,v in r.items() if k in('exp','calc','delta','I','label','status','typed')})

@@ -1,0 +1,2 @@
+shapiro_statistic,shapiro_p_value,residuals_normal_at_0p05,durbin_watson,acf_lag1
+0.9700131008054179,0.519427497971469,True,1.7543811416841997,0.058689847010839354

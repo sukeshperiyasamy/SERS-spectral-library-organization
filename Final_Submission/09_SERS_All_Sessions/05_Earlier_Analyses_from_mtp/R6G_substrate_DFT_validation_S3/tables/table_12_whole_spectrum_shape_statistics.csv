@@ -1,0 +1,2 @@
+cosine_similarity,spectral_angle_mapper_rad,cross_corr_best_lag_cm1,cross_corr_normalized_peak,dtw_distance,earth_movers_distance_cm1,jensen_shannon_distance,spectral_information_divergence
+0.61438046398681,0.9091958074457802,28.0,0.39902617399376544,40.24235109669489,194.9248639750802,0.4701577183025453,1.4664589633636371

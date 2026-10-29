@@ -11,3 +11,6 @@ Final_Submission/04_Spectral_Library/Raw_Data_Renamed/
 Final_Submission/04_Spectral_Library/Processed_Spectra/
 Final_Submission/05_Simulation_Data/**/*.out
 Final_Submission/05_Simulation_Data/**/*.log
+Final_Submission/09_SERS_All_Sessions/01_Raw_Spectra_Renamed/
+Final_Submission/09_SERS_All_Sessions/02_Processed_Spectra/
+Final_Submission/09_SERS_All_Sessions/04_Tables/*.pkl

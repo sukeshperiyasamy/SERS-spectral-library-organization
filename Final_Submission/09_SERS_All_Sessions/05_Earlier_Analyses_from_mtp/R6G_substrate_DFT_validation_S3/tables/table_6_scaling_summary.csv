@@ -1,0 +1,5 @@
+scaling_type,scale_factor,bootstrap_ci_low,bootstrap_ci_high
+"Literature (CCCBDB, B3LYP/6-311++G(d,p))",0.967,,
+Optimized (RMSE-minimizing grid search),0.967,0.942,0.992
+Cross-validated (mean of leave-one-out optima),0.9679534883720928,,
+Bootstrap mean (n=300 resamples),0.9690399999999998,0.942,0.992

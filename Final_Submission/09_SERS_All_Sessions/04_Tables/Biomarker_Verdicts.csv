@@ -1,0 +1,9 @@
+session,molecule,n,n_blank,rule,verdict,most_frequent_band,most_frequent_frac,blank_note
+S2,NAM,66,0,at least two of the bulk NAM marker bands,INCONCLUSIVE,541.0,0.030303030303030304,No blank was measured in this session.
+S4,NAM,7,5,at least two of the bulk NAM marker bands,NOT DETECTED,955.0,0.2857142857142857,Blank: the same substrate type without analyte.
+S5,NAM,67,66,at least two of the bulk NAM marker bands,NOT DETECTED,1127.0,0.029850746268656716,Blanks are from the 5 and 10 min substrates; the 2 min substrate had no blank.
+S7,NAM,20,136,at least two of the bulk NAM marker bands,NOT DETECTED,541.0,0.0,"Blanks: two 2 min substrates and the 1 min substrate, all without analyte."
+S8,NAM,75,5,at least two of the bulk NAM marker bands,NOT DETECTED,929.0,0.18666666666666668,Blank: the same etched silicon without analyte.
+S7,LTA,20,136,a phosphate band (1092 or 1225-1250) and a lipid band (1131 or 1450),NOT DETECTED,1131.0,0.4,"Blanks: two 2 min substrates and the 1 min substrate, all without analyte."
+S8,LTA,9,5,a phosphate band (1092 or 1225-1250) and a lipid band (1131 or 1450),NOT DETECTED,1237.5,0.1111111111111111,Blank: the same etched silicon without analyte.
+S8,LPS,35,5,989 and 1330 cm-1,NOT DETECTED,1330.0,0.42857142857142855,Blank: the same etched silicon without analyte.

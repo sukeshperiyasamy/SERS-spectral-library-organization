@@ -38,3 +38,12 @@ Bulk pure biomarker Raman spectra measured with a 785 nm instrument, and calcula
 | Folder | Document | Contents |
 |---|---|---|
 | 08_LPS_SERS_vs_Simulation | LPS_SERS_vs_Simulation_Comparison.docx | The ten reproducible SERS bands of LPS compared with the calculated lipid A spectrum and the bulk LPS spectrum, with matched and shifted bands marked, chance test and structure assignment |
+
+## SERS: all sessions
+
+| Folder | Contents |
+|---|---|
+| 09_SERS_All_Sessions | All 868 SERS spectra from eight sessions (June to October 2026), fetched from E:\sukesh and the mtp repository. 01 = renamed raw copies (MD5-checked), 02 = processed spectra, 03 = figures, 04 = SERS_All_Sessions_Workbook.xlsx and CSV tables, 05 = earlier analyses copied from mtp, 06 = SERS_All_Sessions_Analysis_Report.docx |
+| 10_SERS_Chip_Fabrication | SERS_Chip_Fabrication_Process.docx: how the silver-etched silicon chips were made (from the mtp SOP, roadmap, lab note and photos), the recipes used, how each recipe performed with R6G, and the open items; figures and photos |
+
+Folders 01 and 02 of 09_SERS_All_Sessions are not stored in git (about 200 MB). Run `SERS_Sepsis_Spectral_Library/08_Methodology/code/final_reports/sers_all.py` to rebuild them from E:\sukesh.

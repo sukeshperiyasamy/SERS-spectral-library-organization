@@ -1,0 +1,14 @@
+check,result
+Normal termination,True
+Route section,"freq=raman b3lyp/6-311++g(d,p) guess=read geom=allcheck scf=tight"
+Method / basis,"B3LYP / 6-311++g(d,p)"
+SCF energy (Hartree),-1421.05635136
+N atoms,64
+N modes parsed,186
+Expected modes (3N-6),186
+Modes match 3N-6,True
+N imaginary frequencies,0
+True PES minimum,True
+N mode-displacement matrices parsed,186
+N geometry atoms parsed,64
+HOMO-LUMO gap parsed (eV),2.9862

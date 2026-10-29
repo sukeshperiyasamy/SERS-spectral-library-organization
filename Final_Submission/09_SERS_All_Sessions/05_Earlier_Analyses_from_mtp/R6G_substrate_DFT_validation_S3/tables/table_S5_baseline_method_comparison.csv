@@ -1,0 +1,7 @@
+method,n_peaks_detected,rmse_flat_region,flat_region_std,preserved_peak_area,rmse_rank,flatness_rank,peak_preservation_rank,composite_score
+ALS,529,,,45336.51202426016,,,1.0,
+airPLS,534,,,34895.54251910331,,,3.0,
+arPLS,531,,,13672.99158118573,,,6.0,
+morphological,561,,,41696.003846153886,,,2.0,
+rolling_ball,523,,,34433.958568208094,,,4.0,
+IModPoly,499,,,28702.57234529601,,,5.0,

@@ -1,0 +1,235 @@
+============================================================================================
+               R6G RAMAN/SERS vs. DFT VALIDATION -- DETAILED FINDINGS REPORT                
+         Publication-grade revision: all 97 spectra, peak fitting, PCA/clustering,          
+          electronic structure, computed mode-character (PED), verified literature          
+============================================================================================
+
+Generated automatically from outputs/key_numbers.json and outputs/tables/*.csv
+(companion notebook: R6G_Raman_DFT_Validation.ipynb). Every number below is a
+direct readout of that executed notebook -- nothing in this file is typed in
+independently of the computed results. Reproducibility was verified by running
+the notebook twice from a fresh kernel and diffing key_numbers.json: identical.
+
+--------------------------------------------------------------------------------------------
+1. INPUT DATA AND QC
+--------------------------------------------------------------------------------------------
+Raw experimental data: 97 raw CCD Raman acquisitions across 8 sample-preparation conditions.
+Full QC (missing values, duplicate pixels/Raman-shift values, negative counts, monotonic
+axis, uniform pixel spacing, CCD saturation, dynamic range, per-file SNR) passed for 97/97
+files -- table_S1_raw_spectrum_QC.csv.
+
+Computational data: Gaussian 16 log (RHODAMINEFREQ.LOG), 'freq=raman b3lyp/6-311++g(d,p)'.
+Normal termination. SCF energy = -1421.05635136 Hartree. 186 modes parsed = 3N-6 exactly
+(N=64). Zero imaginary frequencies (true minimum). Geometry (67 covalent bonds identified),
+per-mode displacement vectors, and electronic structure were also parsed (new in this
+revision).
+
+--------------------------------------------------------------------------------------------
+2. ELECTRONIC STRUCTURE (NEW)
+--------------------------------------------------------------------------------------------
+    HOMO                     -8.5441 eV
+    LUMO                     -5.5579 eV
+    HOMO-LUMO gap            2.9862 eV
+    Dipole moment            6.2367 Debye
+NPA charges, an explicit static polarizability tensor, and an MESP map were NOT computed in
+this job (would require pop=nbo, polar, and cube=potential respectively) and are not
+fabricated here -- only Mulliken charges are reported (table_17b_mulliken_charges.csv).
+
+--------------------------------------------------------------------------------------------
+3. REPRESENTATIVE SPECTRUM SELECTION AND FULL-DATASET VARIABILITY
+--------------------------------------------------------------------------------------------
+Condition-level mean SNR ranking (highest to lowest):
+
+    5m-5ml-hf-5s-10p-5ac         mean SNR =   182.29  (n=13)
+    6m-10ml-hf-5s-10p-5ac        mean SNR =   156.77  (n=11)
+    6m-5ml-hf-5s-10p-5ac         mean SNR =   153.57  (n=14)
+    5m-10ml-hf-5s-10p-5ac        mean SNR =   137.06  (n=12)
+    3m-5ml-hf-5s-10p-5ac         mean SNR =   114.09  (n=11)
+    4m-5ml-hf-5s-10p-5ac         mean SNR =   110.44  (n=11)
+    4m-10ml-hf-5s-10p-5ac        mean SNR =   110.11  (n=11)
+    3m-10ml-hf-5s-10p-5ac        mean SNR =   106.46  (n=14)
+
+Selected condition: 5m-5ml-hf-5s-10p-5ac (highest mean SNR), 13 replicates averaged, used
+for all quantitative DFT-matching statistics below. Separately (new in this revision), ALL
+97 spectra were analyzed together:
+
+            condition  n_replicates  mean_intensity  mean_cv  max_intensity
+3m-10ml-hf-5s-10p-5ac            14      461.260127 0.456977    2074.847596
+ 3m-5ml-hf-5s-10p-5ac            11      618.370074 0.195030    2106.781930
+4m-10ml-hf-5s-10p-5ac            11      664.776426 0.256141    2536.683508
+ 4m-5ml-hf-5s-10p-5ac            11      607.700962 0.157395    2128.589594
+5m-10ml-hf-5s-10p-5ac            12      595.684376 0.219405    3078.805089
+ 5m-5ml-hf-5s-10p-5ac            13      710.223503 0.214592    3800.849007
+6m-10ml-hf-5s-10p-5ac            11      905.746977 0.330481    4014.768893
+ 6m-5ml-hf-5s-10p-5ac            14      939.388725 0.155821    3006.306950
+
+Principal component analysis of all 97 processed spectra: PC1 explains 39.1% of variance,
+PC2 17.9%, with loadings peaking at the same fingerprint bands used for DFT matching (Figure
+21). The 1510 cm-1 band intensity shows a statistically significant trend across sample-
+preparation conditions (r=0.853, p=0.0071) -- i.e. sample preparation measurably affects the
+measured SERS intensity in this dataset, not just measurement noise.
+
+--------------------------------------------------------------------------------------------
+4. RAW PROCESSING -- METHOD SELECTION (ALL OBJECTIVELY SCORED)
+--------------------------------------------------------------------------------------------
+Cosmic-ray removal: 4 methods compared (modified Z-score, Hampel, median filter, wavelet-
+domain thresholding). Selected: modified_zscore.
+Baseline correction: 6 methods compared (ALS, airPLS, arPLS, IModPoly, morphological,
+rolling ball). Selected: ALS.
+Smoothing: 5 methods compared (Savitzky-Golay, Gaussian, wavelet, median, moving average).
+Selected: Gaussian.
+Normalization: max (preserves relative peak-height ratios vs. the DFT stick spectrum);
+vector/area/SNV/TIC also computed and tabulated (table_S7).
+Peak fitting: 86 peaks detected as seeds; 20 independently fitted with lmfit (best of
+Gaussian/Lorentzian/pseudo-Voigt/Voigt per peak by reduced chi-square), with parameter
+standard errors (table_1b).
+
+--------------------------------------------------------------------------------------------
+5. FREQUENCY SCALING FACTOR
+--------------------------------------------------------------------------------------------
+    Literature (CCCBDB, B3LYP/6-311++G(d,p))             s = 0.9670
+    Optimized (RMSE-minimizing grid search)              s = 0.9670 (95% CI [0.942, 0.992])
+    Cross-validated (mean of leave-one-out optima)       s = 0.9680
+    Bootstrap mean (n=300 resamples)                     s = 0.9690 (95% CI [0.942, 0.992])
+
+Bootstrap validation (n=300 resamples of the matched-peak set, seed=42): mean optimal scale
+= 0.9690, 95% CI [0.942, 0.992] -- comfortably contains the literature value 0.967. Leave-
+one-peak-out cross-validation: mean=0.9680, std=0.0137.
+
+--------------------------------------------------------------------------------------------
+6. SPECTRAL BROADENING (AIC/BIC MODEL SELECTION)
+--------------------------------------------------------------------------------------------
+      shape  fwhm_cm1     rmse  cosine_similarity  correlation          aic          bic  sigma  gamma  eta
+ Lorentzian 32.000000 0.249904           0.614380     0.168804 -1939.352604 -1934.801524    NaN    NaN  NaN
+PseudoVoigt 31.333333 0.249941           0.612156     0.167626 -1937.143195 -1928.041034    NaN    NaN  1.0
+      Voigt       NaN 0.250166           0.607764     0.165382 -1935.880134 -1926.777973    1.0   15.0  NaN
+   Gaussian 49.000000 0.257286           0.604230     0.211858 -1898.592950 -1894.041870    NaN    NaN  NaN
+
+Selected line shape: Lorentzian (lowest AIC, penalizing the extra parameter of Voigt/pseudo-
+Voigt against the one-parameter Gaussian/Lorentzian FWHM fit).
+
+--------------------------------------------------------------------------------------------
+7. STATISTICAL VALIDATION
+--------------------------------------------------------------------------------------------
+Peak-position agreement (Hungarian-matched pairs, cost <= 15 cm-1):
+
+Metric                          Literature          Optimized           
+------------------------------------------------------------------------
+N matched peaks                 31                  31                  
+MAE (cm-1)                      3.648               3.648               
+RMSE (cm-1)                     4.619               4.619               
+Mean signed error (cm-1)        0.561               0.561               
+Median error (cm-1)             0.567               0.567               
+Max abs. error (cm-1)           9.387               9.387               
+Pearson r                       0.99995             0.99995             
+Spearman rho                    1.00000             1.00000             
+Kendall tau                     1.00000             1.00000             
+R-squared                       0.99988             0.99988             
+Adjusted R-squared              0.99988             0.99988             
+
+Bootstrap 95% CI (n=2000, seed=42), optimized-scaling matches:
+    RMSE: 4.604 cm-1  [3.564, 5.639]
+    MAE:  3.663 cm-1  [2.689, 4.708]
+    Mean signed error: 0.559 cm-1  [-1.102, 2.170]
+
+Whole-spectrum shape agreement:
+    Cosine similarity:              0.6144
+    Spectral Angle Mapper (rad):     0.9092
+    Earth Mover's Distance (cm-1):   194.925
+    Jensen-Shannon distance:         0.4702
+    Spectral Information Divergence: 1.4665
+    DTW distance:                    40.242
+
+Residual diagnostics:
+    Shapiro-Wilk p-value:  0.5194  (residuals consistent with normality)
+    Durbin-Watson:         1.754  (~2 = no autocorrelation)
+    ACF lag-1:             0.0587
+
+INTERPRETATION: peak-position agreement is excellent and statistically validated (normal,
+non-autocorrelated residuals) while whole-spectrum shape/intensity agreement is markedly
+weaker -- the expected signature of a bare-molecule harmonic DFT calculation compared
+against a surface-enhanced experimental spectrum, discussed mechanistically in the
+notebook's SERS discussion (electromagnetic vs. chemical/charge-transfer enhancement, citing
+Kneipp et al. 1995 and Liu et al. 2008).
+
+--------------------------------------------------------------------------------------------
+8. VIBRATIONAL ASSIGNMENT: LITERATURE + COMPUTED BOND CHARACTER
+--------------------------------------------------------------------------------------------
+Every matched mode now carries BOTH a literature frequency-range label AND an independently
+computed bond-projection dominant-stretch descriptor, derived from this calculation's own
+optimized geometry and normal-mode displacement vectors (not from literature) -- see
+r6g_raman/ped.py.
+
+    610.2 cm-1  (DFT   608.5, |delta|= 1.67)
+      Literature:  Xanthene ring C-C-C in-plane bending  [Hildebrandt, P. 1984 (DOI 10.1021/j150668a038)]
+      Computed:    C14-C16 stretch (29% of stretch character)
+    774.4 cm-1  (DFT   773.5, |delta|= 0.90)
+      Literature:  Xanthene ring C-H out-of-plane bending  [Watanabe, H. 2005 (DOI 10.1021/jp045771u)]
+      Computed:    C15-C23 stretch (20% of stretch character)
+   1183.3 cm-1  (DFT  1175.0, |delta|= 8.34)
+      Literature:  C-H in-plane bending / C-N stretching (xanthene)  [Jensen, L. 2006 (DOI 10.1021/jp0610867)]
+      Computed:    C6-C11 stretch (34% of stretch character)
+   1261.6 cm-1  (DFT  1263.4, |delta|= 1.77)
+      Literature:  Aromatic C-C stretching + N-H in-plane bending  [Watanabe, H. 2005 (DOI 10.1021/jp045771u)]
+      Computed:    C25-H49 stretch (26% of stretch character)
+   1362.2 cm-1  (DFT  1356.4, |delta|= 5.82)
+      Literature:  Xanthene ring C-C stretching  [Hildebrandt, P. 1984 (DOI 10.1021/j150668a038)]
+      Computed:    C15-C17 stretch (18% of stretch character)
+   1509.4 cm-1  (DFT  1505.5, |delta|= 3.92)
+      Literature:  Aromatic C-C stretching (xanthene)  [Jensen, L. 2006 (DOI 10.1021/jp0610867)]
+      Computed:    C6-C8 stretch (15% of stretch character)
+   1537.9 cm-1  (DFT  1533.2, |delta|= 4.76)
+      Literature:  Aromatic C-C stretching (xanthene)  [Jensen, L. 2006 (DOI 10.1021/jp0610867)]
+      Computed:    N5-C17 stretch (17% of stretch character)
+   1601.3 cm-1  (DFT  1592.7, |delta|= 8.67)
+      Literature:  Xanthene C=C / C=O stretching  [Watanabe, H. 2005 (DOI 10.1021/jp045771u)]
+      Computed:    C13-C15 stretch (22% of stretch character)
+
+12 additional matched peaks in 600-2000 cm-1 fall outside the curated literature ranges and
+are reported as 'Unassigned' rather than force-labeled (full list:
+table_14_vibrational_assignment.csv).
+
+--------------------------------------------------------------------------------------------
+9. VERIFIED LITERATURE REFERENCES
+--------------------------------------------------------------------------------------------
+Every reference below was individually verified this session (title/authors/journal/DOI
+checked against the publisher). A previously used citation ('Canamares et al. 2008, J. Phys.
+Chem. C 112, 20295') was found on verification to be about CRYSTAL VIOLET SERS, not
+rhodamine 6G, and has been removed from every table/citation in this project.
+
+  Hildebrandt, P.; Stockburger, M. (1984) Surface-enhanced resonance Raman spectroscopy of Rhodamine 6G adsorbed on colloidal silver. J. Phys. Chem. 88, 5935-5944. DOI: 10.1021/j150668a038
+  Kneipp, K.; Wang, Y.; Dasari, R. R.; Feld, M. S. (1995) Approach to Single Molecule Detection Using Surface-Enhanced Resonance Raman Scattering (SERRS): A Study Using Rhodamine 6G on Colloidal Silver. Appl. Spectrosc. 49, 780-784. DOI: 10.1366/0003702953964480
+  Watanabe, H.; Hayazawa, N.; Inouye, Y.; Kawata, S. (2005) DFT Vibrational Calculations of Rhodamine 6G Adsorbed on Silver: Analysis of Tip-Enhanced Raman Spectroscopy. J. Phys. Chem. B 109, 5012-5020. DOI: 10.1021/jp045771u
+  Jensen, L.; Schatz, G. C. (2006) Resonance Raman Scattering of Rhodamine 6G as Calculated Using Time-Dependent Density Functional Theory. J. Phys. Chem. A 110, 5973-5977. DOI: 10.1021/jp0610867
+  Liu, S.; Wan, S.; Chen, M.; Sun, M. (2008) Theoretical study on SERRS of rhodamine 6G adsorbed on Ag2 cluster: chemical mechanism via intermolecular or intramolecular charge transfer. J. Raman Spectrosc. 39, 1170-1177. DOI: 10.1002/jrs.1958
+
+--------------------------------------------------------------------------------------------
+10. LIMITATIONS
+--------------------------------------------------------------------------------------------
+  - Gas-phase DFT: no explicit or implicit solvent model was included.
+  - No metal-nanoparticle/adsorption-site model: SERS EM/chemical enhancement mechanisms are
+not represented in a bare-molecule calculation.
+  - Harmonic approximation: the scale factor is a single-parameter average correction, not
+mode-specific anharmonicity.
+  - Finite basis set (6-311++G(d,p)) carries residual basis-set-incompleteness error.
+  - Mulliken charges only; no NPA, no explicit polarizability tensor, no MESP map (none were
+computed in this job).
+  - The computed mode-character analysis (Section 8) captures bond-stretching character
+only, not a full PED with bending/torsion internal coordinates.
+  - One representative condition used for quantitative DFT-matching statistics; the full-
+dataset variability/PCA analysis (Sections 3) is reported separately, not merged into a
+single combined statistical model.
+
+--------------------------------------------------------------------------------------------
+11. OUTPUT INVENTORY
+--------------------------------------------------------------------------------------------
+  Figures (600 dpi, PNG/PDF/SVG): 27 PNG, 27 PDF, 27 SVG in outputs/figures/
+  Tables: 34 CSV files in outputs/tables/
+  Consolidated workbook: outputs/R6G_validation_summary.xlsx
+  Full computational record: R6G_Raman_DFT_Validation.ipynb
+  Manuscript: Research_Paper.md
+  Supplementary information: Supplementary_Information.md
+
+============================================================================================
+                                       END OF REPORT                                        
+============================================================================================

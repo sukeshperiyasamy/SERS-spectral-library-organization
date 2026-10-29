@@ -138,3 +138,8 @@ simulation/lta output simulation (3 glycerol-phosphate units, 2 D-Ala esters, 1 
 
 --- 28 Oct 2026: LTA comparison corrected to match by vibration type ---
 Earlier LTA model comparison counted the nearest calculated mode whatever its type; for 1751 cm-1 that mode (1746) is an N-H motion. Now matched by vibration type: 8 of 9 bands within 7.2 cm-1, 1751 matched to the C=O stretch at 1726 (25 cm-1 lower); position-only chance test kept with this caveat. DFT comparison and simulation reports regenerated (originals in _backup_before_lta).
+
+29 Oct 2026 - SERS all sessions and chip fabrication
+- New Final_Submission/09_SERS_All_Sessions: 868 SERS files from eight sessions (6 Jun to 7 Oct 2026; raw on E:\sukesh, earlier analyses from the mtp repo). They are renamed to SERS_<analyte>_<date>_<substrate>_P..._T..._A..._S...csv and MD5-checked, processed with pipeline v3 and tested against same-session blanks. The workbook, nine figures and SERS_All_Sessions_Analysis_Report.docx were built from them. Scripts: code/final_reports/sers_all.py and sers_all_doc.py.
+- Results: R6G is strongest on the 20 mM AgNO3 / 2 min chip (median SNR at 1509 cm-1 of about 580). A second chip of the same recipe gave about 56, so reproducibility is not established. NAM, LTA and LPS were NOT DETECTED in every session that had a blank. S2 (no blank) is INCONCLUSIVE.
+- New Final_Submission/10_SERS_Chip_Fabrication/SERS_Chip_Fabrication_Process.docx, from the mtp SOP, roadmap, handwritten recipe note and photos (script sers_fab_doc.py). Labels 3m-6m are read as etch times from the handwritten note.

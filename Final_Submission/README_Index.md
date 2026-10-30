@@ -47,3 +47,9 @@ Bulk pure biomarker Raman spectra measured with a 785 nm instrument, and calcula
 | 10_SERS_Chip_Fabrication | SERS_Chip_Fabrication_Process.docx: how the silver-etched silicon chips were made (from the mtp SOP, roadmap, lab note and photos), the recipes used, how each recipe performed with R6G, and the open items; figures and photos |
 
 Folders 01 and 02 of 09_SERS_All_Sessions are not stored in git (about 200 MB). Run `SERS_Sepsis_Spectral_Library/08_Methodology/code/final_reports/sers_all.py` to rebuild them from E:\sukesh.
+
+## Expected peaks (combined summary)
+
+| Folder | Document | Contents |
+|---|---|---|
+| 11_Expected_Peaks_Summary | Expected_Peaks_NAM_LPS_LTA_Summary.docx | Bulk, simulation and SERS combined: one figure showing only the expected peaks of NAM, LPS and LTA, and a table per molecule explaining why each peak is expected and targeted, with the future work direction |

@@ -53,3 +53,9 @@ Folders 01 and 02 of 09_SERS_All_Sessions are not stored in git (about 200 MB). 
 | Folder | Document | Contents |
 |---|---|---|
 | 11_Expected_Peaks_Summary | Expected_Peaks_NAM_LPS_LTA_Summary.docx | Bulk, simulation and SERS combined: one figure showing only the expected peaks of NAM, LPS and LTA, and a table per molecule explaining why each peak is expected and targeted, with the future work direction |
+
+## Final project report
+
+| Folder | Document | Contents |
+|---|---|---|
+| 12_Final_Project_Report | Final_Report_Raman_SERS_Sepsis_Biomarkers.docx | Ten-page final report from start to end: methods, bulk reference library, molecular simulation, SERS chip fabrication and R6G performance, biomarker SERS results with concentrations, expected target bands, discussion, conclusions and further work (9 figures, 9 tables) |

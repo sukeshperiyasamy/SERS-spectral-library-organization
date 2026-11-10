@@ -146,3 +146,6 @@ Earlier LTA model comparison counted the nearest calculated mode whatever its ty
 
 30 Oct 2026 - Expected peaks summary
 - New Final_Submission/11_Expected_Peaks_Summary/Expected_Peaks_NAM_LPS_LTA_Summary.docx (script code/final_reports/expected_peaks_doc.py). It has one figure with only the expected peaks and tables with bulk, simulation and SERS evidence for each, with priorities A/B/C. First targets: NAM 929/955/870; LPS 1330 + 989 (published SERS), backed by bulk 425/1080; LTA 1092 + 539, with lipid partner 1460. No target band is yet reproducible in SERS against the blank.
+
+11 Nov 2026 - Final project report
+- New Final_Submission/12_Final_Project_Report/Final_Report_Raman_SERS_Sepsis_Biomarkers.docx (10 pages; script code/final_reports/final_project_report.py). It covers bulk, simulation and SERS together, with figures redrawn from the data. Chip sets are labelled Set 1-6, with no dates or folder names. The concentrations come from the lab records; where none was recorded, the report says "not recorded".

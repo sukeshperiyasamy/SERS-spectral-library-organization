@@ -1,0 +1,166 @@
+freq_scaled_cm1,rel_raman_intensity,vibration
+401.2,0.1331,skeletal / ring deformation
+415.5,0.1526,skeletal / ring deformation
+421.5,0.1631,skeletal / ring deformation
+423.3,0.1165,phosphate P-O deformation
+429.7,0.0465,skeletal / ring deformation
+433.5,0.1213,phosphate P-O deformation
+439.5,0.0654,skeletal / ring deformation
+445.8,0.291,skeletal / ring deformation
+449.4,0.1316,skeletal / ring deformation
+460.5,0.1011,skeletal / ring deformation
+467.5,0.1435,skeletal / ring deformation
+477.9,0.0459,phosphate P-O deformation
+492.7,0.1443,phosphate P-O deformation
+495.1,0.2122,skeletal / ring deformation
+502.7,0.1945,skeletal / ring deformation
+514.0,0.0493,skeletal / ring deformation
+528.0,0.0593,skeletal / ring deformation
+528.6,0.0821,skeletal / ring deformation
+536.4,0.0742,skeletal / ring deformation
+543.1,0.0117,skeletal / ring deformation
+578.8,0.0122,skeletal / ring deformation
+580.4,0.167,skeletal / ring deformation
+594.4,0.2918,C-H bending / CH2 rocking and twisting
+606.9,0.1027,C-H bending / CH2 rocking and twisting
+616.6,0.0329,skeletal / ring deformation
+617.2,0.057,skeletal / ring deformation
+633.7,0.1147,skeletal / ring deformation
+653.6,0.331,phosphate P-O deformation
+676.5,0.0506,C-O and C-C stretching (backbone)
+682.2,0.2027,C-O and C-C stretching (backbone)
+684.6,0.1007,C-H bending / CH2 rocking and twisting
+689.8,1.0,C-O and C-C stretching (backbone)
+702.6,0.0472,C-O and C-C stretching (backbone)
+720.7,0.0486,C-O and C-C stretching (backbone)
+722.5,0.0385,C-O and C-C stretching (backbone)
+735.1,0.0571,C-H bending / CH2 rocking and twisting
+739.5,0.0517,C-H bending / CH2 rocking and twisting
+744.8,0.0597,C-O and C-C stretching (backbone)
+753.8,0.078,C-O and C-C stretching (backbone)
+767.5,0.0744,C-O and C-C stretching (backbone)
+791.4,0.0712,C-O and C-C stretching (backbone)
+802.4,0.077,C-O and C-C stretching (backbone)
+814.8,0.1617,C-O and C-C stretching (backbone)
+817.2,0.1726,C-H bending / CH2 rocking and twisting
+827.6,0.0831,C-O and C-C stretching (backbone)
+836.7,0.1596,C-O and C-C stretching (backbone)
+852.2,0.0295,C-O and C-C stretching (backbone)
+860.7,0.1486,C-O and C-C stretching (backbone)
+874.3,0.0984,C-O and C-C stretching (backbone)
+875.3,0.1014,C-O and C-C stretching (backbone)
+886.0,0.2059,C-O and C-C stretching (backbone)
+906.3,0.1645,C-O and C-C stretching (backbone)
+907.3,0.0571,C-O and C-C stretching (backbone)
+913.0,0.0527,C-O and C-C stretching (backbone)
+915.5,0.1722,C-O and C-C stretching (backbone)
+920.0,0.047,phosphate P-O stretch
+938.2,0.0604,C-O and C-C stretching (backbone)
+945.3,0.0376,C-O and C-C stretching (backbone)
+956.5,0.0646,C-O and C-C stretching (backbone)
+961.7,0.1002,C-O and C-C stretching (backbone)
+969.6,0.0729,C-O and C-C stretching (backbone)
+972.6,0.1707,C-O and C-C stretching (backbone)
+975.3,0.0305,C-O and C-C stretching (backbone)
+979.6,0.0215,C-O and C-C stretching (backbone)
+984.0,0.0715,C-O and C-C stretching (backbone)
+984.9,0.0215,C-O and C-C stretching (backbone)
+996.9,0.0939,C-O and C-C stretching (backbone)
+999.0,0.0471,C-O and C-C stretching (backbone)
+1003.6,0.0587,C-O and C-C stretching (backbone)
+1007.3,0.1744,C-O and C-C stretching (backbone)
+1009.6,0.0073,C-O and C-C stretching (backbone)
+1015.2,0.0138,C-O and C-C stretching (backbone)
+1021.8,0.2154,C-O and C-C stretching (backbone)
+1026.5,0.0623,C-O and C-C stretching (backbone)
+1034.6,0.0421,C-O and C-C stretching (backbone)
+1036.1,0.0067,C-O and C-C stretching (backbone)
+1047.6,0.0692,C-O and C-C stretching (backbone)
+1050.2,0.1238,C-O and C-C stretching (backbone)
+1056.2,0.0152,C-O and C-C stretching (backbone)
+1058.4,0.0389,C-O and C-C stretching (backbone)
+1060.2,0.0305,C-O and C-C stretching (backbone)
+1063.6,0.0624,C-O and C-C stretching (backbone)
+1070.9,0.0687,C-O and C-C stretching (backbone)
+1074.0,0.041,C-O and C-C stretching (backbone)
+1076.8,0.0232,C-O and C-C stretching (backbone)
+1078.7,0.0228,C-O and C-C stretching (backbone)
+1081.6,0.1076,C-O and C-C stretching (backbone)
+1084.9,0.1242,phosphate P-O stretch
+1089.5,0.0306,C-O and C-C stretching (backbone)
+1097.7,0.055,C-O and C-C stretching (backbone)
+1101.8,0.0332,C-O and C-C stretching (backbone)
+1111.0,0.0385,C-O and C-C stretching (backbone)
+1129.7,0.0291,C-O and C-C stretching (backbone)
+1144.8,0.041,C-O and C-C stretching (backbone)
+1179.0,0.0561,C-O and C-C stretching (backbone)
+1184.2,0.0807,C-H bending / CH2 rocking and twisting
+1190.7,0.0525,C-H bending / CH2 rocking and twisting
+1206.0,0.0158,C-H bending / CH2 rocking and twisting
+1219.4,0.0882,C-H bending / CH2 rocking and twisting
+1220.9,0.1597,C-H bending / CH2 rocking and twisting
+1223.9,0.0462,C-O and C-C stretching (backbone)
+1229.0,0.0317,C-H bending / CH2 rocking and twisting
+1239.5,0.2003,C-H bending / CH2 rocking and twisting
+1240.9,0.0721,C-H bending / CH2 rocking and twisting
+1247.7,0.0709,C-H bending / CH2 rocking and twisting
+1258.3,0.1007,C-H bending / CH2 rocking and twisting
+1261.7,0.1293,C-H bending / CH2 rocking and twisting
+1270.1,0.0867,C-H bending / CH2 rocking and twisting
+1271.5,0.1304,C-H bending / CH2 rocking and twisting
+1282.9,0.1503,C-H bending / CH2 rocking and twisting
+1288.5,0.0582,C-H bending / CH2 rocking and twisting
+1289.1,0.042,C-H bending / CH2 rocking and twisting
+1298.9,0.0586,C-H bending / CH2 rocking and twisting
+1302.4,0.0385,"C-H / O-H bending (CH2, CH3)"
+1308.8,0.1222,"C-H / O-H bending (CH2, CH3)"
+1319.9,0.0976,"C-H / O-H bending (CH2, CH3)"
+1321.6,0.0745,"C-H / O-H bending (CH2, CH3)"
+1324.0,0.0699,"C-H / O-H bending (CH2, CH3)"
+1326.2,0.0396,"C-H / O-H bending (CH2, CH3)"
+1330.1,0.1809,"C-H / O-H bending (CH2, CH3)"
+1336.2,0.0605,"C-H / O-H bending (CH2, CH3)"
+1339.6,0.0274,"C-H / O-H bending (CH2, CH3)"
+1344.9,0.0603,"C-H / O-H bending (CH2, CH3)"
+1350.3,0.0571,"C-H / O-H bending (CH2, CH3)"
+1359.8,0.0934,"C-H / O-H bending (CH2, CH3)"
+1359.9,0.075,"C-H / O-H bending (CH2, CH3)"
+1364.3,0.0929,"C-H / O-H bending (CH2, CH3)"
+1366.3,0.0346,"C-H / O-H bending (CH2, CH3)"
+1371.1,0.0327,"C-H / O-H bending (CH2, CH3)"
+1372.1,0.0335,"C-H / O-H bending (CH2, CH3)"
+1375.2,0.0727,"C-H / O-H bending (CH2, CH3)"
+1382.2,0.0357,"C-H / O-H bending (CH2, CH3)"
+1383.7,0.039,"C-H / O-H bending (CH2, CH3)"
+1394.4,0.0911,"C-H / O-H bending (CH2, CH3)"
+1407.2,0.0169,"C-H / O-H bending (CH2, CH3)"
+1415.4,0.0176,"C-H / O-H bending (CH2, CH3)"
+1417.8,0.0557,"C-H / O-H bending (CH2, CH3)"
+1419.6,0.0169,"C-H / O-H bending (CH2, CH3)"
+1440.1,0.0337,"C-H / O-H bending (CH2, CH3)"
+1446.0,0.0475,"C-H / O-H bending (CH2, CH3)"
+1447.4,0.0549,"C-H / O-H bending (CH2, CH3)"
+1464.4,0.0419,N-H bending (ammonium / amide)
+1483.7,0.1605,"C-H / O-H bending (CH2, CH3)"
+1486.0,0.2187,"C-H / O-H bending (CH2, CH3)"
+1489.5,0.1769,"C-H / O-H bending (CH2, CH3)"
+1489.8,0.1148,"C-H / O-H bending (CH2, CH3)"
+1490.9,0.2801,"C-H / O-H bending (CH2, CH3)"
+1499.4,0.1508,"C-H / O-H bending (CH2, CH3)"
+1502.3,0.1249,"C-H / O-H bending (CH2, CH3)"
+1502.6,0.1455,"C-H / O-H bending (CH2, CH3)"
+1507.2,0.1487,"C-H / O-H bending (CH2, CH3)"
+1510.2,0.2638,"C-H / O-H bending (CH2, CH3)"
+1516.1,0.1491,"C-H / O-H bending (CH2, CH3)"
+1517.1,0.1138,"C-H / O-H bending (CH2, CH3)"
+1529.9,0.038,N-H bending (ammonium / amide)
+1535.7,0.0852,"C-H / O-H bending (CH2, CH3)"
+1552.4,0.0586,C=O stretch (carbonyl)
+1575.4,0.0444,N-H bending (ammonium / amide)
+1610.6,0.0732,C=O stretch (carbonyl)
+1651.8,0.0524,N-H bending (ammonium / amide)
+1677.0,0.0101,N-H bending (ammonium / amide)
+1725.8,0.1076,C=O stretch (carbonyl)
+1727.8,0.0111,N-H bending (ammonium / amide)
+1734.2,0.0831,N-H bending (ammonium / amide)
+1746.3,0.0341,N-H bending (ammonium / amide)

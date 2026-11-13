@@ -149,3 +149,7 @@ Earlier LTA model comparison counted the nearest calculated mode whatever its ty
 
 11 Nov 2026 - Final project report
 - New Final_Submission/12_Final_Project_Report/Final_Report_Raman_SERS_Sepsis_Biomarkers.docx (10 pages; script code/final_reports/final_project_report.py). It covers bulk, simulation and SERS together, with figures redrawn from the data. Chip sets are labelled Set 1-6, with no dates or folder names. The concentrations come from the lab records; where none was recorded, the report says "not recorded".
+
+13 Nov 2026 - Paper preparation: LPS and LTA Raman reference spectra and DFT assignment
+- New folder Manuscripts/Paper_LPS_LTA_Raman_DFT: manuscript draft, supplementary draft, figures (PNG/PDF), tables, key_numbers.json and 00_Plan_and_Checklist.md. Script: code/final_reports/paper_lps_lta.py. NAM is left to its separate manuscript (mtp NAM archive) and appears only as a comparison.
+- Random-shift chance test of the DFT band agreement: LPS 5/5 bands vs 4.6 by chance (p = 0.56); LTA 8/9 vs 6.1 (p = 0.06). With visible calculated peaks: LPS 3/5 (p = 0.33), LTA 3/9 (p = 0.44). The agreement is not clearly above chance at B3LYP/3-21G. Higher-level calculations are the main item before submission.

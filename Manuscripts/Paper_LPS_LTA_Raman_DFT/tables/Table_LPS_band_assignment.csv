@@ -1,0 +1,6 @@
+exp_cm1,sd_cm1,median_snr,spots,role,calc_cm1,diff_cm1,calc_rel_intensity,calc_vibration,result,tentative_assignment
+424.8,0.9,38.2,10/10,main,422.4,2.4,0.336,skeletal / ring deformation,agrees,low-frequency skeletal / ring deformation (not assigned in the literature)
+765.5,1.2,16.7,8/10,supporting,767.3,-1.8,0.564,C-O and C-C stretching (backbone),agrees,no assignment in the literature
+861.1,0.9,12.7,8/10,supporting,862.0,-0.9,0.371,C-O and C-C stretching (backbone),agrees,glycosidic C-O-C and sugar ring modes
+995.8,0.8,8.7,9/10,supporting,993.1,2.8,0.311,C-O and C-C stretching (backbone),agrees,C-H bending or sugar C-O-C
+1080.5,1.1,15.3,10/10,main,1079.5,1.0,0.125,C-O and C-C stretching (backbone),agrees,C-O stretching of sugars and / or symmetric PO2- stretch

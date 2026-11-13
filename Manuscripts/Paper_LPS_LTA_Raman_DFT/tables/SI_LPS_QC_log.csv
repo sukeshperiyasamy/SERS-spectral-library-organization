@@ -1,0 +1,19 @@
+library_file,power,int_s,acc,raw_max,ripple,snr425,glass_ratio,QC,QC_reason
+LPS_Bulk_20260928_P060pct_T40s_A05_S10.csv,60,40.0,5,6241.8,22.427,21.4,3.717,PASS,
+LPS_Bulk_20260928_P060pct_T40s_A05_S11.csv,60,40.0,5,7936.6,16.269,26.044,1.913,PASS,
+LPS_Bulk_20260928_P060pct_T40s_A05_S12.csv,60,40.0,5,7610.2,15.029,19.464,2.048,PASS,
+LPS_Bulk_20260928_P060pct_T40s_A05_S13.csv,60,40.0,5,11550.4,22.127,16.83,12.792,EXCLUDE,glass-dominated spot (glass-zone/800-1000 area ratio 12.8; r to LPS screening mean 0.57)
+LPS_Bulk_20260928_P060pct_T40s_A05_S14.csv,60,40.0,5,7679.6,15.715,20.215,1.721,PASS,
+LPS_Bulk_20260928_P060pct_T40s_A05_S15.csv,60,40.0,5,10703.0,17.996,50.285,1.842,PASS,
+LPS_Bulk_20260928_P060pct_T40s_A05_S16.csv,60,40.0,5,14817.2,22.651,61.631,1.594,PASS,
+LPS_Bulk_20260928_P060pct_T40s_A05_S17.csv,60,40.0,5,16213.8,23.368,62.929,1.586,PASS,
+LPS_Bulk_20260928_P060pct_T40s_A05_S18.csv,60,40.0,5,13131.0,18.488,56.828,1.471,PASS,
+LPS_Bulk_20260928_P060pct_T40s_A05_S19.csv,60,40.0,5,10229.8,17.734,54.84,1.795,PASS,
+LPS_Bulk_20260928_P060pct_T40s_A05_S20.csv,60,40.0,5,7455.4,18.226,19.394,4.751,PASS,
+LPS_Bulk_20260928_P070pct_T30s_A05_S06.csv,70,30.0,5,9572.4,192.82,15.837,0.755,FAIL,ripple > 50 (troubleshooting spectrum)
+LPS_Bulk_20260928_P070pct_T30s_A05_S07.csv,70,30.0,5,9689.8,114.678,19.426,1.581,FAIL,ripple > 50 (troubleshooting spectrum)
+LPS_Bulk_20260928_P070pct_T30s_A05_S08.csv,70,30.0,5,9124.4,99.756,20.064,1.356,FAIL,ripple > 50 (troubleshooting spectrum)
+LPS_Bulk_20260928_P060pct_T30s_A05_S11.csv,60,30.0,5,6249.6,17.538,15.514,7.512,SUPPORTING,valid spectrum but dark contained sample light / different condition - not used in reference
+LPS_Bulk_20260928_P060pct_T30s_A05_S12.csv,60,30.0,5,6352.4,13.951,13.934,1.928,SUPPORTING,valid spectrum but dark contained sample light / different condition - not used in reference
+LPS_Bulk_20260928_P060pct_T40s_A05_S06.csv,60,40.0,5,7712.2,18.552,19.227,2.814,SUPPORTING,valid spectrum but dark contained sample light / different condition - not used in reference
+LPS_Bulk_20260928_P060pct_T40s_A05_S07.csv,60,40.0,5,7663.8,15.074,18.296,1.621,SUPPORTING,valid spectrum but dark contained sample light / different condition - not used in reference

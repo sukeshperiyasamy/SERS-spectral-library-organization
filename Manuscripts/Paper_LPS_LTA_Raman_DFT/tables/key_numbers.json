@@ -1,0 +1,60 @@
+{
+ "pair": {
+  "LPS": 0.9208715325665253,
+  "LTA": 0.9265463822610319
+ },
+ "cross": {
+  "LPS-LTA": 0.5042695734276961,
+  "LPS-NAM": 0.14625362895427066,
+  "LTA-NAM": 0.17536268100630134
+ },
+ "whole": {
+  "LPS": -0.01391345517802836,
+  "LTA": 0.011382987708619993
+ },
+ "chance": {
+  "LPS": {
+   "n": 5,
+   "mode_real": 5,
+   "mode_dec": 4.564,
+   "mode_p": 0.564,
+   "vis_real": 3,
+   "vis_dec": 1.899,
+   "vis_p": 0.3284,
+   "n_vis": 23
+  },
+  "LTA": {
+   "n": 9,
+   "mode_real": 8,
+   "mode_dec": 6.125,
+   "mode_p": 0.062,
+   "vis_real": 3,
+   "vis_dec": 2.4342,
+   "vis_p": 0.443,
+   "n_vis": 23
+  }
+ },
+ "qcT": {
+  "EXCLUDE": 3,
+  "FAIL": 8,
+  "FLAG-DARK": 55,
+  "PASS": 20,
+  "REVIEW": 13
+ },
+ "n": {
+  "LPS": 10,
+  "LTA": 17
+ },
+ "modes": {
+  "LPS": {
+   "total": 597,
+   "in_range": 354,
+   "imaginary": 0
+  },
+  "LTA": {
+   "total": 273,
+   "in_range": 165,
+   "imaginary": 0
+  }
+ }
+}

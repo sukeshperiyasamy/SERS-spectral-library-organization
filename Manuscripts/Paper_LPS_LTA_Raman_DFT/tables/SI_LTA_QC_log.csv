@@ -1,0 +1,100 @@
+library_file,power,int_s,acc,dark_med,raw_max,ripple,snr1092,QC,QC_reason
+LTA_Bulk_20261028_P080pct_T45s_A02_S09.csv,80,45.0,2,1504.5,7232.0,29.23,7.35,FAIL,"SNR of the 1092 band 7.3 (< 10): weak signal, spot probably off the powder"
+LTA_Bulk_20261028_P080pct_T45s_A02_S10.csv,80,45.0,2,1509.5,5902.0,26.45,4.47,FAIL,"SNR of the 1092 band 4.5 (< 10): weak signal, spot probably off the powder"
+LTA_Bulk_20261028_P080pct_T45s_A02_S11.csv,80,45.0,2,1509.5,22959.5,38.29,27.83,PASS,
+LTA_Bulk_20261028_P080pct_T45s_A02_S12.csv,80,45.0,2,1509.5,62381.5,56.28,26.6,EXCLUDE,atypical shape (r to the reference mean 0.80 < 0.80): off-powder or glass-influenced spot
+LTA_Bulk_20261028_P080pct_T45s_A02_S13.csv,80,45.0,2,1509.5,14655.0,41.69,23.1,EXCLUDE,atypical shape (r to the reference mean 0.52 < 0.80): off-powder or glass-influenced spot
+LTA_Bulk_20261028_P080pct_T45s_A02_S14.csv,80,45.0,2,1509.5,62424.0,57.98,30.93,REVIEW,ripple 58.0 counts (limit 50): marginal
+LTA_Bulk_20261028_P080pct_T45s_A02_S15.csv,80,45.0,2,1509.5,53279.0,55.55,30.74,REVIEW,ripple 55.5 counts (limit 50): marginal
+LTA_Bulk_20261028_P080pct_T45s_A02_S16.csv,80,45.0,2,1509.5,46778.5,52.17,29.61,REVIEW,ripple 52.2 counts (limit 50): marginal
+LTA_Bulk_20261028_P080pct_T45s_A02_S17.csv,80,45.0,2,1512.5,65535.0,84.18,15.7,FAIL,saturated: 320 pixels at 65535 in 400-1800 cm-1
+LTA_Bulk_20261028_P080pct_T45s_A02_S18.csv,80,45.0,2,1512.5,65535.0,74.68,33.32,FAIL,saturated: 151 pixels at 65535 in 400-1800 cm-1
+LTA_Bulk_20261028_P080pct_T45s_A02_S19.csv,80,45.0,2,1512.5,65535.0,70.27,31.88,FAIL,saturated: 83 pixels at 65535 in 400-1800 cm-1
+LTA_Bulk_20261028_P080pct_T45s_A02_S20.csv,80,45.0,2,1512.5,65535.0,93.11,17.55,FAIL,saturated: 314 pixels at 65535 in 400-1800 cm-1
+LTA_Bulk_20261028_P080pct_T45s_A02_S21.csv,80,45.0,2,1512.5,16754.0,35.78,22.76,PASS,
+LTA_Bulk_20261028_P080pct_T45s_A02_S22.csv,80,45.0,2,1510.0,49937.5,47.86,30.51,PASS,
+LTA_Bulk_20261028_P080pct_T45s_A02_S23.csv,80,45.0,2,1510.0,35447.5,45.09,30.08,PASS,
+LTA_Bulk_20261028_P080pct_T45s_A02_S24.csv,80,45.0,2,1510.0,29599.0,37.76,24.27,PASS,
+LTA_Bulk_20261028_P080pct_T45s_A02_S25.csv,80,45.0,2,1510.0,14969.0,39.15,26.93,EXCLUDE,atypical shape (r to the reference mean 0.37 < 0.80): off-powder or glass-influenced spot
+LTA_Bulk_20261028_P080pct_T45s_A02_S26.csv,80,45.0,2,1510.0,37484.5,40.48,34.31,PASS,
+LTA_Bulk_20261028_P080pct_T45s_A02_S27.csv,80,45.0,2,1512.0,65535.0,68.92,30.96,FAIL,saturated: 105 pixels at 65535 in 400-1800 cm-1
+LTA_Bulk_20261028_P080pct_T45s_A02_S28.csv,80,45.0,2,1512.0,48114.0,54.46,28.13,REVIEW,ripple 54.5 counts (limit 50): marginal
+LTA_Bulk_20261028_P080pct_T45s_A02_S29.csv,80,45.0,2,1512.0,41935.0,46.09,28.88,PASS,
+LTA_Bulk_20261028_P080pct_T45s_A02_S30.csv,80,45.0,2,1512.0,30741.0,39.94,29.35,PASS,
+LTA_Bulk_20261028_P080pct_T45s_A02_S31.csv,80,45.0,2,1512.0,46086.5,50.94,25.78,REVIEW,ripple 50.9 counts (limit 50): marginal
+LTA_Bulk_20261028_P080pct_T45s_A02_S32.csv,80,45.0,2,1512.0,21378.0,38.87,26.65,PASS,
+LTA_Bulk_20261028_P080pct_T45s_A02_S33.csv,80,45.0,2,1512.0,65085.0,58.38,33.57,REVIEW,ripple 58.4 counts (limit 50): marginal
+LTA_Bulk_20261028_P080pct_T45s_A02_S34.csv,80,45.0,2,1512.0,40171.5,43.63,39.96,PASS,
+LTA_Bulk_20261028_P080pct_T45s_A02_S35.csv,80,45.0,2,1512.0,52858.5,54.39,31.98,REVIEW,ripple 54.4 counts (limit 50): marginal
+LTA_Bulk_20261028_P080pct_T45s_A02_S36.csv,80,45.0,2,1512.0,57587.5,56.98,27.29,REVIEW,ripple 57.0 counts (limit 50): marginal
+LTA_Bulk_20261028_P050pct_T40s_A02_S01.csv,50,40.0,2,1443.0,28357.5,38.43,23.29,PASS,
+LTA_Bulk_20261028_P070pct_T60s_A02_S01.csv,70,60.0,2,1679.0,48816.5,44.99,30.37,PASS,
+LTA_Bulk_20261028_P070pct_T60s_A02_S02.csv,70,60.0,2,1679.0,58250.0,55.15,29.38,REVIEW,ripple 55.2 counts (limit 50): marginal
+LTA_Bulk_20261028_P070pct_T60s_A02_S03.csv,70,60.0,2,1685.0,65535.0,96.69,7.54,FAIL,saturated: 417 pixels at 65535 in 400-1800 cm-1
+LTA_Bulk_20261028_P070pct_T60s_A02_S04.csv,70,60.0,2,1685.0,42454.0,51.28,35.52,REVIEW,ripple 51.3 counts (limit 50): marginal
+LTA_Bulk_20261028_P070pct_T60s_A02_S05.csv,70,60.0,2,1685.0,37230.0,43.55,37.42,PASS,
+LTA_Bulk_20261028_P070pct_T60s_A02_S06.csv,70,60.0,2,1685.0,61523.0,60.56,25.88,REVIEW,ripple 60.6 counts (limit 50): marginal
+LTA_Bulk_20261028_P070pct_T60s_A02_S07.csv,70,60.0,2,1674.5,51971.5,52.86,30.6,REVIEW,ripple 52.9 counts (limit 50): marginal
+LTA_Bulk_20261028_P070pct_T60s_A02_S08.csv,70,60.0,2,1674.5,49817.5,52.61,24.42,REVIEW,ripple 52.6 counts (limit 50): marginal
+LTA_Bulk_20261028_P080pct_T30s_A03_S01.csv,80,30.0,3,1332.7,37506.3333333333,35.53,28.3,PASS,
+LTA_Bulk_20261028_P080pct_T30s_A03_S02.csv,80,30.0,3,1332.7,55322.6666666667,45.61,31.97,PASS,
+LTA_Bulk_20261028_P080pct_T30s_A03_S03.csv,80,30.0,3,1332.7,22579.6666666667,28.67,30.88,PASS,
+LTA_Bulk_20261028_P080pct_T30s_A03_S04.csv,80,30.0,3,1332.7,33270.0,37.36,32.54,PASS,
+LTA_Bulk_20261028_P080pct_T30s_A03_S05.csv,80,30.0,3,1332.7,23074.6666666667,31.82,26.63,PASS,
+LTA_Bulk_20261028_P080pct_T30s_A03_S06.csv,80,30.0,3,1332.7,29919.0,36.59,31.11,PASS,
+LTA_Bulk_20261028_P080pct_T30s_A03_S07.csv,80,30.0,3,1332.7,44011.3333333333,45.6,31.55,PASS,
+LTA_Bulk_20261028_P080pct_T30s_A03_S13_samespot.csv,80,30.0,3,1555.3,40208.3333333333,43.34,31.57,FLAG-DARK,"dark frame contains sample light: dark median 1555 vs clean 1333 (+222 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S14_samespot.csv,80,30.0,3,1555.3,37539.6666666667,36.39,31.5,FLAG-DARK,"dark frame contains sample light: dark median 1555 vs clean 1333 (+222 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S15_samespot.csv,80,30.0,3,1555.3,35373.3333333333,40.59,33.42,FLAG-DARK,"dark frame contains sample light: dark median 1555 vs clean 1333 (+222 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S16_samespot.csv,80,30.0,3,1555.3,34734.6666666667,40.19,34.3,FLAG-DARK,"dark frame contains sample light: dark median 1555 vs clean 1333 (+222 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S17_samespot.csv,80,30.0,3,1555.3,33436.6666666667,47.45,32.62,FLAG-DARK,"dark frame contains sample light: dark median 1555 vs clean 1333 (+222 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S18_samespot.csv,80,30.0,3,1555.3,32887.0,54.8,31.66,FLAG-DARK,"dark frame contains sample light: dark median 1555 vs clean 1333 (+222 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S19_samespot.csv,80,30.0,3,1555.3,31511.3333333333,57.14,32.34,FLAG-DARK,"dark frame contains sample light: dark median 1555 vs clean 1333 (+222 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T45s_A02_S37_samespot.csv,80,45.0,2,2512.5,34456.5,44.45,31.71,FLAG-DARK,"dark frame contains sample light: dark median 2512 vs clean 1510 (+1002 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T45s_A02_S38_samespot.csv,80,45.0,2,2512.5,31736.0,39.95,33.3,FLAG-DARK,"dark frame contains sample light: dark median 2512 vs clean 1510 (+1002 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T45s_A02_S39_samespot.csv,80,45.0,2,2900.5,29071.0,50.11,34.81,FLAG-DARK,"dark frame contains sample light: dark median 2900 vs clean 1510 (+1390 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T45s_A02_S40_samespot.csv,80,45.0,2,2900.5,31337.5,85.4,29.29,FLAG-DARK,"dark frame contains sample light: dark median 2900 vs clean 1510 (+1390 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T45s_A02_S41_samespot.csv,80,45.0,2,2900.5,30465.5,111.68,27.02,FLAG-DARK,"dark frame contains sample light: dark median 2900 vs clean 1510 (+1390 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T45s_A02_S42_samespot.csv,80,45.0,2,2900.5,30965.0,190.61,24.49,FLAG-DARK,"dark frame contains sample light: dark median 2900 vs clean 1510 (+1390 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T45s_A02_S01.csv,70,45.0,2,2900.5,26466.5,206.9,21.81,FLAG-DARK,"dark frame contains sample light: dark median 2900 vs clean 1510 (+1390 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T45s_A02_S02.csv,70,45.0,2,2900.5,45311.5,156.1,26.85,FLAG-DARK,"dark frame contains sample light: dark median 2900 vs clean 1510 (+1390 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T45s_A02_S03.csv,70,45.0,2,5734.5,65535.0,78.14,23.74,FLAG-DARK,"dark frame contains sample light: dark median 5734 vs clean 1510 (+4224 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T45s_A02_S04.csv,70,45.0,2,5734.5,53740.5,231.85,16.65,FLAG-DARK,"dark frame contains sample light: dark median 5734 vs clean 1510 (+4224 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P060pct_T45s_A02_S01.csv,60,45.0,2,5734.5,41011.0,215.13,15.19,FLAG-DARK,"dark frame contains sample light: dark median 5734 vs clean 1510 (+4224 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P060pct_T45s_A02_S02.csv,60,45.0,2,5734.5,40657.0,48.25,23.3,FLAG-DARK,"dark frame contains sample light: dark median 5734 vs clean 1510 (+4224 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P060pct_T45s_A02_S03.csv,60,45.0,2,5734.5,52297.5,213.51,20.81,FLAG-DARK,"dark frame contains sample light: dark median 5734 vs clean 1510 (+4224 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P060pct_T45s_A02_S04.csv,60,45.0,2,5734.5,45395.5,55.24,27.13,FLAG-DARK,"dark frame contains sample light: dark median 5734 vs clean 1510 (+4224 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P060pct_T45s_A02_S05.csv,60,45.0,2,10039.5,65535.0,60.91,26.44,FLAG-DARK,"dark frame contains sample light: dark median 10040 vs clean 1510 (+8530 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P050pct_T45s_A02_S01.csv,50,45.0,2,10039.5,64544.5,94.07,22.69,FLAG-DARK,"dark frame contains sample light: dark median 10040 vs clean 1510 (+8530 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P050pct_T45s_A02_S02.csv,50,45.0,2,10039.5,38758.0,503.12,9.24,FLAG-DARK,"dark frame contains sample light: dark median 10040 vs clean 1510 (+8530 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P050pct_T45s_A02_S03.csv,50,45.0,2,10039.5,59434.0,246.89,14.38,FLAG-DARK,"dark frame contains sample light: dark median 10040 vs clean 1510 (+8530 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P040pct_T45s_A02_S01.csv,40,45.0,2,10039.5,52665.5,536.22,7.91,FLAG-DARK,"dark frame contains sample light: dark median 10040 vs clean 1510 (+8530 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P040pct_T45s_A02_S02.csv,40,45.0,2,10039.5,36772.0,336.43,8.24,FLAG-DARK,"dark frame contains sample light: dark median 10040 vs clean 1510 (+8530 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P040pct_T45s_A02_S03.csv,40,45.0,2,10039.5,35243.0,254.19,8.71,FLAG-DARK,"dark frame contains sample light: dark median 10040 vs clean 1510 (+8530 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P040pct_T45s_A02_S04.csv,40,45.0,2,10039.5,56554.0,80.03,21.83,FLAG-DARK,"dark frame contains sample light: dark median 10040 vs clean 1510 (+8530 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P040pct_T45s_A02_S05.csv,40,45.0,2,10039.5,34542.0,412.68,9.33,FLAG-DARK,"dark frame contains sample light: dark median 10040 vs clean 1510 (+8530 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P030pct_T45s_A02_S01.csv,30,45.0,2,6832.5,31044.0,43.59,20.88,FLAG-DARK,"dark frame contains sample light: dark median 6832 vs clean 1510 (+5322 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P030pct_T45s_A02_S02.csv,30,45.0,2,6832.5,60322.0,539.9,17.09,FLAG-DARK,"dark frame contains sample light: dark median 6832 vs clean 1510 (+5322 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P030pct_T45s_A02_S03.csv,30,45.0,2,6832.5,33370.0,184.96,16.02,FLAG-DARK,"dark frame contains sample light: dark median 6832 vs clean 1510 (+5322 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S08.csv,80,30.0,3,11482.7,38447.6666666667,54.83,27.46,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S09.csv,80,30.0,3,11482.7,27441.6666666667,138.26,21.44,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S10.csv,80,30.0,3,11482.7,39817.6666666667,39.26,23.73,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S11.csv,80,30.0,3,11482.7,54804.6666666667,153.67,18.78,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S12.csv,80,30.0,3,11482.7,38472.0,87.88,21.88,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S20_samespot.csv,80,30.0,3,11482.7,47474.6666666667,206.66,25.18,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S21_samespot.csv,80,30.0,3,11482.7,43500.6666666667,190.48,23.23,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S22_samespot.csv,80,30.0,3,11482.7,43165.6666666667,223.49,21.65,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S23_samespot.csv,80,30.0,3,11482.7,43826.3333333333,229.75,22.04,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S24_samespot.csv,80,30.0,3,11482.7,43309.3333333333,194.09,23.69,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P080pct_T30s_A03_S25_samespot.csv,80,30.0,3,11482.7,42438.3333333333,200.91,22.73,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S01.csv,70,30.0,3,11482.7,36093.0,173.57,20.91,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S02.csv,70,30.0,3,11482.7,32167.0,176.51,10.75,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S03.csv,70,30.0,3,11482.7,33212.6666666667,104.92,15.95,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S04.csv,70,30.0,3,11482.7,58543.3333333333,83.03,21.98,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S05.csv,70,30.0,3,11482.7,32883.6666666667,65.48,16.41,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S06_samespot.csv,70,30.0,3,11482.7,40456.6666666667,84.68,21.6,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S07_samespot.csv,70,30.0,3,11482.7,38647.3333333333,84.57,23.18,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S08_samespot.csv,70,30.0,3,11482.7,36052.0,82.55,22.53,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S09_samespot.csv,70,30.0,3,11482.7,35207.6666666667,57.91,24.67,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S10_samespot.csv,70,30.0,3,11482.7,33375.6666666667,59.86,22.41,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
+LTA_Bulk_20261028_P070pct_T30s_A03_S11_samespot.csv,70,30.0,3,11482.7,32583.3333333333,56.71,24.03,FLAG-DARK,"dark frame contains sample light: dark median 11483 vs clean 1333 (+10150 counts); intensities under-estimated, ripple unreliable"
